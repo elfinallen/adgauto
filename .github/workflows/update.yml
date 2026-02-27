@@ -17,23 +17,39 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: 📥 Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip list
 
-      - name: 🔧 Run Merge Scripts
+      - name: 🔧 Run DNS Merge
+        run: python merge_dns.py
+        continue-on-error: false
+
+      - name: 🔧 Run Ads Merge
+        run: python merge_ads.py
+        continue-on-error: false
+
+      - name: 🔧 Run Annoy Merge
+        run: python merge_ads.py
+        continue-on-error: false
+        
+      - name: 🔧 Run Privacy Merge
+        run: python merge_prv.py
+        continue-on-error: false
+
+      - name: 📋 Show Generated Files
         run: |
-          python merge_dns.py
-          python merge_ads.py
-          python merge_any.py
-          python merge_prv.py
+          ls -lh adgdns.txt adgads.txt adgany.txt adgprv.txt 2>/dev/null || echo "文件生成检查完成"
+          wc -l adgdns.txt adgads.txt adgany.txt adgprv.txt 2>/dev/null || true
 
       - name: 💾 Commit & Push
         run: |
@@ -41,9 +57,13 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add adgdns.txt adgads.txt adgany.txt adgprv.txt
           
-          if ! git diff --staged --quiet; then
+          if git diff --staged --quiet; then
+            echo "✅ 无变更，跳过提交"
+            exit 0
+          else
             git commit -m "chore: auto update filters [skip ci]"
             git push
-          else
-            echo "✅ 无变更，跳过提交"
+            echo "✅ 提交成功"
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
