@@ -1,69 +1,46 @@
-name: Update Filters
+name: Update Rules
 
 on:
   schedule:
+    # 每 8 小时运行一次 (UTC 时间)
     - cron: '0 */8 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 允许推送代码
     
     steps:
-      - name: 📦 Checkout
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: 🐍 Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.9'
 
-      - name: 📥 Install Dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip list
 
-      - name: 🔧 Run DNS Merge
-        run: python merge_dns.py
-        continue-on-error: false
+      - name: Run Script
+        run: python merge_rules.py
 
-      - name: 🔧 Run Ads Merge
-        run: python merge_ads.py
-        continue-on-error: false
-
-      - name: 🔧 Run Annoy Merge
-        run: python merge_ads.py
-        continue-on-error: false
-        
-      - name: 🔧 Run Privacy Merge
-        run: python merge_prv.py
-        continue-on-error: false
-
-      - name: 📋 Show Generated Files
+      - name: Commit and Push if changed
         run: |
-          ls -lh adgdns.txt adgads.txt adgany.txt adgprv.txt 2>/dev/null || echo "文件生成检查完成"
-          wc -l adgdns.txt adgads.txt adgany.txt adgprv.txt 2>/dev/null || true
-
-      - name: 💾 Commit & Push
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add adgdns.txt adgads.txt adgany.txt adgprv.txt
-          
-          if git diff --staged --quiet; then
-            echo "✅ 无变更，跳过提交"
-            exit 0
-          else
-            git commit -m "chore: auto update filters [skip ci]"
+          # 只有当文件有变动时才提交，避免空提交报错
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto update ad rules $(date -u)"
             git push
-            echo "✅ 提交成功"
+          else
+            echo "No changes to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
