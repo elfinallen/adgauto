@@ -1,4 +1,4 @@
-! Updated: 2026-02-27 08:44:41 UTC
+! Updated: 2026-02-27 16:43:22 UTC
 ! Source: AdGuard DNS + Base + Chinese Filter
 
 .bbelements.com^$third-party
