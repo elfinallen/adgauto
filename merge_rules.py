@@ -25,27 +25,51 @@ OUTPUT_FILES = {
 HEADERS = {
     "dns": [
         "! Title: AdGuard Domain",
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
         "! Last Modified: " + datetime.datetime.utcnow().isoformat() + "Z",
-        ""
+        "! Expires: 5 days"
     ],
     "ads": [
         "! Title: AdGuard Advert",
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
         "! Last Modified: " + datetime.datetime.utcnow().isoformat() + "Z",
-        ""
+        "! Expires: 5 days"
     ]
 }
 
-# 正则规则
-# CSS 规则：包含 ## 或 #?# 或 #@# 或 #\$#
-REGEX_CSS_RULE = re.compile(r'#\??@?\$?#')
-# 3p 规则：包含 third-party
-REGEX_3P_RULE = re.compile(r'third-party')
+# 筛选规则
+# CSS 规则：包含 #
+REGEX_CSS_RULE = re.compile(r'#')
+# $$ 规则：包含 $$
+REGEX_SS_RULE = re.compile(r'\$\$')
+# APP 规则：包含 $app=
+REGEX_APP_RULE = re.compile(r'\$app=')
+# CSP 规则：包含 $csp=
+REGEX_CSP_RULE = re.compile(r'\$csp=')
+# Cookie 规则：包含 $coookie=
+REGEX_COK_RULE = re.compile(r'\$coookie=')
+# network 规则：包含 network
+REGEX_NET_RULE = re.compile(r'network')
+# Badfilter 规则：包含 badfilter
+REGEX_BAD_RULE = re.compile(r'badfilter')
+# Redirect 规则：包含 redirect
+REGEX_RDR_RULE = re.compile(r'redirect')
+# jsonprune 规则：包含 jsonprune
+REGEX_JSP_RULE = re.compile(r'jsonprune')
+# Stylesheet 规则：包含 stylesheet
+REGEX_STY_RULE = re.compile(r'stylesheet')
+# ThemeHandler 规则：包含 stylesheet
+REGEX_THM_RULE = re.compile(r'themeHandler')
+# Document 规则：包含 document
+REGEX_DOC_RULE = re.compile(r'document')
+# Subdocument 规则：包含 subdocument
+REGEX_SUB_RULE = re.compile(r'subdocument')
 # XML Request 规则：包含 xmlhttprequest
 REGEX_XML_RULE = re.compile(r'xmlhttprequest')
-# 正则规则特征：包含 /.../ 结构
-REGEX_REGEX_RULE = re.compile(r'/.*?/')
-# DNS 规则：以 || 开头，以 ^ 结尾，中间不包含 / (纯域名规则)
-REGEX_DNS = re.compile(r'^\|\|[^/]+\^$')
+# 3p 规则：包含 third-party
+REGEX_3P_RULE = re.compile(r'third-party')
+# DNS 规则：||domain^ (纯域名规则)
+REGEX_DNS_RULE = re.compile(r'^\|\|[^/]+\^$')
 
 def fetch_url(url):
     try:
@@ -58,39 +82,26 @@ def fetch_url(url):
         return []
 
 def filter_dns_rules(lines):
-    """仅保留 ||domain^ 规则"""
+    """仅保留 ||domain^ 纯域名规则"""
     filtered = set()
     for line in lines:
         line = line.strip()
         if not line or line.startswith('!') or line.startswith('#') or line.startswith('@'):
             continue
-        if REGEX_DNS.match(line):
+        if REGEX_DNS_RULE.match(line):
             filtered.add(line)
     return filtered
 
-def filter_ads_rules(lines):
-    """去除正则和纯域名规则，保留 URL 规则"""
+def filter_url_rules(lines):
+    """去除CSS和纯域名规则，保留 URL 规则"""
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('@') or line.startswith('#') or line.startswith('$') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*'):
+        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/\') or line.startswith('/^'):
             continue
-        # 排除 CSS 规则
-        if REGEX_CSS_RULE.search(line):
+        if REGEX_CSS_RULE.search(line) or REGEX_SS_RULE.search(line) or REGEX_APP_RULE.search(line) or REGEX_CSP_RULE.search(line) or REGEX_COK_RULE.search(line) or REGEX_NET_RULE.search(line) or REGEX_JSP_RULE.search(line) or REGEX_BAD_RULE.search(line) or REGEX_RDR_RULE.search(line) or REGEX_STY_RULE.search(line) or REGEX_THM_RULE.search(line) or REGEX_DOC_RULE.search(line) or REGEX_SUB_RULE.search(line) or REGEX_XML_RULE.search(line) or REGEX_3P_RULE.search(line) or REGEX_DNS_RULE.match(line):
             continue
-        # 排除 3P 规则
-        if REGEX_3P_RULE.search(line):
-            continue
-        # 排除 XML Request 规则
-        if REGEX_XML_RULE.search(line):
-            continue
-        # 排除正则规则
-        if REGEX_REGEX_RULE.search(line):
-            continue
-        # 排除纯域名规则
-        if REGEX_DNS.match(line):
-            continue
-        # 保留其他 (通常是包含路径的 URL 规则)
+        # 保留其他 URL 规则
         filtered.add(line)
     return filtered
 
@@ -107,7 +118,7 @@ def run_git_command():
         ["git", "config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com"],
         ["git", "config", "--local", "user.name", "github-actions[bot]"],
         ["git", "add", "adgdns.txt", "adgads.txt"],
-        ["git", "commit", "-m", "chore: auto update ad rules " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")],
+        ["git", "commit", "-m", "chore: auto update" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")],
         ["git", "push"]
     ]
     
@@ -159,7 +170,7 @@ def main():
     ads_rules = set()
     for url in SOURCES["ads"]:
         lines = fetch_url(url)
-        ads_rules.update(filter_ads_rules(lines))
+        ads_rules.update(filter_url_rules(lines))
     write_file(OUTPUT_FILES["ads"], HEADERS["ads"], ads_rules)
 
     # 3. Git 操作
