@@ -26,13 +26,13 @@ HEADERS = {
     "dns": [
         "! Title: AdGuard Domain",
         "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
-        "! Last Modified: " + datetime.datetime.now(),
+        "! Last Modified: " + datetime.datetime.utcnow().isoformat(),
         "! Expires: 5 days"
     ],
     "ads": [
         "! Title: AdGuard Advert",
         "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
-        "! Last Modified: " + datetime.datetime.now(),
+        "! Last Modified: " + datetime.datetime.utcnow().isoformat(),
         "! Expires: 5 days"
     ]
 }
