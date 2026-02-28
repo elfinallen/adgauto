@@ -91,7 +91,7 @@ def filter_url_rules(lines):
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('$') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/^'):
+        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/^'):
             continue
         if REGEX_CSS_RULE.search(line) or REGEX_NET_RULE.search(line) or REGEX_JSP_RULE.search(line) or REGEX_BAD_RULE.search(line) or REGEX_RDR_RULE.search(line) or REGEX_REP_RULE.search(line) or REGEX_STY_RULE.search(line) or REGEX_THM_RULE.search(line) or REGEX_DOC_RULE.search(line) or REGEX_SUB_RULE.search(line) or REGEX_XML_RULE.search(line) or REGEX_3P_RULE.search(line) or REGEX_DNS_RULE.match(line):
             continue
