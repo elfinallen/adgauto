@@ -26,13 +26,13 @@ HEADERS = {
     "dns": [
         "! Title: AdGuard Domain",
         "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
-        "! Last Modified: " + datetime.datetime.utcnow().isoformat(),
+        "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "! Expires: 5 days"
     ],
     "ads": [
         "! Title: AdGuard Advert",
         "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
-        "! Last Modified: " + datetime.datetime.utcnow().isoformat(),
+        "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "! Expires: 5 days"
     ]
 }
@@ -114,7 +114,7 @@ def run_git_command():
         ["git", "config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com"],
         ["git", "config", "--local", "user.name", "github-actions[bot]"],
         ["git", "add", "adgdns.txt", "adgads.txt"],
-        ["git", "commit", "-m", "chore: auto update" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")],
+        ["git", "commit", "-m", "auto update" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")],
         ["git", "push"]
     ]
     
