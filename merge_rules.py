@@ -43,11 +43,11 @@ REGEX_CSS_RULE = re.compile(r'#')
 # $$ 规则：包含 $$
 REGEX_SS_RULE = re.compile(r'\$\$')
 # APP 规则：包含 $app=
-REGEX_APP_RULE = re.compile(r'\$app=')
+REGEX_APP_RULE = re.compile(r'\$\app=')
 # CSP 规则：包含 $csp=
-REGEX_CSP_RULE = re.compile(r'\$csp=')
+REGEX_CSP_RULE = re.compile(r'\$\csp=')
 # Cookie 规则：包含 $coookie=
-REGEX_COK_RULE = re.compile(r'\$coookie=')
+REGEX_COK_RULE = re.compile(r'\$\coookie=')
 # network 规则：包含 network
 REGEX_NET_RULE = re.compile(r'network')
 # Badfilter 规则：包含 badfilter
