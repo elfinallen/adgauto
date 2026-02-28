@@ -41,7 +41,7 @@ HEADERS = {
 # CSS 规则：包含 #
 REGEX_CSS_RULE = re.compile(r'#')
 # $$ 规则：包含 $$
-REGEX_SS_RULE = re.compile(r'$$')
+REGEX_SS_RULE = re.compile(r'\$\$')
 # network 规则：包含 network
 REGEX_NET_RULE = re.compile(r'network')
 # Badfilter 规则：包含 badfilter
