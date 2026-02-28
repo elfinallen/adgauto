@@ -36,10 +36,16 @@ HEADERS = {
 }
 
 # 正则规则
-# DNS 规则：以 || 开头，以 ^ 结尾，中间不包含 / (纯域名规则)
-REGEX_DNS = re.compile(r'^\|\|[^/]+\^$')
+# CSS 规则：包含 ## 或 #?# 或 #@# 或 #\$#
+REGEX_CSS_RULE = re.compile(r'#\??@?\$?#')
+# 3p 规则：包含 third-party
+REGEX_3P_RULE = re.compile(r'third-party')
+# XML Request 规则：包含 xmlhttprequest
+REGEX_XML_RULE = re.compile(r'xmlhttprequest')
 # 正则规则特征：包含 /.../ 结构
 REGEX_REGEX_RULE = re.compile(r'/.*?/')
+# DNS 规则：以 || 开头，以 ^ 结尾，中间不包含 / (纯域名规则)
+REGEX_DNS = re.compile(r'^\|\|[^/]+\^$')
 
 def fetch_url(url):
     try:
@@ -63,19 +69,28 @@ def filter_dns_rules(lines):
     return filtered
 
 def filter_ads_rules(lines):
-    """去除正则和纯域名规则，保留 URL 匹配规则"""
+    """去除正则和纯域名规则，保留 URL 规则"""
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@'):
+        if not line or line.startswith('!') or line.startswith('@') or line.startswith('#') or line.startswith('$') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*'):
             continue
-        # 排除纯域名规则 (||domain^)
-        if REGEX_DNS.match(line):
+        # 排除 CSS 规则
+        if REGEX_CSS_RULE.search(line):
             continue
-        # 排除正则规则 (包含 /.../)
+        # 排除 3P 规则
+        if REGEX_3P_RULE.search(line):
+            continue
+        # 排除 XML Request 规则
+        if REGEX_XML_RULE.search(line):
+            continue
+        # 排除正则规则
         if REGEX_REGEX_RULE.search(line):
             continue
-        # 保留其他 (通常是包含路径的 URL 拦截)
+        # 排除纯域名规则
+        if REGEX_DNS.match(line):
+            continue
+        # 保留其他 (通常是包含路径的 URL 规则)
         filtered.add(line)
     return filtered
 
