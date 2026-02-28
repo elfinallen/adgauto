@@ -1,5 +1,5 @@
 ! Title: AdGuard Domain
-! Last Modified: 2026-02-28T01:47:36.688453Z
+! Last Modified: 2026-02-28T02:04:24.265977Z
 
 ||*-datareceiver.aki-game.net^
 ||*-default-cn.rum.aliyuncs.com^
@@ -21673,6 +21673,7 @@
 ||c9d76c57e7.com^
 ||c9emgwai66zi.com^
 ||c9nyrr.puurfiguur.nl^
+||c9pgryrmt4.com^
 ||ca-api.cafe24data.com^
 ||ca-log.cafe24data.com^
 ||ca-nhan-vpb.com^
@@ -59784,6 +59785,7 @@
 ||incasedspirts.cfd^
 ||incegceozdsrt.space^
 ||incentivesnetwork.net^
+||inception27.com^
 ||inceptsdevilet.cfd^
 ||inchasebouget.cyou^
 ||incherprofuse.qpon^
@@ -92737,6 +92739,7 @@
 ||pizzlessclimb.top^
 ||pj.l.a8723.com^
 ||pj.l.liftdsp.com^
+||pj4til72yp.com^
 ||pjaqm.fitkitchen.ca^
 ||pjatr.com^
 ||pjbbhj.icu^

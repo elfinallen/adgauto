@@ -1,5 +1,5 @@
 ! Title: AdGuard Advert
-! Last Modified: 2026-02-28T01:47:36.688463Z
+! Last Modified: 2026-02-28T02:04:24.265986Z
 
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains(return atob()
