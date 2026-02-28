@@ -42,6 +42,8 @@ HEADERS = {
 REGEX_CSS_RULE = re.compile(r'#')
 # $$ 规则：包含 $$
 REGEX_SS_RULE = re.compile(r'\$\$')
+# 正则 规则：包含 /\
+REGEX_ZZ_RULE = re.compile(r'/\')
 # network 规则：包含 network
 REGEX_NET_RULE = re.compile(r'network')
 # Badfilter 规则：包含 badfilter
@@ -82,7 +84,7 @@ def filter_dns_rules(lines):
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@'):
+        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('||*'):
             continue
         if REGEX_DNS_RULE.match(line):
             filtered.add(line)
@@ -93,9 +95,9 @@ def filter_url_rules(lines):
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('$') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/^') or line.startswith('/http') or line.startswith('|http'):
+        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('$') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/^') or line.startswith('||*') or line.startswith('/http') or line.startswith('|http'):
             continue
-        if REGEX_CSS_RULE.search(line) or REGEX_SS_RULE.search(line) or REGEX_NET_RULE.search(line) or REGEX_JSP_RULE.search(line) or REGEX_BAD_RULE.search(line) or REGEX_RDR_RULE.search(line) or REGEX_REP_RULE.search(line) or REGEX_STY_RULE.search(line) or REGEX_THM_RULE.search(line) or REGEX_DOC_RULE.search(line) or REGEX_SUB_RULE.search(line) or REGEX_XML_RULE.search(line) or REGEX_3P_RULE.search(line) or REGEX_DNS_RULE.match(line):
+        if REGEX_CSS_RULE.search(line) or REGEX_SS_RULE.search(line) or REGEX_ZZ_RULE.search(line) or REGEX_NET_RULE.search(line) or REGEX_JSP_RULE.search(line) or REGEX_BAD_RULE.search(line) or REGEX_RDR_RULE.search(line) or REGEX_REP_RULE.search(line) or REGEX_STY_RULE.search(line) or REGEX_THM_RULE.search(line) or REGEX_DOC_RULE.search(line) or REGEX_SUB_RULE.search(line) or REGEX_XML_RULE.search(line) or REGEX_3P_RULE.search(line) or REGEX_DNS_RULE.match(line):
             continue
         # 保留其他 URL 规则
         filtered.add(line)
