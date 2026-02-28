@@ -1,6 +1,6 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
-! Last Modified: 2026-02-28 08:33
+! Last Modified: 2026-02-28 16:29
 ! Expires: 5 days
 -120-600.
 -120_600_
@@ -5859,6 +5859,7 @@ yydstxt*.com/js/html
 ||players.radioonlinehd.net^$domain=flamecomics.xyz
 ||playinfo.gomlab.com^$app=GOM.exe
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
+||plutotv.imgix.net/pauseads/$domain=pluto.tv
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
 ||poawooptugroo.com^$popup
@@ -5905,6 +5906,7 @@ yydstxt*.com/js/html
 ||prism.a2d.tv/hls/media/*.m3u8?$hls=/https:\/\/prism-ads-cdn\.a2d\.tv\//,domain=mtv.fi
 ||prism.a2d.tv/hls/media/*.m3u8?$hls=/https:\/\/prism-ads-cdn\.a2d\.tv\//,domain=tv4play.se
 ||proewildfire.cn/fd.js
+||profamouslife.com/js/adcash.js
 ||profitableratecpm.com^$popup
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
@@ -6785,7 +6787,6 @@ yydstxt*.com/js/html
 ||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/pus/
 ||turboviplay.com/ads_gala.js
-||turkifsahub.com/ads/
 ||tuttotech.net/wp-content/plugins/ta2022-plugin-adblock/
 ||tutudao.net/js/gg*.js
 ||tuwan.com/events/courseiframe?
