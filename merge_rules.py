@@ -14,7 +14,7 @@ SOURCES = {
         "https://filters.adtidy.org/android/filters/2_optimized.txt",
         "https://filters.adtidy.org/android/filters/224_optimized.txt"
     ],
-    "privacy": [
+    "prv": [
         "https://filters.adtidy.org/android/filters/3_optimized.txt",
         "https://filters.adtidy.org/android/filters/118_optimized.txt"
     ]
@@ -23,7 +23,7 @@ SOURCES = {
 OUTPUT_FILES = {
     "dns": "adgdns.txt",
     "ads": "adgads.txt",
-    "privacy": "adgprv.txt"
+    "prv": "adgprv.txt"
 }
 
 HEADERS = {
@@ -35,21 +35,21 @@ HEADERS = {
         "! Title: AdGuard Advert",
         "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)"
     ],
-    "privacy": [
+    "prv": [
         "! Title: AdGuard Privacy",
         "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)"
     ]
 }
 
 # 正则规则
-# 注释行
-RE_CMT = re.compile(r'^!|^#|^\[')
+# 注释及白名单
+RE_CMT = re.compile(r'^!|^#|^\[|^@')
+# 纯域名规则 (||domain^)，中间不含 /
+RE_DNS = re.compile(r'^\|\|[^/]+\^$')
 # CSS 规则
 RE_CSS = re.compile(r'#')
-# 纯域名规则 (||domain^)，中间不包含 /
-RE_DOMAIN_ONLY = re.compile(r'^\|\|[^/]+\^$')
-# 通用网络规则 (以 || 或 | 开头)
-RE_NETWORK = re.compile(r'^\|\||^\|')
+# URL 规则
+RE_URL1 = re.compile(r'^\$|^\*|^%')
 
 def fetch_content(url):
     try:
@@ -73,15 +73,12 @@ def filter_rules(lines, rule_type):
 
         if rule_type == "dns":
             # 只保留纯域名规则 ||domain^
-            if RE_DOMAIN_ONLY.match(line):
+            if RE_DNS.match(line):
                 filtered.add(line_lower)
         
-        elif rule_type in ["ads", "privacy"]:
-            # 去除 CSS 规则
-            if RE_CSS.search(line):
-                continue
-            # 去除纯域名规则
-            if RE_DOMAIN_ONLY.match(line):
+        elif rule_type in ["ads", "prv"]:
+            # 去除 CSS 和纯域名规则
+            if RE_CSS.search(line) or RE_DNS.match(line) or RE_URL1.match(line):
                 continue
             # 保留其余规则
                 filtered.add(line_lower)
