@@ -1,0 +1,5 @@
+! Title: AdGuard Domain
+! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)
+! Last Modified: 2026-03-01 05:53
+! Expires: 5 days
+
