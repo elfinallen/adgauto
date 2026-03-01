@@ -1,11 +1,10 @@
 import os
 import re
-import datetime
 import requests
 import subprocess
-from urllib.parse import urlparse
+from datetime import datetime
 
-# 配置区域
+# 配置部分
 SOURCES = {
     "dns": [
         "https://filters.adtidy.org/android/filters/15_optimized.txt",
@@ -14,38 +13,45 @@ SOURCES = {
     "ads": [
         "https://filters.adtidy.org/android/filters/2_optimized.txt",
         "https://filters.adtidy.org/android/filters/224_optimized.txt"
+    ],
+    "privacy": [
+        "https://filters.adtidy.org/android/filters/3_optimized.txt",
+        "https://filters.adtidy.org/android/filters/118_optimized.txt"
     ]
 }
 
 OUTPUT_FILES = {
     "dns": "adgdns.txt",
-    "ads": "adgads.txt"
+    "ads": "adgads.txt",
+    "privacy": "adgprv.txt"
 }
 
 HEADERS = {
     "dns": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
-        "! Total Rules: " + str(len(sorted_rules)),
-        "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "! Expires: 5 days"
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)"
     ],
     "ads": [
         "! Title: AdGuard Advert",
-        "! Description: ADS URL Filter composed of other filters (AdGuard Base & Chinese Filter)",
-        "! Total Rules: " + str(len(sorted_rules)),
-        "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "! Expires: 5 days"
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)"
+    ],
+    "privacy": [
+        "! Title: AdGuard Privacy",
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)"
     ]
 }
 
-# 筛选规则
-# CSS 规则：包含 #
-REGEX_CSS_RULE = re.compile(r'#')
-# DNS 规则：||domain^ (纯域名规则)
-REGEX_DNS_RULE = re.compile(r'^\|\|[^/]+\^$')
+# 正则规则
+# 注释行
+RE_CMT = re.compile(r'^!|^#|^\[')
+# CSS 规则
+RE_CSS = re.compile(r'#')
+# 纯域名规则 (||domain^)，中间不包含 /
+RE_DOMAIN_ONLY = re.compile(r'^\|\|[^/]+\^$')
+# 通用网络规则 (以 || 或 | 开头)
+RE_NETWORK = re.compile(r'^\|\||^\|')
 
-def fetch_url(url):
+def fetch_content(url):
     try:
         print(f"Fetching: {url}")
         resp = requests.get(url, timeout=30)
@@ -55,97 +61,83 @@ def fetch_url(url):
         print(f"Error fetching {url}: {e}")
         return []
 
-def filter_dns_rules(lines):
-    """仅保留 ||domain^ 纯域名规则"""
+def filter_rules(lines, rule_type):
     filtered = set()
     for line in lines:
         line = line.strip()
-        # 不保留以下规则
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('||*'):
+        if not line or RE_CMT.match(line):
             continue
-        if not REGEX_DNS_RULE.match(line):
-            continue
-            # 转换为小写进行去重（不区分大小写）
-            filtered.add(line)
-    return filtered
+        
+        # 转小写进行去重
+        line_lower = line.lower()
 
-def filter_url_rules(lines):
-    """仅保留 URL 规则"""
-    filtered = set()
-    for line in lines:
-        line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('||*'):
-            continue
-        if REGEX_CSS_RULE.search(line) or REGEX_DNS_RULE.match(line):
-            continue
-            filtered.add(line)
-    return filtered
+        if rule_type == "dns":
+            # 只保留纯域名规则 ||domain^
+            if RE_DOMAIN_ONLY.match(line):
+                filtered.add(line_lower)
+        
+        elif rule_type in ["ads", "privacy"]:
+            # 去除 CSS 规则
+            if RE_CSS.search(line):
+                continue
+            # 去除纯域名规则
+            if RE_DOMAIN_ONLY.match(line):
+                continue
+            # 保留其余规则
+                filtered.add(line_lower)
+    
+    return sorted(list(filtered))
 
 def write_file(filename, header_lines, rules):
-    sorted_rules = sorted(list(rules))
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(header_lines) + '\n')
-        f.write('\n'.join(sorted_rules) + '\n')
-    print(f"Generated {filename} with {len(sorted_rules)} rules.")
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    with open(filename, "w", encoding="utf-8") as f:
+        for h in header_lines:
+            f.write(f"{h}\n")
+        f.write(f"! Last Updated: {timestamp}\n")
+        f.write(f"! Total Rules: {len(rules)}\n")
+        f.write(f"! Expires: 5 days\n")
+        for rule in rules:
+            f.write(f"{rule}\n")
+    print(f"Written {len(rules)} rules to {filename}")
 
-def run_git_command():
-    """执行 Git 提交和推送"""
-    commands = [
-        ["git", "config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com"],
-        ["git", "config", "--local", "user.name", "github-actions[bot]"],
-        ["git", "add", "adgdns.txt", "adgads.txt"],
-        ["git", "commit", "-m", "auto update" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M")],
-        ["git", "push"]
-    ]
+def git_commit_push():
+    subprocess.run(["git", "config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com"])
+    subprocess.run(["git", "config", "--local", "user.name", "github-actions[bot]"])
     
     # 检查是否有变更
-    diff_proc = subprocess.run(["git", "diff", "--cached", "--quiet"], capture_output=True)
-    if diff_proc.returncode == 0:
-        # 如果 diff 返回 0，说明暂存区没有变化（或者 add 后没变化），需要检查工作区是否有变化
-        # 更简单的逻辑：直接 add，如果 commit 失败则说明无变化
-        pass
+    status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+    if not status.stdout.strip():
+        print("No changes to commit.")
+        return
 
-    for cmd in commands:
-        try:
-            if cmd[1] == "commit":
-                status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-                if not status.stdout.strip():
-                    print("No changes to commit.")
-                    return
-            
-            result = subprocess.run(cmd, capture_output=True, text=True)
-            if result.returncode != 0:
-                if cmd[1] == "commit" and "nothing to commit" in result.stderr:
-                    print("No changes to commit.")
-                    return
-                print(f"Command failed: {' '.join(cmd)}")
-                print(result.stderr)
-                if cmd[1] == "push":
-                    raise Exception("Git push failed")
-            else:
-                print(f"Success: {' '.join(cmd)}")
-        except Exception as e:
-            print(f"Git error: {e}")
-            if cmd[1] == "push":
-                raise
+    # 添加、提交、推送
+    subprocess.run(["git", "add", "."])
+    commit_msg = f"chore: auto update rules {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}"
+    subprocess.run(["git", "commit", "-m", commit_msg])
+    subprocess.run(["git", "push"])
+    print("Git push successful.")
 
 def main():
-    # 1. 处理 DNS 规则
-    dns_rules = set()
-    for url in SOURCES["dns"]:
-        lines = fetch_url(url)
-        dns_rules.update(filter_dns_rules(lines))
-    write_file(OUTPUT_FILES["dns"], HEADERS["dns"], dns_rules)
+    all_rules = {}
+    
+    # 处理每一类规则
+    for category, urls in SOURCES.items():
+        print(f"Processing category: {category}")
+        merged_lines = []
+        for url in urls:
+            merged_lines.extend(fetch_content(url))
+        
+        filtered_rules = filter_rules(merged_lines, category)
+        all_rules[category] = filtered_rules
 
-    # 2. 处理 URL 规则
-    ads_rules = set()
-    for url in SOURCES["ads"]:
-        lines = fetch_url(url)
-        ads_rules.update(filter_url_rules(lines))
-    write_file(OUTPUT_FILES["ads"], HEADERS["ads"], ads_rules)
+    # 写入文件
+    for category, rules in all_rules.items():
+        filename = OUTPUT_FILES[category]
+        header = HEADERS[category]
+        write_file(filename, header, rules)
 
-    # 3. Git 操作
-    run_git_command()
+    # 自动提交
+    git_commit_push()
 
 if __name__ == "__main__":
     main()
