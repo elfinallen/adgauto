@@ -1,0 +1,5 @@
+! Title: AdGuard Privacy
+! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
+! Last Updated: 2026-03-01 07:14:25 UTC
+! Total Rules: 0
+! Expires: 5 days
