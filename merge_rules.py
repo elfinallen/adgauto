@@ -46,10 +46,10 @@ HEADERS = {
 RE_CMT = re.compile(r'^!|^#|^\[|^@')
 # 纯域名规则 (||domain^)，中间不含 /
 RE_DNS = re.compile(r'^\|\|[^/]+\^$')
-# CSS 规则
-RE_CSS = re.compile(r'#')
 # URL 规则
 RE_URL1 = re.compile(r'^\$|^\*|^%')
+# CSS 规则
+RE_CSS = re.compile(r'#')
 
 def fetch_content(url):
     try:
@@ -81,7 +81,7 @@ def filter_rules(lines, rule_type):
             if RE_CSS.search(line) or RE_DNS.match(line) or RE_URL1.match(line):
                 continue
             # 保留其余规则
-                filtered.add(line_lower)
+            filtered.add(line_lower)
     
     return sorted(list(filtered))
 
