@@ -26,12 +26,14 @@ HEADERS = {
     "dns": [
         "! Title: AdGuard Domain",
         "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
+        "! Total Rules: " + len(sorted_rules),
         "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "! Expires: 5 days"
     ],
     "ads": [
         "! Title: AdGuard Advert",
         "! Description: ADS URL Filter composed of other filters (AdGuard Base & Chinese Filter)",
+        "! Total Rules: " + len(sorted_rules),
         "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "! Expires: 5 days"
     ]
@@ -64,7 +66,7 @@ def filter_dns_rules(lines):
         if not REGEX_DNS_RULE.match(line):
             continue
             # 转换为小写进行去重（不区分大小写）
-            filtered.add(line.lower())
+            filtered.add(line)
     return filtered
 
 def filter_url_rules(lines):
@@ -76,7 +78,7 @@ def filter_url_rules(lines):
             continue
         if REGEX_CSS_RULE.search(line) or REGEX_DNS_RULE.match(line):
             continue
-            filtered.add(line.lower())
+            filtered.add(line)
     return filtered
 
 def write_file(filename, header_lines, rules):
