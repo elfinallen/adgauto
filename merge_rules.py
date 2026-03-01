@@ -31,7 +31,7 @@ HEADERS = {
     ],
     "ads": [
         "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
+        "! Description: ADS URL Filter composed of other filters (AdGuard Base & Chinese Filter)",
         "! Last Modified: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
         "! Expires: 5 days"
     ]
@@ -40,30 +40,6 @@ HEADERS = {
 # 筛选规则
 # CSS 规则：包含 #
 REGEX_CSS_RULE = re.compile(r'#')
-# $$ 规则：包含 $$
-REGEX_SS_RULE = re.compile(r'\$\$')
-# network 规则：包含 network
-REGEX_NET_RULE = re.compile(r'network')
-# Badfilter 规则：包含 badfilter
-REGEX_BAD_RULE = re.compile(r'badfilter')
-# Redirect 规则：包含 redirect
-REGEX_RDR_RULE = re.compile(r'redirect')
-# replace 规则：包含 network
-REGEX_REP_RULE = re.compile(r'replace')
-# jsonprune 规则：包含 jsonprune
-REGEX_JSP_RULE = re.compile(r'jsonprune')
-# Stylesheet 规则：包含 stylesheet
-REGEX_STY_RULE = re.compile(r'stylesheet')
-# ThemeHandler 规则：包含 stylesheet
-REGEX_THM_RULE = re.compile(r'themeHandler')
-# Document 规则：包含 document
-REGEX_DOC_RULE = re.compile(r'document')
-# Subdocument 规则：包含 subdocument
-REGEX_SUB_RULE = re.compile(r'subdocument')
-# XML Request 规则：包含 xmlhttprequest
-REGEX_XML_RULE = re.compile(r'xmlhttprequest')
-# 3p 规则：包含 third-party
-REGEX_3P_RULE = re.compile(r'third-party')
 # DNS 规则：||domain^ (纯域名规则)
 REGEX_DNS_RULE = re.compile(r'^\|\|[^/]+\^$')
 
@@ -82,23 +58,25 @@ def filter_dns_rules(lines):
     filtered = set()
     for line in lines:
         line = line.strip()
+        # 不保留以下规则
         if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('||*'):
             continue
-        if REGEX_DNS_RULE.match(line):
-            filtered.add(line)
+        if not REGEX_DNS_RULE.match(line):
+            continue
+            # 转换为小写进行去重（不区分大小写）
+            filtered.add(line.lower())
     return filtered
 
 def filter_url_rules(lines):
-    """去除CSS和纯域名规则，保留 URL 规则"""
+    """仅保留 URL 规则"""
     filtered = set()
     for line in lines:
         line = line.strip()
-        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('$') or line.startswith('[') or line.startswith('&') or line.startswith('%') or line.startswith(':') or line.startswith('*') or line.startswith('-*') or line.startswith('/*') or line.startswith('/.') or line.startswith('//') or line.startswith('/:') or line.startswith('/^') or line.startswith('||*') or line.startswith('/http') or line.startswith('|http'):
+        if not line or line.startswith('!') or line.startswith('#') or line.startswith('@') or line.startswith('||*'):
             continue
-        if REGEX_CSS_RULE.search(line) or REGEX_SS_RULE.search(line) or REGEX_NET_RULE.search(line) or REGEX_JSP_RULE.search(line) or REGEX_BAD_RULE.search(line) or REGEX_RDR_RULE.search(line) or REGEX_REP_RULE.search(line) or REGEX_STY_RULE.search(line) or REGEX_THM_RULE.search(line) or REGEX_DOC_RULE.search(line) or REGEX_SUB_RULE.search(line) or REGEX_XML_RULE.search(line) or REGEX_3P_RULE.search(line) or REGEX_DNS_RULE.match(line):
+        if REGEX_CSS_RULE.search(line) or REGEX_DNS_RULE.match(line):
             continue
-        # 保留其他 URL 规则
-        filtered.add(line)
+            filtered.add(line.lower())
     return filtered
 
 def write_file(filename, header_lines, rules):
@@ -127,9 +105,7 @@ def run_git_command():
 
     for cmd in commands:
         try:
-            # commit 和 push 可能会因为无变化或网络问题失败
             if cmd[1] == "commit":
-                # 先检查是否有变化
                 status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
                 if not status.stdout.strip():
                     print("No changes to commit.")
@@ -142,7 +118,6 @@ def run_git_command():
                     return
                 print(f"Command failed: {' '.join(cmd)}")
                 print(result.stderr)
-                # 非致命错误继续，但 push 失败应停止
                 if cmd[1] == "push":
                     raise Exception("Git push failed")
             else:
@@ -154,15 +129,13 @@ def run_git_command():
 
 def main():
     # 1. 处理 DNS 规则
-    print("--- Processing DNS Rules ---")
     dns_rules = set()
     for url in SOURCES["dns"]:
         lines = fetch_url(url)
         dns_rules.update(filter_dns_rules(lines))
     write_file(OUTPUT_FILES["dns"], HEADERS["dns"], dns_rules)
 
-    # 2. 处理 广告拦截规则
-    print("--- Processing Ads Rules ---")
+    # 2. 处理 URL 规则
     ads_rules = set()
     for url in SOURCES["ads"]:
         lines = fetch_url(url)
@@ -170,9 +143,7 @@ def main():
     write_file(OUTPUT_FILES["ads"], HEADERS["ads"], ads_rules)
 
     # 3. Git 操作
-    print("--- Git Operations ---")
     run_git_command()
-    print("--- Finished ---")
 
 if __name__ == "__main__":
     main()
