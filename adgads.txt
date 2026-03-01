@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
-! Last Updated: 2026-03-01 08:34:55 UTC
-! Total Rules: 10246
+! Last Updated: 2026-03-01 16:32:23 UTC
+! Total Rules: 10249
 ! Expires: 5 days
 &adb=y&adb=y^$popup
 &campid=*&did=$all
@@ -5717,6 +5717,7 @@ zeperfs.com$$script:contains($(".adsbygoogle").length)
 ||gamecopyworld.com/!_$subdocument
 ||gamecopyworld.com/ddd/
 ||gamecps.com^$third-party
+||gamedistribution.com/ads-ng/
 ||gamefy.cn/cookiead.php
 ||gamemale.com/static/js/valida.js
 ||gameone.com^$third-party
@@ -6232,6 +6233,8 @@ zeperfs.com$$script:contains($(".adsbygoogle").length)
 ||huoche.net/public/huoche/ad/
 ||huohuo1.huamuwo.com^$domain=knowbaike.com
 ||huoyan.tv/yb/img/*.gif
+||hupu*.com/js/cdn.js
+||hupu*.com/js/html$~third-party,script
 ||hupu.com^*/interfacead/
 ||hupu.com^*/stream.js
 ||hur.cn/ahurd/*.gif
