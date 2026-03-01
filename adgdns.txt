@@ -1,6 +1,6 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)
-! Last Updated: 2026-03-01 07:59:51 UTC
+! Last Updated: 2026-03-01 08:34:55 UTC
 ! Total Rules: 155532
 ! Expires: 5 days
 ||*-datareceiver.aki-game.net^
