@@ -64,15 +64,21 @@ HEADERS = {
 
 # 正则规则
 # 注释和白名单
-RE_CMT = re.compile(r'^!|^#|\@|^\[')
-# 纯域名规则 (||domain^)，中间不含 /
+RE_CMT = re.compile(r'^!|^#|^@|^\[')
+# 纯域名规则 ||domain^
 RE_DNS = re.compile(r'^\|\|[^/]+\^$')
-# 纯数字 IP 规则 (||123.456.789.012^)
-RE_IP = re.compile(r'^\|\|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\^$')
-# URL 规则
-RE_URL1 = re.compile(r'^\$|^\*|^%')
-# third-party 规则
-RE_3P = re.compile(r'\$third-party', re.IGNORECASE)
+# 纯数字 IP (||123.456.789.012^)
+RE_DNS_IP = re.compile(r'^\|\|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\^$')
+# 顶级域名
+RE_DNS_TLD = re.compile(r'^\|\|[a-zA-Z0-9.-]+\.(com|net|org|cn)\^$')
+# 域名开头 
+RE_DNS_RMV = re.compile(r'^\|\|(\*|ad?[\*\-\.\d])')
+# 不常用域名 xn-- samsung
+RE_DNS_UCM = re.compile(r'xn\-\-|samsung')
+# URL 开头
+RE_URL = re.compile(r'^\$|^\*|^%')
+# $ 修饰 规则
+RE_NoS = re.compile(r'\$')
 # CSS 和 $$ 规则
 RE_CSS = re.compile(r'#|\$\$')
 
@@ -103,8 +109,11 @@ def filter_rules(lines, rule_type):
         
         elif rule_type == "dns":
             if RE_DNS.match(line):
-                # 去除纯IP规则
-                if not RE_IP.match(line):
+                # 去除纯IP 奇怪开头和不常用域名规则
+                if RE_DNS_IP.match(line) or RE_DNS_RMV.match(line) or RE_DNS_UCM.search(line):
+                    continue
+                # 仅保留的顶级域名为 cn, com, org, net
+                if RE_DNS_TLD.match(line):
                     filtered.add(line_lower)
         
         elif rule_type in ["ads_full", "prv_full"]:
@@ -118,8 +127,8 @@ def filter_rules(lines, rule_type):
             # 去除 CSS 和纯域名规则
             if RE_CSS.search(line) or RE_DNS.match(line):
                 continue
-            # 去除 $third-party 规则
-            if RE_3P.search(line):
+            # 去除 $ 规则
+            if RE_NoS.search(line) or RE_URL.match(line):
                 continue
             # 保留其他规则
             filtered.add(line_lower)
