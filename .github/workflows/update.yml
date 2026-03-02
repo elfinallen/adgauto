@@ -2,8 +2,7 @@ name: Update Rules
 
 on:
   schedule:
-    # 每 8 小时运行一次 (UTC 时间)
-    - cron: '0 */8 * * *'
+    - cron: '0 */9 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:

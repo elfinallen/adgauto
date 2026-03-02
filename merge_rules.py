@@ -21,35 +21,60 @@ SOURCES = {
 }
 
 OUTPUT_FILES = {
+    "dns_full": "adgdns_full.txt",
+    "ads_full": "adgads_full.txt",
+    "prv_full": "adgprv_full.txt",
     "dns": "adgdns.txt",
     "ads": "adgads.txt",
     "prv": "adgprv.txt"
 }
 
 HEADERS = {
-    "dns": [
+    "dns_full": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)"
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
+        "! Homepage: https://github.com/elfinallen/adgauto"
+    ],
+    "ads_full": [
+        "! Title: AdGuard Advert",
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
+        "! Homepage: https://github.com/elfinallen/adgauto"
+    ],
+    "prv_full": [
+        "! Title: AdGuard Privacy",
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)",
+        "! Homepage: https://github.com/elfinallen/adgauto"
+    ],
+    "dns": [
+        "! Title: AdGuard Domain Lite",
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules",
+        "! Homepage: https://github.com/elfinallen/adgauto"
     ],
     "ads": [
-        "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)"
+        "! Title: AdGuard Advert Lite",
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules",
+        "! Homepage: https://github.com/elfinallen/adgauto"
     ],
     "prv": [
-        "! Title: AdGuard Privacy",
-        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)"
+        "! Title: AdGuard Privacy Lite",
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules",
+        "! Homepage: https://github.com/elfinallen/adgauto"
     ]
 }
 
 # 正则规则
-# 注释及白名单
-RE_CMT = re.compile(r'^!|^#|^\[|^@')
+# 注释和白名单
+RE_CMT = re.compile(r'^!|^#|\@|^\[')
 # 纯域名规则 (||domain^)，中间不含 /
 RE_DNS = re.compile(r'^\|\|[^/]+\^$')
+# 纯数字 IP 规则 (||123.456.789.012^)
+RE_IP = re.compile(r'^\|\|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\^$')
 # URL 规则
 RE_URL1 = re.compile(r'^\$|^\*|^%')
-# CSS 规则
-RE_CSS = re.compile(r'#')
+# third-party 规则
+RE_3P = re.compile(r'\$third-party', re.IGNORECASE)
+# CSS 和 $$ 规则
+RE_CSS = re.compile(r'#|\$\$')
 
 def fetch_content(url):
     try:
@@ -68,19 +93,35 @@ def filter_rules(lines, rule_type):
         if not line or RE_CMT.match(line):
             continue
         
-        # 转小写进行去重
+        # 转小写合并去重
         line_lower = line.lower()
 
-        if rule_type == "dns":
+        if rule_type == "dns_full":
             # 只保留纯域名规则 ||domain^
             if RE_DNS.match(line):
                 filtered.add(line_lower)
         
+        elif rule_type == "dns":
+            if RE_DNS.match(line):
+                # 去除纯IP规则
+                if not RE_IP.match(line):
+                    filtered.add(line_lower)
+        
+        elif rule_type in ["ads_full", "prv_full"]:
+            # 去除 CSS 和纯域名规则
+            if RE_CSS.search(line) or RE_DNS.match(line):
+                continue
+            # 保留其他规则
+            filtered.add(line_lower)
+        
         elif rule_type in ["ads", "prv"]:
             # 去除 CSS 和纯域名规则
-            if RE_CSS.search(line) or RE_DNS.match(line) or RE_URL1.match(line):
+            if RE_CSS.search(line) or RE_DNS.match(line):
                 continue
-            # 保留其余规则
+            # 去除 $third-party 规则
+            if RE_3P.search(line):
+                continue
+            # 保留其他规则
             filtered.add(line_lower)
     
     return sorted(list(filtered))
@@ -95,7 +136,6 @@ def write_file(filename, header_lines, rules):
         f.write(f"! Expires: 5 days\n")
         for rule in rules:
             f.write(f"{rule}\n")
-    print(f"Written {len(rules)} rules to {filename}")
 
 def git_commit_push():
     subprocess.run(["git", "config", "--local", "user.email", "github-actions[bot]@users.noreply.github.com"])
@@ -109,10 +149,9 @@ def git_commit_push():
 
     # 添加、提交、推送
     subprocess.run(["git", "add", "."])
-    commit_msg = f"chore: auto update rules {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}"
+    commit_msg = f"auto update {datetime.utcnow().strftime('%Y-%m-%d %H:%M')}"
     subprocess.run(["git", "commit", "-m", commit_msg])
     subprocess.run(["git", "push"])
-    print("Git push successful.")
 
 def main():
     all_rules = {}
@@ -124,6 +163,12 @@ def main():
         for url in urls:
             merged_lines.extend(fetch_content(url))
         
+        # 标准版本
+        full_category = f"{category}_full"
+        filtered_full_rules = filter_rules(merged_lines, full_category)
+        all_rules[full_category] = filtered_full_rules
+        
+        # 精简版本
         filtered_rules = filter_rules(merged_lines, category)
         all_rules[category] = filtered_rules
 
