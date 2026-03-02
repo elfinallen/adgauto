@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
-! Last Updated: 2026-03-01 16:32:23 UTC
-! Total Rules: 10249
+! Last Updated: 2026-03-02 02:24:31 UTC
+! Total Rules: 10250
 ! Expires: 5 days
 &adb=y&adb=y^$popup
 &campid=*&did=$all
@@ -4617,6 +4617,7 @@ zeperfs.com$$script:contains($(".adsbygoogle").length)
 ||cdn.videoplaza.tv/contrib/fr-m6/svm/homadconfigvideoplaza-w9.json$replace=/"enabled": true\,/"enabled": false\,/i,important
 ||cdn.videoplaza.tv/contrib/no-vg/svm/homadconfigvideoplaza-vgtv.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=vgtv.no
 ||cdn.videoplaza.tv/contrib/no-vg/svm/homadconfigvideoplaza-vgtv.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=vgtv.no,important
+||cdn.viously.com/js/sdk/boot.js
 ||cdn.weilf.cn/templates/*/js/esplugin.js$replace=/type: "json"\,//,domain=jingxuanyoucheng.com
 ||cdn.wo.cc/wo.js
 ||cdn.wwads.cn/js/makemoney.js$script,redirect=noopjs,domain=nodejs.cn,important
