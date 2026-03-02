@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 08:10:56 UTC
-! Total Rules: 78390
+! Last Updated: 2026-03-02 09:36:53 UTC
+! Total Rules: 78395
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -693,6 +693,7 @@
 ||365dmp.com^
 ||367p.com^
 ||3696a16444.com^
+||36a1652b0f.com^
 ||36a657286a.2e001e2b2b.com^
 ||36a7b00c00.com^
 ||372ae6b830.com^
@@ -1164,6 +1165,7 @@
 ||6a7e08c01b.com^
 ||6a7eac2034.com^
 ||6acupxubky.com^
+||6ad4e650c2.com^
 ||6b2f487753.cfca88ad66.com^
 ||6b8051dfcc.com^
 ||6b8emvi3ya.com^
@@ -23907,6 +23909,7 @@
 ||fugsslosher.com^
 ||fuhhg.tanaorjewelry.com^
 ||fuhoftoajoabs.net^
+||fuiyfhiwcwerrqd.com^
 ||fujifilmdb.fujifilmdiosynth.com^
 ||fujjinpfax.com^
 ||fukhatexcepeded.com^
@@ -31502,6 +31505,7 @@
 ||iugbhsu.com^
 ||iujeaa.menz-style.com^
 ||iukdm.iheartdogs.com^
+||iukkjyhmnx.com^
 ||iuouv.firstday.com^
 ||iuqjd.alphapaw.com^
 ||iuryhk.soccer.com^
@@ -66980,6 +66984,7 @@
 ||teediarrhoea.com^
 ||teeforgotten.com^
 ||teejubilee.com^
+||teekbtiocvgrwbc.com^
 ||teekouches.net^
 ||teemeevoug.net^
 ||teeming-service.com^

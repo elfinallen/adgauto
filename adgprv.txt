@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy Lite
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 08:10:56 UTC
+! Last Updated: 2026-03-02 09:36:53 UTC
 ! Total Rules: 11455
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined

@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 08:10:56 UTC
-! Total Rules: 155794
+! Last Updated: 2026-03-02 09:36:53 UTC
+! Total Rules: 155818
 ! Expires: 5 days
 ||*-datareceiver.aki-game.net^
 ||*-default-cn.rum.aliyuncs.com^
@@ -1188,6 +1188,7 @@
 ||367p.com^
 ||36833185.xyz^
 ||3696a16444.com^
+||36a1652b0f.com^
 ||36a657286a.2e001e2b2b.com^
 ||36a7b00c00.com^
 ||36bw1wotjui2qyzqob6fr7rhh46io63nw8.cfd^
@@ -1985,6 +1986,7 @@
 ||6a7e08c01b.com^
 ||6a7eac2034.com^
 ||6acupxubky.com^
+||6ad4e650c2.com^
 ||6b2f487753.cfca88ad66.com^
 ||6b8051dfcc.com^
 ||6b8emvi3ya.com^
@@ -2331,6 +2333,7 @@
 ||7ryx7ph5y.com^
 ||7strqfn56s.com^
 ||7thvyebqhu7956.cfd^
+||7tqi76q54b8fftprgqq.rest^
 ||7u4b8l1zt.com^
 ||7usgqu07mk.com^
 ||7v6n8qo83l71346kwz4nlq.rest^
@@ -9812,6 +9815,7 @@
 ||aj2635.bid^
 ||ajacoehkzhvla.website^
 ||ajaelmjytzgmn.website^
+||ajar-emphasis.pro^
 ||ajar-instruction.pro^
 ||ajar-lesson.pro^
 ||ajar-sister.com^
@@ -16045,6 +16049,7 @@
 ||avoda-mehabait.co.il^
 ||avogex.com^
 ||avohgtghfsery.space^
+||avoirlope.cfd^
 ||avorgy3431.fun^
 ||avouchuramil.com^
 ||avouerosiest.help^
@@ -20034,6 +20039,7 @@
 ||bothoorgoamsab.net^
 ||botiatheous.cyou^
 ||botize.com^
+||botjdhcufqte.xyz^
 ||botkano.info^
 ||botndm.nl^
 ||botpynlmmizsr.click^
@@ -20742,6 +20748,7 @@
 ||btdfqejriamjr.website^
 ||btdykfecwvyso.online^
 ||bte29912.xyz^
+||btecvxxnfqaio.site^
 ||btegxrphkoxxw.site^
 ||btejyileyjnma.space^
 ||bteucoiyp.com^
@@ -27793,6 +27800,7 @@
 ||cqcctsyeqovsh.site^
 ||cqcounter.com^
 ||cqcpazetvhaso.website^
+||cqcsvgiryffsf.online^
 ||cqdnr.musclesport.com^
 ||cqemus.gartenhaus-gmbh.de^
 ||cqeorasldxsbw.store^
@@ -38288,6 +38296,7 @@
 ||dtxtngytz5im1.cloudfront.net^
 ||dtynhvwb.com^
 ||dtyry4ejybx0.cloudfront.net^
+||dtyscezlefppc.website^
 ||dtzcucxegdlqi.website^
 ||dtzoenoduqopn.space^
 ||dtzrrz.green-japan.com^
@@ -43925,6 +43934,7 @@
 ||fathomderelict.com^
 ||fathomdns.com^
 ||fathomseo.com^
+||fatidicalisos.cfd^
 ||fatigueboisterousrequisite.com^
 ||fatiguemataspiration.com^
 ||fatlossremedies.com^
@@ -47167,6 +47177,7 @@
 ||fuicmy.hana-mail.jp^
 ||fuigimvxzegjh.online^
 ||fuixbmllpzabg.website^
+||fuiyfhiwcwerrqd.com^
 ||fuj.as-waegetechnik.de^
 ||fujeqldwtuxgv.site^
 ||fujhobzuztqvx.website^
@@ -55493,6 +55504,7 @@
 ||hcinvdu.top^
 ||hcioruffodhya.store^
 ||hcirentgh.360doc.cn^
+||hcitukntuo.in^
 ||hcjarn.parfumsclub.de^
 ||hcjjizmrsilri.online^
 ||hcjpbc.bikemag.com^
@@ -57979,6 +57991,7 @@
 ||hybrid-prd.ad-prd.s.joyn.de^
 ||hybrid.ai^
 ||hybridburst.com^
+||hybridvagile.shop^
 ||hybuxute.com^
 ||hycantyoubelik.com^
 ||hycgnirrgbeuq.online^
@@ -62340,6 +62353,7 @@
 ||iugvoo.icu^
 ||iujeaa.menz-style.com^
 ||iukdm.iheartdogs.com^
+||iukkjyhmnx.com^
 ||iukkxczhqekat.space^
 ||iukrelfkscaiy.space^
 ||iuljnlpyixvpb.site^
@@ -111741,6 +111755,7 @@
 ||sitti.co.id^
 ||situateddivine.com^
 ||situationsparkler.com^
+||situduiacvaek.site^
 ||situratite.com^
 ||siugoy.monbento.co.uk^
 ||siusmv.coraltravel.pl^
@@ -116070,6 +116085,7 @@
 ||smsafelink.com^
 ||smsapiens.com^
 ||smsccb.com^
+||smsnejgixbwgs.space^
 ||smsulx.kijijiautos.ca^
 ||smsxbj.med24.dk^
 ||smt.jcpenney.com^
@@ -132134,6 +132150,7 @@
 ||teefiksummin.visma.fi^
 ||teeforgotten.com^
 ||teejubilee.com^
+||teekbtiocvgrwbc.com^
 ||teekouches.net^
 ||teemeevoug.net^
 ||teeming-service.com^
@@ -133505,6 +133522,7 @@
 ||tirawpwflqxow.space^
 ||tircyqdomqupu.website^
 ||tired-agency.com^
+||tired-negotiation.pro^
 ||tiredamazingly.com^
 ||tiredelection.com^
 ||tiredstate.pro^
@@ -141568,6 +141586,7 @@
 ||unmefwsycamtq.space^
 ||unmergesquire.life^
 ||unmiredspelk.com^
+||unmirybembex.shop^
 ||unmnehicnyoiz.site^
 ||unmoraldisband.cfd^
 ||unnaturalcask.com^
@@ -143810,6 +143829,7 @@
 ||vcgjh.airestech.com^
 ||vch.voyage-prive.ch^
 ||vchhr.hiyahealth.com^
+||vcigmsgdhiojg.site^
 ||vcikz.vivancostrim.com^
 ||vcjfxnwmzpdgu.store^
 ||vcjlr.guavaandgold.com^
@@ -144979,6 +144999,7 @@
 ||viralvideoclip.info^
 ||virasoncalor.cfd^
 ||virbe.sokolovelaw.com^
+||virbiusembus.qpon^
 ||virelon.com^
 ||viremiacomourn.cfd^
 ||vireodancy.cfd^
@@ -148500,6 +148521,7 @@
 ||whuzucot.net^
 ||whvxstats.com^
 ||whvyhcvlszizp.online^
+||whwdxzadairoq.website^
 ||whwg6zlmmmome3to.rest^
 ||whwiab.pamono.it^
 ||whwodicurhybp.website^
@@ -150291,6 +150313,7 @@
 ||wwwpromoter.com^
 ||wwwstat.rz.uni-leipzig.de^
 ||wwwxmpilsrzij.website^
+||wwxeyxdyyitzl.space^
 ||wwyeejlxobqqn.site^
 ||wwyoyuutoudbf.space^
 ||wwyujfttbpknx.website^
@@ -155286,6 +155309,7 @@
 ||zqagavdogkwxf.online^
 ||zqaujzsxkazrn.online^
 ||zqawagbnducbt.space^
+||zqbgk89wxtf192wu8wecmoimrncmey9bi4b52vf.cfd^
 ||zqbgwpegaggvy.site^
 ||zqcpf.wovenbyrd.com^
 ||zqdekzkqwvzcl.buzz^
