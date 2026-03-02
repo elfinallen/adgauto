@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 09:36:53 UTC
-! Total Rules: 10097
+! Last Updated: 2026-03-02 18:31:45 UTC
+! Total Rules: 10105
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1268,6 +1268,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /exoads/*$script
 /exonb/*$script
 /exonob/*$script
+/exowb/froload.js$script
 /external/ad.$script
 /ez-yahoo/*$domain=ezvivi.com
 /ezoic/*$script,~third-party
@@ -4215,6 +4216,7 @@ yydstxt*.com/js/html
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=idlixku.com
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
+||blufm.de/pr/$third-party
 ||blz105.com/player/ad.html
 ||bmp.ali213.net/js/
 ||bmp.ovh/imgs/2020/09/3e4e11ecc19c4bd6.png
@@ -5616,6 +5618,7 @@ yydstxt*.com/js/html
 ||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
+||gayguide.travel/scripts/images.js
 ||gayporntube.com/spots.php?
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
@@ -6778,6 +6781,7 @@ yydstxt*.com/js/html
 ||k99.cc^$third-party
 ||kagonst.com^$popup
 ||kaixin001.com.cn/js/cpm-
+||kaldata.com/img/banners/banners.js
 ||kalvin.cn/page/img/
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
@@ -8010,6 +8014,7 @@ yydstxt*.com/js/html
 ||pornpics.com^$subdocument,badfilter
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
+||pornvee.com/ads
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
@@ -9264,7 +9269,10 @@ yydstxt*.com/js/html
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||twads.gg^$third-party
 ||twavtv.com/js/jquery.colorbox
+||twincdn.com/channels/
+||twincdn.com/special/
 ||twincdn.com/special^$third-party
+||twincdn.com/video/
 ||twinrdengine.com^$popup
 ||twinrdsrv.com/preroll.engine$xmlhttprequest,redirect=nooptext
 ||twinrdsrv.com^$domain=tnaflix.com

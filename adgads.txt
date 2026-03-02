@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 09:36:53 UTC
-! Total Rules: 6390
+! Last Updated: 2026-03-02 18:31:45 UTC
+! Total Rules: 6396
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -3390,6 +3390,7 @@ yydstxt*.com/js/html
 ||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
+||gayguide.travel/scripts/images.js
 ||gayporntube.com/spots.php?
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -4193,6 +4194,7 @@ yydstxt*.com/js/html
 ||k366.com/images/smxs^
 ||k8dm.com/960x70.
 ||kaixin001.com.cn/js/cpm-
+||kaldata.com/img/banners/banners.js
 ||kalvin.cn/page/img/
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
@@ -4996,6 +4998,7 @@ yydstxt*.com/js/html
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
+||pornvee.com/ads
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
@@ -5791,6 +5794,9 @@ yydstxt*.com/js/html
 ||tw.buy.yahoo.com/?z=
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
+||twincdn.com/channels/
+||twincdn.com/special/
+||twincdn.com/video/
 ||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
