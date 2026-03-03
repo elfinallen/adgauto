@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 01:07:45 UTC
-! Total Rules: 6396
+! Last Updated: 2026-03-03 09:31:01 UTC
+! Total Rules: 6393
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -582,7 +582,6 @@
 /frontend-jiucao/ps/pscreat.js
 /fsjghgwyegh_f.js
 /fuliba/js/n1.js
-/funcript*.php?pub=
 /fx168_ad
 /game/aplus/pptv/*
 /gamedog_mobile_
@@ -2640,7 +2639,6 @@ yydstxt*.com/js/html
 ||chdbits.co/pic/*-*.gif
 ||check-host.net/images/*hosteal*.png
 ||check-host.net/images/*waith*.png
-||check-host.net/images/*wcm.png
 ||check-host.net/images/mhost-*.svg
 ||chengdu.cn/acts/phoneqss/opencornerwin/
 ||chengtongled.com/gg/
@@ -2972,7 +2970,6 @@ yydstxt*.com/js/html
 ||dlhd.link/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
-||dltv.org/uploads/banners/
 ||dmzj.com/js/ad/
 ||dmzj.com/js/m_btmapp.js
 ||dmzj1.com/js/ad/
@@ -3901,7 +3898,6 @@ yydstxt*.com/js/html
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||indianexpress.com/wp-content/themes/indianexpress/js/min/ie-gdpr-ad-code.js
-||indianexpress.com/wp-content/themes/indianexpress/js/vendor/min/optimise-taboola-
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -5428,6 +5424,7 @@ yydstxt*.com/js/html
 ||slit.cn/slimages/
 ||slysoft.com/img/banner/
 ||sm.ign.com/zdadkit*.js
+||smarthomebeginner.com/images/*300x250_
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 01:07:45 UTC
-! Total Rules: 10105
+! Last Updated: 2026-03-03 09:31:01 UTC
+! Total Rules: 10091
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -858,7 +858,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /admanager.js$script
 /admanager.min.js$script
 /admanager/*$~object,~xmlhttprequest,domain=~admanager.line.biz|~blog.google|~sevio.com
-/admgr.js$script
 /admitad.js$script
 /adnow.js$domain=tvboxnow.com
 /adocean.js$script
@@ -1084,7 +1083,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /banners/ads-$~xmlhttprequest
 /banners/ads.$~xmlhttprequest
 /banners/adv/*$~xmlhttprequest
-/banners/affiliate/*$image
 /bbhd_*_kkis.js
 /bcgg/*
 /beardeddragon/drake.js$script
@@ -1307,6 +1305,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /frontend-jiucao/img/banner.jpg
 /frontend-jiucao/ps/*.gif
 /frontend-jiucao/ps/pscreat.js
+/frontend_loader.js$domain=eveknows.com|hardcoreluv.com|hentairider.com|iluvtoons.com|older-mature.net|pezporn.com|pornstarsluv.com|tongabonga.com|youramateurtube.com
 /fshow.php?id=$script,third-party
 /fsjghgwyegh_f.js
 /ftt2/js.php$script
@@ -1316,7 +1315,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /fuckadblock.min.js$badfilter
 /fuliba/js/n1.js
 /full-page-script.js$script
-/funcript*.php?pub=
 /fx168_ad
 /g.jsp?uid=$script,third-party
 /game/aplus/pptv/*
@@ -2106,7 +2104,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /wp-content/plugins/deblocker/js/deblocker.min*.js$~third-party
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
-/wp-content/plugins/lnw-ad-blocker-detector/*$script
 /wp-content/plugins/m-wp-popup/*$script
 /wp-content/plugins/pmc-plugins/pmc-adm-v2/build/display-ads.js$domain=billboard.com|wwd.com|sportico.com
 /wp-content/plugins/pmc-plugins/pmc-adm-v2/build/setup-ads.js$domain=billboard.com|wwd.com|sportico.com
@@ -2349,7 +2346,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ?usid=*&utid=
 ?wppaszoneid=$subdocument
 ?wpstealthadsjs=
-?z=*&rb=$third-party,xmlhttprequest
 ^kklq0*p0i.com/$script,xmlhttprequest,third-party
 ^niu0*jd.top/$script,xmlhttprequest,third-party
 ^ouqo0*luj.com/$script,xmlhttprequest,third-party
@@ -3300,7 +3296,6 @@ yydstxt*.com/js/html
 ||acapellas.eu/ublock-only.js
 ||accuradio.com/spots/check-ad-free/$replace=/"ad_free": false/"ad_free": true/,important
 ||accuradio.com/sweeper/json/fetch/?c=sweeper$replace=/\{[\s\s]*\}/{"status": "ok"}/,important
-||acebet.com^$third-party
 ||acfun.cn/appspreadcontents/danmuad/
 ||acg.youku.com/webfile/*.jpg
 ||acgbase.com^$third-party
@@ -3343,7 +3338,6 @@ yydstxt*.com/js/html
 ||ad2bitcoin.com^$third-party
 ||ad4989.co.kr^$third-party
 ||ad4game.com^$third-party
-||ad6media.fr^$third-party
 ||adacado.com^$third-party
 ||adadvisor.net^$third-party
 ||adalliance.io^$third-party
@@ -4231,7 +4225,6 @@ yydstxt*.com/js/html
 ||boce.com/statics/img/img27b.png
 ||bolecdn.com/button/txt.js
 ||bonbonme.com/js/g1313166/
-||bongacams.com^$popup,third-party
 ||bookben.com/js/m/wap.js
 ||booking.com^$domain=honglingjin.co.uk|sunnylife.tw
 ||bookrb.com/images/jtt
@@ -4546,7 +4539,6 @@ yydstxt*.com/js/html
 ||chdbits.co/pic/*-*.gif
 ||check-host.net/images/*hosteal*.png
 ||check-host.net/images/*waith*.png
-||check-host.net/images/*wcm.png
 ||check-host.net/images/mhost-*.svg
 ||chengdu.cn/acts/phoneqss/opencornerwin/
 ||chengtongled.com/gg/
@@ -4656,7 +4648,6 @@ yydstxt*.com/js/html
 ||click.aliexpress.com^$subdocument,third-party
 ||click.taobao.com^$popup,domain=steamcn.com
 ||clickadu.com^$third-party
-||clickaine.com^$third-party
 ||clickfuse.com^$third-party
 ||clickmon.co.kr^$third-party
 ||clickonometrics.pl^$third-party
@@ -5039,7 +5030,6 @@ yydstxt*.com/js/html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/$subdocument
 ||dlkoo.com/down/copy
-||dltv.org/uploads/banners/
 ||dm.hybrid.ai^$third-party
 ||dmcdn.net/playerv5/dmp.advertising.*.js$domain=dailymotion.com
 ||dmzj.com/js/ad/
@@ -5281,7 +5271,6 @@ yydstxt*.com/js/html
 ||elecfans.com/webapi/advertisement/
 ||elliottwave.com/fw/regular_leaderboard.js
 ||elsbfby.com^$popup,third-party
-||embed.acebet.com/spinner$domain=streamfree.to
 ||embed.ex.co^$third-party
 ||embed.sendtonews.com^$third-party,badfilter,domain=miamiherald.com
 ||embed.sendtonews.com^$third-party,domain=~shmoop.com
@@ -5321,7 +5310,6 @@ yydstxt*.com/js/html
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
 ||eshkol.io^$popup
-||eshkol.one^$popup
 ||etadult.com*/images/20
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
@@ -5566,7 +5554,6 @@ yydstxt*.com/js/html
 ||galacg.me/wp-content/uploads/*750x
 ||galaxymedia.xyz/app/images/banner.gif
 ||galleries-pornstar.com/thumb_top/
-||gambar123.com^$image,domain=semprot.com|semprotyuk.com
 ||gamcore.com/ajax/abc?
 ||gamcore.com/js/ipp.js
 ||gamcore.com/z0mb24.js
@@ -5749,6 +5736,7 @@ yydstxt*.com/js/html
 ||gorclck.com^$document
 ||gosexpod.com/*/*.php
 ||gotrackier.com^$document
+||gotrackier.com^$popup
 ||gougou2018.com/js/item
 ||gouhb.com/skin/jww/images/20141029114*.png
 ||goupu.org/1files/*.gif
@@ -6288,7 +6276,6 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=radiozet.pl,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=smoothpre.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=swiatgwiazd.pl
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=syok.my
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=theguardian.com|timesofindia.indiatimes.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=tokfm.pl,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=trojmiasto.pl
@@ -6399,7 +6386,6 @@ yydstxt*.com/js/html
 ||independent.co.uk/_build/main.*.js$replace=/(checkadblocker[\s\s]*?:..=).\.sent/\$1true/
 ||indexhu.adocean.pl/*ad.json$xmlhttprequest,redirect=nooptext,domain=embed.indavideo.hu
 ||indianexpress.com/wp-content/themes/indianexpress/js/min/ie-gdpr-ad-code.js
-||indianexpress.com/wp-content/themes/indianexpress/js/vendor/min/optimise-taboola-
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -8680,6 +8666,7 @@ yydstxt*.com/js/html
 ||smartcj.com^$popup
 ||smartclick.net^$third-party
 ||smartclip.net^$third-party,domain=~toggo.de
+||smarthomebeginner.com/images/*300x250_
 ||smartico.one^$third-party
 ||smartkhabrinews.com^$replace=/'https:\/\/tpc\.googlesyndication\.com\/simgad\/[\s\s]*?'/'https:\/\/streama2z.com\/assets\/strlogo.png'/,document
 ||smartyads.com^$third-party
@@ -10015,7 +10002,6 @@ yydstxt*.com/js/html
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
 ||ze5.com^$third-party
-||zedo.com^$third-party
 ||zemanta.com^$third-party
 ||zenaps.com^$popup,badfilter
 ||zergnet.com^$script,third-party

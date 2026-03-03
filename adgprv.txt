@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy Lite
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 01:07:45 UTC
-! Total Rules: 11457
+! Last Updated: 2026-03-03 09:31:01 UTC
+! Total Rules: 11461
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5353,6 +5353,7 @@ t.yesware.com
 ||consensu.org/?log=
 ||consensu.org/geoip
 ||consent.api.osano.com/record
+||consent.cookie-script.com/analytics?
 ||consent.ghostery.com/v1.js
 ||consent.trustarc.com/analytics?
 ||consent.trustarc.com/bannermsg?
@@ -5615,6 +5616,7 @@ t.yesware.com
 ||dcdn.lt/g.js
 ||dcf.espn.com/privacy/
 ||dcinside.com/_js/click_log.js
+||ddiamond.com.tr/tom8/
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -8695,6 +8697,7 @@ t.yesware.com
 ||player.ooyala.com/errors/report?
 ||player.sbs.co.kr/log/
 ||player.svc.litv.tv/pixel/
+||player.target-video.com/player/build/plugins/googleanalytics/
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleanalytics/vzaargoogleanalytics.js
 ||playerserver.walkme.com/statistics/
@@ -10011,6 +10014,7 @@ t.yesware.com
 ||streamnoads.com/stat/
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
+||streams.bestbuy.com/customer/web-streams/v*/events/digital-experience-event
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streamta.pe/stat/
 ||streamta.site/stat/
