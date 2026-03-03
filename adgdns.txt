@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-02 18:31:45 UTC
-! Total Rules: 79966
+! Last Updated: 2026-03-03 01:07:45 UTC
+! Total Rules: 79977
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -7640,6 +7640,7 @@
 ||avsjo.stickley.com^
 ||avsplow.com^
 ||avthelkp.net^
+||avvheohijfajsl.com^
 ||avvoe.juicedbikes.com^
 ||avzpa.gooddaymood.com^
 ||awae-shop.com^
@@ -10396,6 +10397,7 @@
 ||bvzc.cn^
 ||bwinpartypartners.com^
 ||bwkpkx.projectxparis.com^
+||bwldkamba.com^
 ||bwlwbt.rbarevistas.com^
 ||bwnkofqbv.com^
 ||bwntyd.neuve-a.net^
@@ -11852,6 +11854,7 @@
 ||cgcg01070ht.com^
 ||cgcg01071ht.com^
 ||cgcg01080ht.com^
+||cgfdobkjopwlq.com^
 ||cggrepdsdkfx.com^
 ||cghoq.canvasdiscount.com^
 ||cgicol.amap.com^
@@ -12905,6 +12908,7 @@
 ||cnameebis.usagi-online.com^
 ||cnaptheaz.com^
 ||cnbd1.appmobile.cn^
+||cnbhxhxvpyo.com^
 ||cncpt-central.com^
 ||cncptx.com^
 ||cnd.landsend.com^
@@ -32565,6 +32569,7 @@
 ||jiwxucsajhid.com^
 ||jixgbilycuta.com^
 ||jiybmrwtiilkml.net^
+||jiyxobiwuxww.com^
 ||jizzarchives.com^
 ||jizzy.org^
 ||jjcypx.vrai.com^
@@ -45912,6 +45917,7 @@
 ||orenthelabel.com^
 ||orepassport.com^
 ||orest-vlv.com^
+||orfcccbplzeiu.com^
 ||orfy.bevopizza.com^
 ||org-secured.com^
 ||org.govqp.com^
@@ -60731,6 +60737,7 @@
 ||sowpoint.com^
 ||soxnwz.lg.com^
 ||soy5c00zc.com^
+||soylielbjnl.com^
 ||sozzlypeavies.com^
 ||sp-eu.dev.polarbyte.com^
 ||sp-trk.com^
@@ -60924,6 +60931,7 @@
 ||spcg.lunaticfridge.com^
 ||spcode.baidu.com^
 ||spdate.com^
+||spdcdnmpg.com^
 ||spdxmrvxh.net^
 ||speaker.paco-benitez.com^
 ||speakmalthe.com^
@@ -73257,6 +73265,7 @@
 ||unconsciousliteracynameless.com^
 ||uncoveredexpert.com^
 ||uncrj.organicbasics.com^
+||uncterilitasory.com^
 ||undalness.com^
 ||undandinterp.org^
 ||undaymidydle.com^
@@ -73955,6 +73964,7 @@
 ||uvjthr.impericon.com^
 ||uvnl.hotelwilliamgray.com^
 ||uvoryaubr.net^
+||uvrilvrgeysmr.com^
 ||uvtact.citiesocial.com^
 ||uvtqh.amorepacific.com^
 ||uvuap.stampington.com^
@@ -76621,6 +76631,7 @@
 ||whhwcardntdge.com^
 ||whiboujaix.net^
 ||whichdespite.com^
+||whicheverspeaklights.com^
 ||whichmeu.com^
 ||whickerkarates.com^
 ||whickootchoatiz.net^
