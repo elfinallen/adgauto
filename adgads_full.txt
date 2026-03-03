@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 09:31:01 UTC
-! Total Rules: 10091
+! Last Updated: 2026-03-03 18:33:37 UTC
+! Total Rules: 10088
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -206,7 +206,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .900x100.
 .adriver.$~object,domain=~adriver.co
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
-.apk0*oo.xyz/$script,xmlhttprequest,third-party
 .ar/ads/$~xmlhttprequest
 .ashx?adid=
 .aspx?adid=
@@ -390,7 +389,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .info/js/alls_top.js
 .info/topjs/
 .io/js/ads/
-.is0*qqp.xyz/$script,xmlhttprequest,third-party
 .jkn0*loi.com/$script,xmlhttprequest,third-party
 .jp/ads/$third-party,domain=~hs-exp.jp
 .js?advertid=
@@ -428,7 +426,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .nyaa.fun/static/img/*_refesh.
 .nyaa.fun/static/img/host/*.gif
 .nyahentai.com/cat/l_1.gif
-.o0*aokk.com/iis.$script,xmlhttprequest,third-party
 .oeya.com/$domain=realtw.com
 .okp*ai.com/$script,xmlhttprequest,third-party
 .org/ad/$domain=~ylilauta.org
@@ -486,7 +483,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .tv/js/ads/
 .tv/style/vue.js?v=
 .tw/ads/
-.uhi*uik.xyz/$script,xmlhttprequest,third-party
 .us/js/ads/
 .uuso0*qhs.xyz/$script,xmlhttprequest,third-party
 .vip/ads/
@@ -5116,6 +5112,7 @@ yydstxt*.com/js/html
 ||dropgalaxy.com^$replace=/'https:\/\/tpc\.googlesyndication.com\/simgad\/[\s\s]*?'/'https:\/\/dropgalaxy\.com\/assets\/img\/logoo\.png'/
 ||dropgalaxy.com^$replace=/(\\$\(".*?"\)\.val\()'1'(\);)/\$1'0'\$2/,~script,~xmlhttprequest,~stylesheet
 ||drtst.com/promo/banners/
+||druggedrat.com^$all
 ||drvsky.com/js/jolimark.gif
 ||dscgirls.live/*/vast$third-party
 ||dshangyan.com/pc/advertising/

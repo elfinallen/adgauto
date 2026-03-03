@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 09:31:01 UTC
-! Total Rules: 83909
+! Last Updated: 2026-03-03 18:33:37 UTC
+! Total Rules: 83911
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -982,7 +982,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /action/analytics
 /activecampaign-subscription-forms/site_tracking.js
 /activity.gif?
-/ad-site-i18n-sg/*$xmlhttprequest
 /ad/pagehits.
 /adb.policy.js
 /adb1.gif?
@@ -79895,6 +79894,7 @@ zmail.mtrl.me$image
 ||rtp.pt^$cookie=googlepersonalization
 ||rtrk.co.nz^$third-party
 ||rtrk.com^$third-party
+||rts.ch/boreas/collect
 ||rts.ch^*/boreas_b01.js
 ||rttrk.com^$third-party
 ||rtxpx-a.akamaihd.net^$third-party
@@ -81339,6 +81339,7 @@ zmail.mtrl.me$image
 ||ststandard.com/ping
 ||stubhub.com/a/icph
 ||studeersnel.nl/27m703hm/init.js
+||studio-api.prod.suno.com/api/statsig/
 ||studiostack.com^$third-party
 ||studocu.com/27m703hm/init.js
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js
@@ -81387,6 +81388,7 @@ zmail.mtrl.me$image
 ||sunhome.ru/counter.php$third-party
 ||sunios.de^$third-party
 ||sunknudsen.com/static/media/js/fathom
+||suno.com/9i3s/
 ||sunset.com/tia/
 ||suntcontent.se^$third-party
 ||super.cz/*/hit/?
