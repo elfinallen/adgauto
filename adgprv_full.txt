@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 18:33:37 UTC
+! Last Updated: 2026-03-04 01:04:12 UTC
 ! Total Rules: 83911
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver

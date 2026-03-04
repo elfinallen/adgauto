@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-03 18:33:37 UTC
-! Total Rules: 77916
+! Last Updated: 2026-03-04 01:04:12 UTC
+! Total Rules: 77934
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -6708,6 +6708,7 @@
 ||aqdwkq.hihometech.net^
 ||aqeed.roda.com^
 ||aqftgalqig.com^
+||aqhfdrojp.com^
 ||aqi.wd.amberweather.com^
 ||aqkng.traciemartyn.com^
 ||aqle3.com^
@@ -18952,6 +18953,7 @@
 ||drflexa-ss.checkoutera.com^
 ||drga.dubairealestate.net^
 ||drgakaelgp.com^
+||drhsmpjnytxnh.com^
 ||driftingchef.com^
 ||driftpizza.com^
 ||driftt.com^
@@ -20456,6 +20458,7 @@
 ||eminentend.com^
 ||eminp.rebeccaminkoff.com^
 ||emissionidiompolygon.com^
+||emivjymhpovva.com^
 ||emjs.mkzhan.com^
 ||emkho.killcliff.com^
 ||emkt.stefanini.com^
@@ -28537,6 +28540,7 @@
 ||humanitydisciplinaryhire.com^
 ||humanz.com^
 ||humble-gap.com^
+||humblerenamour.com^
 ||humdrumhobbies.com^
 ||humdrumtouch.com^
 ||humflingenmity.com^
@@ -29176,6 +29180,7 @@
 ||ilnjj.breathesans.com^
 ||iloptrex.com^
 ||ilovecheating.com^
+||ilqdqnxxxnc.com^
 ||ilsacombank.com^
 ||ilshiletterismype.org^
 ||ilvgn.johnnyjanosik.com^
@@ -30659,6 +30664,7 @@
 ||inrdeals.com^
 ||inrhyhorntor.com^
 ||inrotomr.com^
+||inrqhptwtlh.com^
 ||ins.connatix.com^
 ||ins.leavitt.com^
 ||ins.wolterskluwerfs.com^
@@ -31127,6 +31133,7 @@
 ||iroaltidsou.net^
 ||ironcladtrouble.com^
 ||ironendeavour.com^
+||ironicalclearingsticking.com^
 ||ironpebbleantecedent.com^
 ||irp37bmmt.com^
 ||irqewz.vilebrequin.com^
@@ -31583,6 +31590,7 @@
 ||jefff.usalab.com^
 ||jeglupagheeh.net^
 ||jehfl.shoepalace.com^
+||jehoqmhbmykj.com^
 ||jejzf.dearannabelle.com^
 ||jekjsbycun.com^
 ||jekvc.losethebackpain.com^
@@ -31940,6 +31948,7 @@
 ||jqflf.homefurnitureandpatio.com^
 ||jqmft.pyramidcollection.com^
 ||jqmr7zssmd.com^
+||jqooxmshp.com^
 ||jqosn.lignosus.com^
 ||jqpsi.evinature.com^
 ||jqsex.com^
@@ -33492,6 +33501,7 @@
 ||lcwfabt2.com^
 ||lcwfabt3.com^
 ||lcwodl.bleulibellule.com^
+||lcxetmwrmmp.com^
 ||ldacaen0.prosperityspeak.com^
 ||ldbwxo.cn^
 ||ldcao.juiceplus.com^
@@ -40472,6 +40482,7 @@
 ||mhgu.cn^
 ||mhieu.covermale.com^
 ||mhiiopll.net^
+||mhmciof8ef.com^
 ||mhmzhc.trysnow.com^
 ||mhnxwdmfylkc.com^
 ||mhoccoirq.com^
@@ -41048,6 +41059,7 @@
 ||momentarilyhist.com^
 ||momentfilter.com^
 ||momentsjuergen.com^
+||momentumperhapsvine.com^
 ||mommydignified.com^
 ||mommyfollower.com^
 ||momo10s.com^
@@ -41406,6 +41418,7 @@
 ||mrkttrack.armanino.com^
 ||mrlscr.com^
 ||mrlxc51byo.com^
+||mrmklcbmeqjdpj.com^
 ||mrmnd.com^
 ||mrmqk.airvots.com^
 ||mrnab.ringconcierge.com^
@@ -44487,6 +44500,7 @@
 ||oouhas.cheapcruises.com^
 ||oourmarketingefifort.com^
 ||oouth.gooddevil.com^
+||oovfishxpbvu.com^
 ||oovruczakz.com^
 ||ooxicadroltoo.net^
 ||ooygdkars.net^
@@ -45101,6 +45115,7 @@
 ||ozanalfas.com^
 ||ozbnagojbop.com^
 ||ozdoir.meundies.com^
+||ozehurtjv.com^
 ||ozelmedikal.com^
 ||ozetsaivoul.net^
 ||ozkkuy.fabianafilippi.com^
@@ -47515,6 +47530,7 @@
 ||proceedvulnerable.com^
 ||process.global360.com^
 ||processesdisplease.com^
+||processesshaken.com^
 ||processestheycod.com^
 ||processingcontinuediligence.com^
 ||processingnettleremiss.com^
@@ -71507,6 +71523,7 @@
 ||uncoveredexpert.com^
 ||uncrj.organicbasics.com^
 ||uncterilitasory.com^
+||uncurluranous.com^
 ||undalness.com^
 ||undandinterp.org^
 ||undaymidydle.com^
@@ -71802,6 +71819,7 @@
 ||upset-rent.com^
 ||upsetexpulsionfairy.com^
 ||upsight.com^
+||upskipapothgm.com^
 ||upskittyan.com^
 ||upsloperoyalet.com^
 ||upsmq.perlcosmetics.com^
