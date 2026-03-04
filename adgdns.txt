@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 01:04:12 UTC
-! Total Rules: 77934
+! Last Updated: 2026-03-04 09:30:18 UTC
+! Total Rules: 77962
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -270,6 +270,7 @@
 ||138124e964.eda4dc1ffe.com^
 ||138d93d65a.com^
 ||13afemc28.com^
+||13fbbc0ff4.com^
 ||13kub.com^
 ||1437953666.rsc.cdn77.org^
 ||14474f114f.com^
@@ -906,6 +907,7 @@
 ||4l5bbkug99.com^
 ||4mlhn1ocg4.com^
 ||4nc4qc1fo.com^
+||4nndezdx2u.com^
 ||4oney.com^
 ||4p04u96158.com^
 ||4part.kaporghor.com^
@@ -1335,6 +1337,7 @@
 ||7d77f23c90.com^
 ||7d7a497317.com^
 ||7d93f9d2f5.com^
+||7ddqvun8i1.com^
 ||7dgk5h1lk.com^
 ||7e84b34fea.com^
 ||7e8bf019d5.com^
@@ -7227,6 +7230,7 @@
 ||attentionantecedentsuperb.com^
 ||attentive-path.com^
 ||attentiverutfamous.com^
+||attexpmhnpjmn.com^
 ||atthhnv.com^
 ||atti.com^
 ||atticcourthousetechnique.com^
@@ -9857,6 +9861,7 @@
 ||bst.primebazaarbd.com^
 ||bstgms4y.com^
 ||bstyjo.reelflyrod.com^
+||bswgvwcsmfg.com^
 ||bszss.tylerchildersmusic.com^
 ||bt-fr-cl.com^
 ||bt.dns-finder.com^
@@ -10932,6 +10937,7 @@
 ||carryglanced.com^
 ||carsandcovers.cabriosupply.com^
 ||carsandcovers.shopforcovers.com^
+||carsarace.com^
 ||carteiro.altashabilidadesesuperdotacao.com^
 ||cartelsalsa.com^
 ||cartining-specute.com^
@@ -13015,6 +13021,7 @@
 ||complyjudgementessay.com^
 ||compose99.com^
 ||compositeoverdo.com^
+||composkursaal.com^
 ||composurepossess.com^
 ||comprehensionaccountsfragile.com^
 ||comprehensiveimplementationstrode.com^
@@ -14529,6 +14536,7 @@
 ||cxdcn9c.fjshxjs.cn^
 ||cxeugu.nationaltoolwarehouse.com^
 ||cxgfq.pinlue.com^
+||cxghlcoywgte.com^
 ||cxhbourj.net^
 ||cxidvoykswqjmt.net^
 ||cximeohdn.com^
@@ -21685,7 +21693,6 @@
 ||f2.voyage-prive.com^
 ||f20r1b13iw.com^
 ||f220e81bc1.02a30fd4b8.com^
-||f229857733.13fbbc0ff4.com^
 ||f29c4af968.com^
 ||f2f38069d7.e918781f38.com^
 ||f308e80f54.com^
@@ -23344,6 +23351,7 @@
 ||fp.techinasia.com^
 ||fp.thejuicelearning.com^
 ||fp2nn4zxlp.com^
+||fp9gvw5ber.com^
 ||fpa-api.adweek.com^
 ||fpa-api.arstechnica.com^
 ||fpa-cdn.adweek.com^
@@ -27485,6 +27493,7 @@
 ||haxdym.min-breeder.com^
 ||haxvgvqils.com^
 ||haychalk.com^
+||haydntaal.com^
 ||hayfetidterminal.com^
 ||hayweb.net^
 ||hazelmarks.com^
@@ -29020,6 +29029,7 @@
 ||igloohq.com^
 ||igltr.yummie.com^
 ||iglugouphoaze.net^
+||igmovffzjczow.com^
 ||igmtp.progressjj-europe.com^
 ||ignateignatepredominanteatable.com^
 ||ignateignatetame.com^
@@ -29057,6 +29067,7 @@
 ||ihfwer.aboutyou.com^
 ||ihfxao.com^
 ||ihgm.cn^
+||ihhycdxduy.com^
 ||ihi.flowplayer.com^
 ||ihighlyrecomemu.org^
 ||ihocyiswvs.com^
@@ -29807,6 +29818,7 @@
 ||inconsistentoverflowscan.com^
 ||incorenext.com^
 ||incorporatehookersenses.com^
+||incpsdodlr.com^
 ||increaserev.com^
 ||increasingbelieveabonnement.com^
 ||increasingcustomers-tag.com^
@@ -31482,6 +31494,7 @@
 ||jangonetwork.com^
 ||janitorprecisiontrio.com^
 ||jannat.hayaofmuslimah.com^
+||janteefigured.com^
 ||januaryvintagegull.com^
 ||janwryoven.com^
 ||jaolqa.anaca3.com^
@@ -32529,6 +32542,7 @@
 ||kh-vibquocte.com^
 ||khach-hang-ca-nhan-vip5.com^
 ||khachhangvib-canhan.com^
+||khavhcouc.com^
 ||khaxcgvusdd.com^
 ||khcdhu.saraschool.net^
 ||khcn-han-muc-tin-dung-ca-nhan.com^
@@ -43022,6 +43036,7 @@
 ||nmyfedath.com^
 ||nneephon.com^
 ||nnerventualkentin.org^
+||nnjujjihskkaqj.com^
 ||nnkeoi.timarco.com^
 ||nnowa.com^
 ||nnqhp.poponsmiles.com^
@@ -48196,6 +48211,7 @@
 ||pureenergyflow.com^
 ||purevideo.com^
 ||purganismprop.com^
+||purge.fb-cdn.net^
 ||purifydimeprove.com^
 ||purp.sukaporn.com^
 ||purple.fitchconnect.com^
@@ -48553,6 +48569,7 @@
 ||qijl.cn^
 ||qilwa.com^
 ||qimaf.com^
+||qimyczeqnpsnzo.com^
 ||qinagt.dietbyebye.com^
 ||qingolor.com^
 ||qinvaris.com^
@@ -55264,6 +55281,7 @@
 ||shavingwitchcraft.com^
 ||shawon.kitchenbazarbd.com^
 ||shawon1.kitchenbazarbd.com^
+||shazamcubics.com^
 ||shazzat.prinush.com^
 ||shb8-vay.com^
 ||shbcredit.net^
@@ -56306,6 +56324,7 @@
 ||sliw.cn^
 ||sllbaqteaonea8uia4ddcveggfogua1a.com^
 ||slobendorsement.com^
+||sloderst.com^
 ||sloeri.com^
 ||slopeac.com^
 ||slopeaota.com^
@@ -72593,6 +72612,7 @@
 ||vclouds.com^
 ||vcmedia.com^
 ||vcmfg.thelifestyledco.com^
+||vcnulcbadmyobhe.com^
 ||vcommission.com^
 ||vcpawsbq.net^
 ||vcpjof.celio.com^
@@ -72633,6 +72653,7 @@
 ||vebv8me7q.com^
 ||vedhalmin.com^
 ||vedreloonsi.net^
+||vedupaiqbhr.com^
 ||veduy.com^
 ||veebouglare.net^
 ||veecheesy.southlandorganics.com^
@@ -73628,6 +73649,7 @@
 ||voyagedearanatomy.com^
 ||voyageedgyglass.com^
 ||voyagessansei.com^
+||voyeurdisruly.com^
 ||voykjmggmpinak.net^
 ||vozer.voffka.com^
 ||vozkv.coastalcarolinahvac.com^
@@ -74041,6 +74063,7 @@
 ||waithetomaigrie.net^
 ||waitingnumber.com^
 ||wakealibis.com^
+||waljjperxedn.com^
 ||wall.vgr.com^
 ||wallaby.legendkeeper.com^
 ||walletblossomendanger.com^
@@ -74854,6 +74877,7 @@
 ||whosclickingwho.com^
 ||whoseabacus.com^
 ||whoseesyou.com^
+||whosfmnqwci.com^
 ||whoshovotsaim.net^
 ||whoson.com^
 ||whoucheehy.net^
@@ -75350,6 +75374,7 @@
 ||wretchonto.com^
 ||wretchoutburst.com^
 ||wretchskim.com^
+||wrghobrtgicygv.com^
 ||wrigglefinviewed.com^
 ||wringbible.com^
 ||wristample.com^
@@ -75472,6 +75497,7 @@
 ||ww2.imgwallet.com^
 ||ww8.kohls.com^
 ||ww9.kohls.com^
+||wwaaqgfxuonwz.com^
 ||wwads.cn^
 ||wwclickgo.com^
 ||wwgarbtgydwfga.com^
@@ -75689,6 +75715,7 @@
 ||wxgmca.orthofeet.com^
 ||wxikfd89f.com^
 ||wxkhhw.lens-labo.com^
+||wxpmgnvi.com^
 ||wxx776sxqk.com^
 ||wy12cewh4.com^
 ||wy213.com^
@@ -76793,6 +76820,7 @@
 ||yhskfe.klipsch.com^
 ||yhtohtbql.com^
 ||yhuamf.ktronix.com^
+||yhyibntmydo.com^
 ||yi.ximizi.com^
 ||yibivacaji.com^
 ||yickbhugbd.com^

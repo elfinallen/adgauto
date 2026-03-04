@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 01:04:12 UTC
-! Total Rules: 6393
+! Last Updated: 2026-03-04 09:30:18 UTC
+! Total Rules: 6391
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -3316,7 +3316,6 @@ yydstxt*.com/js/html
 ||func.tw/image/func2.png
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
-||furaffinity.net/themes/beta/js/compiled/videojs.ads.
 ||furaffinity.net/themes/beta/js/compiled/videojsx.vast.js
 ||futbol24.com/kscms_asyncspc.php
 ||fuxtool.netlify.app/js/adsblock.js
@@ -3618,7 +3617,6 @@ yydstxt*.com/js/html
 ||hellporno.com/_a_xb/
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
-||hentaiasmr.moe/b4b8.js
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -3960,6 +3958,7 @@ yydstxt*.com/js/html
 ||itc.cn/base/core/gg_
 ||itc.cn/mdevp/*-advert/
 ||itc.cn/w/u/0/old-insertad-
+||itchygame.com/assets/_ntk/
 ||itheat.com/?show=
 ||ithome.com.tw/media/serve?
 ||ithome.com/api/lapin/
@@ -5244,7 +5243,6 @@ yydstxt*.com/js/html
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
-||rusdosug.com/fotos/banners/
 ||ruten.com.tw/js/gads_
 ||ruten.com.tw/search/imp_ad_
 ||ruten.com.tw^*/ahd_
