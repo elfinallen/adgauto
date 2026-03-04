@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy Lite
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 09:30:18 UTC
-! Total Rules: 11465
+! Last Updated: 2026-03-04 18:32:51 UTC
+! Total Rules: 11471
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3629,6 +3629,7 @@ t.yesware.com
 ||ab-in-den-urlaub.de/usertracking
 ||ab.g.globo/event
 ||abadis.ir/ajaxcmd/setvisit/
+||abc.com.py/pf/resources/js/googletagmanager.js
 ||abc.es/pixel/
 ||abcd.mdc.akamaized.net/materials/index/?country=
 ||abcotvs.net^*/fban_
@@ -5000,6 +5001,7 @@ t.yesware.com
 ||cdn.tebilisim.com/analytics.js
 ||cdn.thenewsbox.net/m/impression
 ||cdn.theoplayer.com/t?
+||cdn.thinkindot.com/tracker/tracker-*.js
 ||cdn.thinkindot.com/tracker/tracker-*.min.js
 ||cdn.threadloom.com/ga/
 ||cdn.tickaroo.com/api/collect/
@@ -5013,6 +5015,7 @@ t.yesware.com
 ||cdn.zg-api.com^*/analytics.js
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
+||cdn1.irontive.com/apps/ironpixel.js
 ||cdn3.net/pixe/
 ||cdnen.rt.com/static/js/libs/counters.js
 ||cdnjs.work/metrics.js
@@ -5049,6 +5052,8 @@ t.yesware.com
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||cgtn.com/api/collect/
 ||ch3ngl0rd.com/hit/
+||championat.com/api/unity-id/*/init
+||championat.com/atlas/metrics/
 ||change.org/*/collector
 ||change.org/*/xhr/b/s/beacon
 ||change.org/api-proxy/*/event_tracker?
@@ -5234,6 +5239,7 @@ t.yesware.com
 ||cloudfunctions.net/trackevent|
 ||cloudfunctions.net/vanalytics
 ||cloudzilla.ai/ingest/
+||cls.rambler.ru/api/*/events
 ||clubic.com/tview
 ||clubjt.jp/js/ga_event.js
 ||cm-oss.hisavana.com/moviebox/mb_hssdk.js

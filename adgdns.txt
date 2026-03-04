@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 09:30:18 UTC
-! Total Rules: 77962
+! Last Updated: 2026-03-04 18:32:51 UTC
+! Total Rules: 78007
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -289,6 +289,7 @@
 ||1558334541.rsc.cdn77.org^
 ||1582020.com^
 ||1583030.com^
+||158e65a1db.com^
 ||15946bfe8d.com^
 ||15f3ecdff9.21c69b70bc.com^
 ||15ftgllk1.com^
@@ -3858,6 +3859,7 @@
 ||afrikad.com^
 ||afrlodurf.com^
 ||afrnc.firstimpressionironworks.com^
+||afs.googlesyndication.com^
 ||afsanalytics.com^
 ||afterdownload.com^
 ||afterdownloads.com^
@@ -7361,6 +7363,7 @@
 ||aussadroach.net^
 ||aussofoaxawhe.net^
 ||austerefriendship.com^
+||austerewhile.com^
 ||autchoog.net^
 ||auteboon.net^
 ||auth-srv.launchthatapps.com^
@@ -7442,6 +7445,7 @@
 ||aveepsaukseeta.net^
 ||avemariaas.vmrcommunications.com^
 ||avenseo.com^
+||avenuenineteenthendorsement.com^
 ||avepilrorgemtou.net^
 ||averageactivity.com^
 ||averoconnector.com^
@@ -8117,6 +8121,7 @@
 ||barbadoshello.com^
 ||barbarousbase.com^
 ||barbecueasleeprealistic.com^
+||barbershirts.com^
 ||barboscaught.com^
 ||barboycreme.com^
 ||barcellona.imprenditore-vero.com^
@@ -10968,6 +10973,7 @@
 ||cashlayer.com^
 ||cashmaneenthusiastic.com^
 ||cashmereabove.com^
+||cashooshut.com^
 ||cashthat.com^
 ||cashtrafic.com^
 ||casino-ad-mediation.me2zengame.com^
@@ -14040,6 +14046,7 @@
 ||crieycuber.com^
 ||criitpoy.com^
 ||crimeagc.com^
+||criminal-buddy.com^
 ||crimsonmeadow.com^
 ||cringezonearistocracy.com^
 ||crinukpd.com^
@@ -14529,6 +14536,7 @@
 ||cwnlia.parfumdo.com^
 ||cwolgn.hamocell.com^
 ||cwqxp.sinnersattire.com^
+||cwtswardy.com^
 ||cx.quadient.com^
 ||cx6.lastxxxmovies.com^
 ||cxafybp.com^
@@ -19211,6 +19219,7 @@
 ||durationmedia.net^
 ||duringcereal.com^
 ||durocases-ss.primeshopers.com^
+||durriebooing.com^
 ||dust.xxx-video-indian.com^
 ||dustexhibition.com^
 ||dustinga.com^
@@ -21361,6 +21370,7 @@
 ||evhpf.skinnydiplondon.com^
 ||evidencenulls.com^
 ||evidentlystraighteneddecimal.com^
+||evidvixve.com^
 ||evilexchanged.com^
 ||eviltracker.net^
 ||evisitanalyst.com^
@@ -22294,6 +22304,7 @@
 ||ff5860d583.com^
 ||ff97d1d2da.20590def33.com^
 ||ffcb0a79ec.com^
+||ffenqjpvcxyeeyb.com^
 ||fff3cd7d36.com^
 ||ffgarena-membeship.com^
 ||ffidg.leben-paris.com^
@@ -22746,6 +22757,7 @@
 ||firstscreenshot.com^
 ||firtaips.com^
 ||fisari.com^
+||fishermanwithavenge.com^
 ||fishersfinds.com^
 ||fishhoo.com^
 ||fishinghandcuff.com^
@@ -24861,6 +24873,7 @@
 ||glimpsemankind.com^
 ||glimtors.net^
 ||glingabsoufturd.net^
+||glinkhitler.com^
 ||gliptoacaft.net^
 ||gliraimsofu.net^
 ||glirgitchi.net^
@@ -27304,6 +27317,7 @@
 ||haltingdivision.com^
 ||halvemanslaughtergild.com^
 ||halvepassionglow.com^
+||hamfdyehdbub.com^
 ||hamletoutnumberrascal.com^
 ||hamletuponcontribute.com^
 ||hammamfehmic.com^
@@ -27443,6 +27457,7 @@
 ||hastediminutiondoes.com^
 ||hasteinternaladulatory.com^
 ||hastenassume.com^
+||hastenedassessmentbaking.com^
 ||hasteninto.com^
 ||hatagashira.com^
 ||hatchneat.com^
@@ -27556,6 +27571,7 @@
 ||hcklqa.ichiranstore.com^
 ||hcl6pwowqv.com^
 ||hclspy.gourmetencasa-tcm.com^
+||hcrjapaq.com^
 ||hcudl.sokolovelaw.com^
 ||hcuvb.ordolife.com^
 ||hczvwi.soldejaneiro.com^
@@ -28639,6 +28655,7 @@
 ||hvohmn.kidscasting.com^
 ||hvooyieoei.com^
 ||hvpeme.petedge.com^
+||hvpfddlx.com^
 ||hvrhgt.the-sun.com^
 ||hvrunsqqy.com^
 ||hvteqk.snowleader.com^
@@ -29651,6 +29668,7 @@
 ||imminentcawplod.com^
 ||imminentshake.com^
 ||immoderatebreathtaking.com^
+||immoderatescarsheer.com^
 ||immoralhands.com^
 ||immoralmisspell.com^
 ||immortalheliumoverturn.com^
@@ -29785,6 +29803,7 @@
 ||inc.gianteagle.com^
 ||inc.patbo.com^
 ||incarnatepicturesque.com^
+||incentivemountdisprove.com^
 ||incentivesnetwork.net^
 ||inception27.com^
 ||inchesray.com^
@@ -29799,6 +29818,7 @@
 ||includeceaslesshannah.com^
 ||includedmotley.com^
 ||includemodal.com^
+||inclusapilaued.com^
 ||income.lplnow.com^
 ||incomehippo.com^
 ||incoming.telemetry.mozilla.org^
@@ -31543,6 +31563,7 @@
 ||jbddm.broadwayintucson.com^
 ||jbejv.katieloxton.com^
 ||jbezdi.ilsole24ore.com^
+||jbfsdisic.com^
 ||jbiwvt6x1e.com^
 ||jbtlg.nectarsleep.com^
 ||jbttdl.beautycarechoices.com^
@@ -32985,6 +33006,7 @@
 ||krisydark.com^
 ||kriwqvqscbvum.com^
 ||krjxhvyyzp.com^
+||krkfpiiwtbn.com^
 ||krkstrk.com^
 ||krlia.diodedynamics.com^
 ||krmnk.com^
@@ -33775,6 +33797,7 @@
 ||lfemz.campsaver.com^
 ||lfercl.tcb-beauty.net^
 ||lfew.cn^
+||lffmauigoa.com^
 ||lfhpe.planttherapy.com^
 ||lfhthokieryf.com^
 ||lfjikymmt.net^
@@ -34009,6 +34032,7 @@
 ||linkhaitao.com^
 ||linkkrutgon.com^
 ||linklab.blinklab.com^
+||linkmansclate.com^
 ||linkoffers.net^
 ||linkonclick.com^
 ||linkpulse.com^
@@ -35856,6 +35880,7 @@
 ||lockerdomecdn.com^
 ||locketsauce.com^
 ||lockoophoossy.net^
+||locksadvancedrelease.com^
 ||lockupaccede.com^
 ||lockuplookup.com^
 ||lockview.cn^
@@ -35981,6 +36006,7 @@
 ||log.particlenews.com^
 ||log.pdfreaders.net^
 ||log.perfecttitspics.com^
+||log.photorecoverypicturerecovery.com^
 ||log.pinterest.com^
 ||log.pngindir.com^
 ||log.polarisoffice.com^
@@ -35997,6 +36023,7 @@
 ||log.snssdk.com^
 ||log.strawpoll.com^
 ||log.suddenclean.com^
+||log.sweepycleanplus.com^
 ||log.tagtic.cn^
 ||log.talkie-ai.com^
 ||log.tbs.qq.com^
@@ -37173,6 +37200,7 @@
 ||manualdiverge.com^
 ||manualpayback.com^
 ||manualpeasantconnoisseur.com^
+||manufacturemoustache.com^
 ||manufacturing.autodeskcommunications.com^
 ||manureads.com^
 ||manurepatronageitalian.com^
@@ -40625,6 +40653,7 @@
 ||minigamemomo.net^
 ||minimetrika.xsolla.com^
 ||minimumomnipotentintern.com^
+||minimumshortest.com^
 ||miningdeveloping.com^
 ||minireklam.com^
 ||minishop.linkprice.com^
@@ -40857,6 +40886,7 @@
 ||mmhfukqmmzrx.com^
 ||mmimb.itzyritzy.com^
 ||mmismm.com^
+||mmjydstlmgeme.com^
 ||mmkkkkk.com^
 ||mmle.cn^
 ||mmlodein.net^
@@ -41070,6 +41100,7 @@
 ||moleconcern.com^
 ||molecularrather.com^
 ||moleculebeams.com^
+||mollyflow.com^
 ||momentarilyhist.com^
 ||momentfilter.com^
 ||momentsjuergen.com^
@@ -45361,6 +45392,7 @@
 ||pagesocket.glam.com^
 ||pageviews.unbegames.com^
 ||pagfl.karismahotels.com^
+||paginacube.com^
 ||pagkitahn.com^
 ||pagoda56.com^
 ||paidcomparatively.com^
@@ -45796,6 +45828,7 @@
 ||pdvacde.com^
 ||pdwlus.mlahart.com^
 ||peacebanana.com^
+||peacefulhillwalk.com^
 ||peacefullimit.com^
 ||peacefullywalterdues.com^
 ||peacefulshadowway.com^
@@ -46873,6 +46906,7 @@
 ||poawhecoothoan.net^
 ||poawoacaujaug.net^
 ||poawooptugroo.com^
+||pob-mob2.websearchbrowser.com^
 ||pobawe.typology.com^
 ||pobedyimpone.com^
 ||pocbpegghrf.net^
@@ -48651,6 +48685,7 @@
 ||qnp16tstw.com^
 ||qnqdpy.edreams.net^
 ||qnqvm.nohohomehawaii.com^
+||qnrgspmds.com^
 ||qnsr.com^
 ||qnuyqu.ubierzsie.com^
 ||qnuzwe.nomanwalksalone.com^
@@ -48774,6 +48809,7 @@
 ||quail.trueglowbylaura.com^
 ||quaintbitter.com^
 ||quakedevastatedprinter.com^
+||quakingapathetic.com^
 ||quakingthereafter.com^
 ||qualaroo.com^
 ||qualiclicks.com^
@@ -48910,6 +48946,7 @@
 ||quiddity.goguardian.com^
 ||quietknowledge.com^
 ||quietleaffield.com^
+||quietleafgarden.com^
 ||quietstonewalk.com^
 ||quietyellowday.com^
 ||quillion.com^
@@ -49750,6 +49787,7 @@
 ||relearnopahs.com^
 ||releasedfinish.com^
 ||releasepath.com^
+||releasewriggle.com^
 ||relestar.com^
 ||relevanceads.com^
 ||relevant-digital.com^
@@ -50722,6 +50760,7 @@
 ||rrddo.onesol.com^
 ||rrebl.grip6.com^
 ||rrentlysearchi.org^
+||rrfiainopv.com^
 ||rrjfa.pfaslawfirms.com^
 ||rrjmps.viatorinc.com^
 ||rrpcc.sokolovelaw.com^
@@ -52912,6 +52951,7 @@
 ||seekmyshop.com^
 ||seekoflol.com^
 ||seekremote.com^
+||seeksgironny.com^
 ||seekticketunfit.com^
 ||seemethepointa.org^
 ||seemingliveliness.com^
@@ -55895,6 +55935,7 @@
 ||sickbedjibboom.com^
 ||sicklytrey.com^
 ||sicknessbingo.com^
+||sickshareping.com^
 ||sicksmash.com^
 ||sicptmaosfykg.net^
 ||sid.nordstrom.com^
@@ -71510,6 +71551,7 @@
 ||unavoidablestates.com^
 ||unawaredasheen.com^
 ||unawareirreparable.com^
+||unawarelimited.com^
 ||unbecominghall.com^
 ||unbecominglamp.com^
 ||unbelievableplayed.com^
@@ -76407,6 +76449,7 @@
 ||xntcbt.manfield.com^
 ||xnukcp.cpcompany.com^
 ||xnvvt.batteryjunction.com^
+||xnwyqmaqwladi.com^
 ||xo60kab7yv.com^
 ||xoalt.com^
 ||xogogowebcams.com^
@@ -76466,6 +76509,7 @@
 ||xs.houyi.baofeng.net^
 ||xsapykbbsdm.net^
 ||xsell.6waves.com^
+||xsgoiqpecrrwiy.com^
 ||xsimui.humanic.net^
 ||xskttd5d.com^
 ||xsrs.com^
@@ -77963,6 +78007,7 @@
 ||zzmah.ranchjacksonhole.com^
 ||zzpmu.writualplanner.com^
 ||zzrfh.expressionscatalog.com^
+||zzsrygkxasjn.com^
 ||zzuccikqt.com^
 ||zzuml.nordicware.com^
 ||zzzfba.thecolvinco.com^

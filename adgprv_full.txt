@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 09:30:18 UTC
-! Total Rules: 83913
+! Last Updated: 2026-03-04 18:32:51 UTC
+! Total Rules: 83919
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -69926,6 +69926,7 @@ zmail.mtrl.me$image
 ||ab.blogs.es/abtest.png?editorialrecommendations$image,redirect=2x2-transparent.png,domain=applesfera.com
 ||ab.g.globo/event
 ||abadis.ir/ajaxcmd/setvisit/
+||abc.com.py/pf/resources/js/googletagmanager.js
 ||abc.es/pixel/
 ||abcd.mdc.akamaized.net/materials/index/?country=
 ||abcompteur.com^$third-party
@@ -72219,6 +72220,7 @@ zmail.mtrl.me$image
 ||cdn.tercept.com^$third-party
 ||cdn.thenewsbox.net/m/impression
 ||cdn.theoplayer.com/t?
+||cdn.thinkindot.com/tracker/tracker-*.js
 ||cdn.thinkindot.com/tracker/tracker-*.min.js
 ||cdn.threadloom.com/ga/
 ||cdn.tickaroo.com/api/collect/
@@ -72237,6 +72239,7 @@ zmail.mtrl.me$image
 ||cdn1.adoberesources.net/alloy/$domain=pluto.tv
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
+||cdn1.irontive.com/apps/ironpixel.js
 ||cdn3.net/pixe/
 ||cdnen.rt.com/static/js/libs/counters.js
 ||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.1.0/fingerprint2.js$script,redirect=fingerprintjs2,domain=picoworkers.com,important
@@ -72290,6 +72293,8 @@ zmail.mtrl.me$image
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||cgtn.com/api/collect/
 ||ch3ngl0rd.com/hit/
+||championat.com/api/unity-id/*/init
+||championat.com/atlas/metrics/
 ||championat.com^$cookie=adtech_uid
 ||championat.com^$cookie=rchainid
 ||championat.com^$cookie=top100_id
@@ -72592,6 +72597,7 @@ zmail.mtrl.me$image
 ||cloudiq.com^$third-party
 ||cloudtracer101.com^$third-party
 ||cloudzilla.ai/ingest/
+||cls.rambler.ru/api/*/events
 ||clubcollector.com^$third-party
 ||clubic.com/tview
 ||clubjt.jp/js/ga_event.js
