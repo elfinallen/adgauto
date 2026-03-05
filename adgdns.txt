@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-05 01:06:54 UTC
-! Total Rules: 78020
+! Last Updated: 2026-03-05 09:32:16 UTC
+! Total Rules: 78051
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -1581,6 +1581,7 @@
 ||96e7bee058.com^
 ||96f31a396f.d29776df3a.com^
 ||96zddjwn2.com^
+||973e5a5a22.com^
 ||976caebe7b.com^
 ||97ce98c219.com^
 ||98158.com^
@@ -4159,6 +4160,7 @@
 ||airgeecigee.net^
 ||airingsjerky.com^
 ||airlessquotationtroubled.com^
+||airlessstereoadvised.com^
 ||airlinerholesacquaintance.com^
 ||airlytics.airlock.twcmobile.weather.com^
 ||airplanecoffee.com^
@@ -4639,6 +4641,7 @@
 ||amiabledelinquent.com^
 ||amidoxypochard.com^
 ||amige.seasidefuneral.com^
+||amigorhea.com^
 ||amikay.com^
 ||amillionads.com^
 ||aminopay.net^
@@ -7903,6 +7906,7 @@
 ||b90ff16eb6.com^
 ||b932.wesh.com^
 ||b9e2865ec3.com^
+||b9jda4zig.com^
 ||ba.babuvaly.com^
 ||ba61261c39.com^
 ||ba6174e1cd.com^
@@ -8605,6 +8609,7 @@
 ||bennetguarantee.com^
 ||benrif-solutions.com^
 ||bensonshowd.com^
+||bentengine.com^
 ||bento.agoda.com^
 ||bentpersuasive.com^
 ||bentsdiorism.com^
@@ -8823,6 +8828,7 @@
 ||bia.brightinfo.com^
 ||biancasunlit.com^
 ||bibincom.com^
+||bibnnqovwuqma.com^
 ||biconcave43.com^
 ||bid-algorix.com^
 ||bidarblam.com^
@@ -9053,6 +9059,7 @@
 ||bkad13gfu.com^
 ||bkam33lsr.com^
 ||bkbck.frugalkitchens.com^
+||bkhpdrblv.com^
 ||bkhxut1rz.com^
 ||bkjhqkohal.com^
 ||bkjjxbvwcthqjny.com^
@@ -17261,6 +17268,7 @@
 ||dblowthrou.com^
 ||dbmgc.marleylilly.com^
 ||dbmyvl.apartmentfinder.com^
+||dbqhingien.com^
 ||dbqst.hercasematters.com^
 ||dbr9gtaf8.com^
 ||dbraulmat.com^
@@ -19482,6 +19490,7 @@
 ||e2icbtrs1g.com^
 ||e2jda3h01.com^
 ||e2server.tinybot.com^
+||e2us4880k.com^
 ||e336cd5f3c.com^
 ||e3a9997095.com^
 ||e3ba2130e2.com^
@@ -22114,7 +22123,6 @@
 ||fd01ce9a02.0012e30263.com^
 ||fd2.hmexchangecentre.com^
 ||fd2722b11f.com^
-||fd2bc44936.973e5a5a22.com^
 ||fd2k1fa6oe.com^
 ||fdbhv.knix.com^
 ||fdbv.cn^
@@ -28629,6 +28637,7 @@
 ||hurriedlyslumremiss.com^
 ||hurtful-job.com^
 ||hurtful-message.com^
+||hurtfulonly.com^
 ||hurtgrape.com^
 ||hurtsbehalf.com^
 ||husbandnights.com^
@@ -31033,6 +31042,7 @@
 ||ioadserve.com^
 ||iocnt.net^
 ||iodia.avironactive.com^
+||ioeorltwevba.com^
 ||iofferphoto.com^
 ||iogjhbnoypg.com^
 ||iogous.com^
@@ -31485,6 +31495,7 @@
 ||jackao.net^
 ||jacketzerobelieved.com^
 ||jackpotave.com^
+||jacksonbateaux.com^
 ||jadaichuwhegral.net^
 ||jadcenter.com^
 ||jadeinvitelawsuit.com^
@@ -34231,6 +34242,7 @@
 ||llkdiu.chacos.com^
 ||llkfq.yellowleafhammocks.com^
 ||lllsg.whateverworks.com^
+||llmb.cn^
 ||lloogg.com^
 ||llpdp.coach.com^
 ||llqjd.cliniquereseauforcesante.com^
@@ -36835,6 +36847,7 @@
 ||lyricslocusvaried.com^
 ||lyssapebble.com^
 ||lyticaframeofm.com^
+||lytics.fileditch.com^
 ||lytics.findairpods.com^
 ||lytiks.com^
 ||lyuswpdanr.com^
@@ -38809,6 +38822,7 @@
 ||mdt.noticias-nobrasil.com^
 ||mdt.safirion.com^
 ||mdt.slimsyoficial.com^
+||mdumaldf.com^
 ||mdves.findyourhealthyplace.com^
 ||mdws.bergengrencu.com^
 ||mdws.biggarcu.com^
@@ -40538,6 +40552,7 @@
 ||mhsjk.bartonwatchbands.com^
 ||mhssu.womanwithin.com^
 ||mhtbj.aroma360.com^
+||mhvjfdcvakx.com^
 ||mhvti.festive-lights.com^
 ||mhwmplcx.net^
 ||mhzscs.inthecompanyofdogs.com^
@@ -41438,6 +41453,7 @@
 ||mqondrun.com^
 ||mqqad.html5.qq.com^
 ||mqqemxnlu.com^
+||mqyinawyucd.com^
 ||mqzoid.vintorte.com^
 ||mr-in-staging.beginlearning.com^
 ||mr-in.beginlearning.com^
@@ -41794,6 +41810,7 @@
 ||mxcdn.net^
 ||mxcount.com^
 ||mxdzxd.mister-auto.com^
+||mxfremluv.com^
 ||mxhtd.justbats.com^
 ||mxlun.com^
 ||mxoqqu.uniwigs.com^
@@ -44137,6 +44154,7 @@
 ||olderdisciplinary.com^
 ||olderidentify.com^
 ||olderouncedownstairs.com^
+||oldersinner.com^
 ||oldfashionedoffer.com^
 ||oldgladly.com^
 ||oldh.cn^
@@ -44805,6 +44823,7 @@
 ||orqlzuoqgad.com^
 ||orqrdm.com^
 ||orquideassp.com^
+||orrnaqnsjwkji.com^
 ||orsds.ziavia.com^
 ||orts.wixawin.com^
 ||ortunitytostara.org^
@@ -48566,6 +48585,7 @@
 ||qgbnjd.coches.net^
 ||qgdgj.bugmd.com^
 ||qgerr.com^
+||qggyxwhcxnaah.com^
 ||qghhm.allthingsgofestival.com^
 ||qgmikp.fleurdumal.com^
 ||qgmwby.com^
@@ -48632,6 +48652,7 @@
 ||qizut.furniturefair.net^
 ||qj9m4nou8t.com^
 ||qjbdm.apotheken-gesundheitstipps.com^
+||qjejupsvebgir.com^
 ||qjith.nativepet.com^
 ||qjiz.cn^
 ||qjjfc.eloquii.com^
@@ -49480,6 +49501,7 @@
 ||rearrangesubsequentlyloosen.com^
 ||reasonable-source.com^
 ||reasoningcarry.com^
+||reasoningcoefficient.com^
 ||reasoningdreary.com^
 ||reasoningfashionbrood.com^
 ||reasoningiconcealment.com^
@@ -50324,6 +50346,7 @@
 ||rhsmp.allgooddaze.com^
 ||rhtnu.honeybirdette.com^
 ||rhudsplm.com^
+||rhumbasnant.com^
 ||rhunj.magellans.com^
 ||rhvdsplm.com^
 ||rhvlk.trinaturk.com^
@@ -50466,6 +50489,7 @@
 ||rkhsl.loganix.com^
 ||rkioyw.bedstu.com^
 ||rkjmhv2lvh.com^
+||rklghovcdg.com^
 ||rkoi.cn^
 ||rkomf.com^
 ||rkozoima.com^
@@ -52254,6 +52278,7 @@
 ||sanestruggle.com^
 ||sanghissed.com^
 ||sanglah.com^
+||sangopportunity.com^
 ||sanguinecocky.com^
 ||sanguineslang.com^
 ||sanity-dataplane.rudderstack.com^
@@ -56238,6 +56263,7 @@
 ||sketerterus.com^
 ||skfgnsvkjfgvv.com^
 ||skfgxk.decorativeceilingtiles.net^
+||skgjnitfsnknnl.com^
 ||skhf11.com^
 ||skhf66.com^
 ||ski1.skiset.com^
@@ -66869,6 +66895,7 @@
 ||teethunite.com^
 ||tefinauknceiwoul.org^
 ||teicdn.com^
+||teicosrwgizx.com^
 ||teindsfritt.com^
 ||teipd.onlinecyclinggear.com^
 ||tejr.cn^
@@ -66965,6 +66992,7 @@
 ||temporarilycomprehensivehedwig.com^
 ||temporaryallusion.com^
 ||temptteam.com^
+||tenammith.com^
 ||tenant-content.apm.appfolio-analytics.com^
 ||tenantrip.com^
 ||tend-new.com^
@@ -71591,6 +71619,7 @@
 ||unconscious-long.com^
 ||unconsciousfluent.com^
 ||unconsciousliteracynameless.com^
+||uncotorture.com^
 ||uncoveredexpert.com^
 ||uncrj.organicbasics.com^
 ||uncterilitasory.com^
@@ -74770,6 +74799,7 @@
 ||wgpnkfvdbiq.com^
 ||wgs.wgs-static.com^
 ||wgscgs.worldsgreatestshave.com^
+||wgtyvqbfkxg.com^
 ||wgyapq.stormberg.com^
 ||wgztae.audials.com^
 ||wh2mu9uj5f.com^
@@ -77073,6 +77103,7 @@
 ||youtubesave.org^
 ||yovcb.com^
 ||yovoads.com^
+||yovrvujvmtgvv.com^
 ||yowiespopian.com^
 ||yowzabrr.com^
 ||yoxeha.afloral.com^

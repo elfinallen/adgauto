@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-05 01:06:54 UTC
-! Total Rules: 6391
+! Last Updated: 2026-03-05 09:32:16 UTC
+! Total Rules: 6385
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -85,7 +85,6 @@
 .ashx?adid=
 .aspx?adid=
 .az/banner/
-.az/reklamexport_
 .baidu.com/h.
 .bid/ads/
 .blog/ads/
@@ -1860,6 +1859,7 @@ yydstxt*.com/js/html
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
 ||abstream.to/fidel.js^
+||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acapellas.eu/ublock-only.js
 ||acfun.cn/appspreadcontents/danmuad/
@@ -1902,6 +1902,7 @@ yydstxt*.com/js/html
 ||affyun.com/wp-content/uploads/*/affffff.png
 ||affyun.com/wp-content/uploads/2018/10/file.gif
 ||afocus.com.cn/s?
+||afternic.com/v1/aftermarket/landers/
 ||afzhan.com/javascript/ad_couplet.js
 ||agefans.top/js/wap2-jm-ms.js
 ||agogo.tv/images//uploads/ad/
@@ -2114,6 +2115,7 @@ yydstxt*.com/js/html
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
+||assets-prod.bitcointreasuries.net/partner-images/
 ||assets.dimitriu.xyz/prebid-hotnews.js
 ||assets.everlit.audio/assets/lib/ad_manager-
 ||assets.genius.com/javascripts/compiled/ads-*.js
@@ -2569,7 +2571,6 @@ yydstxt*.com/js/html
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
-||cdn.imgz.me/player/ifr/vod/jw-*/vast.js
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -2798,7 +2799,6 @@ yydstxt*.com/js/html
 ||comefromchina.com/images/128bestbuy
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||components2.*.it/rcs_tealium/
-||components2.gazzettaobjects.it/rcs_anti-adblocker/
 ||components2.rcsobjects.it/rcs_anti-adblocker-verticali/
 ||configs.forgecdn.net/adfallback.js
 ||connatix.com/rtb/
@@ -3132,7 +3132,6 @@ yydstxt*.com/js/html
 ||eclassified.my/cp_featured
 ||ecpoc.com/style/ad
 ||ed2000k.com/ad/
-||edilportale.com/adv/
 ||edmontonchina.*/pic/
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||educity.cn/self_text/text_disp.aspx?id=
@@ -3221,7 +3220,6 @@ yydstxt*.com/js/html
 ||fans.*.space/fans/*.php
 ||fanyi.baidu.com/wise/afd
 ||fapality.com/js/initsite.js
-||fappeningbook.com/assets/thefappening.png
 ||faquanya.com/weixin/
 ||faselhd.center/v.mp4
 ||fast8.cc/skin/default/images/630652.png
@@ -3316,7 +3314,6 @@ yydstxt*.com/js/html
 ||func.tw/image/func2.png
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
-||furaffinity.net/themes/beta/js/compiled/videojsx.vast.js
 ||futbol24.com/kscms_asyncspc.php
 ||fuxtool.netlify.app/js/adsblock.js
 ||fwsir.com/static/cpt/
@@ -3361,7 +3358,6 @@ yydstxt*.com/js/html
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||games.ifeng.com^*.shtml?v=
-||gameustalks.com/js/common_ad.js
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/*?2
 ||gangjuw.com/style/lmjs/
@@ -3453,6 +3449,7 @@ yydstxt*.com/js/html
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
+||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
@@ -3656,6 +3653,7 @@ yydstxt*.com/js/html
 ||hmghmg.com/tb
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmwang.icu/skin/images/*.gif
+||hoerenjs.b-cdn.net/hoer.js
 ||hoes.tube/ai/
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
@@ -4723,7 +4721,6 @@ yydstxt*.com/js/html
 ||natgeomedia.com/js/ads-parallax.
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
-||naughtymachinima.com/images/banners/
 ||nb.zol.com.cn/detail_*.html
 ||nbastreamswatch.com/z-6229510.js
 ||nbegame.com/nbeos/*.jpg
@@ -5276,7 +5273,6 @@ yydstxt*.com/js/html
 ||sass.hk/plus/mytag_js.php?aid=
 ||satroki.tech/api/jdunion
 ||save-editor.com/b/in/ad/
-||savefiles.com/js/noadblocker.js
 ||savefrom.net/build/js/chunk~popup
 ||sax*.sina.
 ||sbo8.com/static/theme/js/bottom.
@@ -5547,7 +5543,6 @@ yydstxt*.com/js/html
 ||storm.mg/ad?
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
-||stream.cz/*/v*/vast
 ||stream.cz/*/vast?
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
@@ -6375,7 +6370,6 @@ yydstxt*.com/js/html
 ||zol.com.cn/js/ask/ask.js
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
-||zoomit.ir/ads/
 ||zpiyi.com/public/js/global.js
 ||zrblog.net*/gg/
 ||zrblog.net/zanzhu/virpus.gif

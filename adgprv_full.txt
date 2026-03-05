@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-05 01:06:54 UTC
-! Total Rules: 83919
+! Last Updated: 2026-03-05 09:32:16 UTC
+! Total Rules: 83920
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -79048,6 +79048,7 @@ zmail.mtrl.me$image
 ||postageapp.com/receipt/$third-party
 ||postback.affiliateport.eu/track.js
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
+||posthog.com/*/?retry_count
 ||postmates.com/_events$redirect=nooptext
 ||postmates.com/_p/api/setrobotevents
 ||posty.kr/api/tr|
@@ -81896,7 +81897,6 @@ zmail.mtrl.me$image
 ||tiktokw.eu/*/list
 ||tildacdn.com/pixel.png
 ||time.is/img/nod.png
-||time.is^$cookie=c
 ||time4shopping.com.ua/api/api.php/stat
 ||timejs.game.easebar.com/bad_report?
 ||timejs.game.easebar.com/report?
@@ -81982,6 +81982,7 @@ zmail.mtrl.me$image
 ||toms.com/*/facebookcapi-event
 ||toms.com/*/pinterestcapi-event
 ||toneden.io/*/analytics/
+||tongji.90dao.com^$ping
 ||tongji2.vip.duba.net/__infoc.gif?
 ||tongjiniao.com^$third-party
 ||tonkosti.ru/go.php?
