@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 18:32:51 UTC
-! Total Rules: 10084
+! Last Updated: 2026-03-05 01:06:54 UTC
+! Total Rules: 10085
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -6001,6 +6001,7 @@ yydstxt*.com/js/html
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
 ||horoskopy.cz/*/html/adform_sync.html
+||host69k.cfd^$all
 ||hostmonster.com/src/js/$third-party
 ||hot-mob.com^$third-party
 ||hotadultvids.com^$third-party

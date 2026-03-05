@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-04 18:32:51 UTC
-! Total Rules: 78007
+! Last Updated: 2026-03-05 01:06:54 UTC
+! Total Rules: 78020
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -8799,6 +8799,7 @@
 ||bhhsg.superstarcarwashaz.com^
 ||bhidhaerb.com^
 ||bhl401f8g.com^
+||bhlhmdapmpi.com^
 ||bhlph.com^
 ||bhnbqz.virginaustralia.com^
 ||bhnnop.com^
@@ -28439,6 +28440,7 @@
 ||hrclrqxx.trehouse.com^
 ||hrdcusbgevebxju.com^
 ||hrdrn.sunnywithin.com^
+||hrduwmlme.com^
 ||hredr.explainify.com^
 ||hrefsst.floodcontrolinternational.com^
 ||hrfbh.beckettsimonon.com^
@@ -29572,6 +29574,7 @@
 ||imagingprelawpuzzle.com^
 ||imapi-sg.isnssdk.com^
 ||imata.signetlondon.com^
+||imavqwrjaqu.com^
 ||imbueprescriptionhumiliation.com^
 ||imbzs.drinkloverboy.com^
 ||imcht.net^
@@ -31194,6 +31197,7 @@
 ||iruqe.haverhill.com^
 ||irvzya.weekly-monthly.net^
 ||irxcm.com^
+||irxlohfwxlkp.com^
 ||irxoiu.iglucruise.com^
 ||irxybq.com^
 ||iry7addri8.com^
@@ -31711,6 +31715,7 @@
 ||jhqi.cn^
 ||jhr.jacksonhealthcare.com^
 ||jhrzld.messegue.com^
+||jhujorbnpjsr.com^
 ||jhvhh.marinadelreyhotel.com^
 ||jhvut.jamesallen.com^
 ||jhwdpdnwej.net^
@@ -42212,6 +42217,7 @@
 ||naruk.saintluciferspice.com^
 ||nasalfeudalanxious.com^
 ||nascar.djyeejay.com^
+||nashiraguddler.com^
 ||nasimobi.com^
 ||nasrispit.com^
 ||nasrul.bunonfabrics.com^
@@ -44603,6 +44609,7 @@
 ||operativebreeder.com^
 ||operatorhighsnake.com^
 ||operetta17.com^
+||opfgspuuq.com^
 ||opfjj.vivobarefoot.com^
 ||opfourpro.org^
 ||opgolan.com^
@@ -47188,6 +47195,7 @@
 ||pouthithoostaky.net^
 ||poutstow.com^
 ||pouy99uo.com^
+||pow46ru6c.com^
 ||powdryround.com^
 ||powe.asian-xxx-videos.com^
 ||poweradblocker.com^
@@ -50363,6 +50371,7 @@
 ||rifflingo.com^
 ||rifma.circusny.com^
 ||riftharp.com^
+||rigelcabda.com^
 ||rigelink.com^
 ||riggurgle.com^
 ||righteouscrayon.com^
@@ -67133,6 +67142,7 @@
 ||thang365g.com^
 ||thanhphomomo.com^
 ||thanhtoanlienquan.com^
+||thankdilapidation.com^
 ||thankfuldirection.com^
 ||thanks.heinemann.com^
 ||thanks.olivesitter.com^
@@ -74076,6 +74086,7 @@
 ||wagerjoint.com^
 ||wagershare.com^
 ||waggonerchildrensurly.com^
+||waggonerprepay.com^
 ||waggonertributeshaky.com^
 ||wagrifoazoa.net^
 ||wagsad.com^
@@ -76750,8 +76761,10 @@
 ||ychahlollfb.com^
 ||ychildrenasthey.com^
 ||ycikokryl.com^
+||ycjeeokkadizr.com^
 ||ycjhuh.stripe-club.com^
 ||ycwiqqswtfhdv.com^
+||ycwsjsfadkt.com^
 ||ycwzd.lacoste.com^
 ||yczl5qg8jr.com^
 ||ydccky.direnc.net^
