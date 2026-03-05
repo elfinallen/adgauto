@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-05 09:32:16 UTC
-! Total Rules: 78051
+! Last Updated: 2026-03-05 19:06:38 UTC
+! Total Rules: 78092
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -1073,6 +1073,7 @@
 ||600977f9ec.com^
 ||600g3yf2p.com^
 ||600z.com^
+||603b61d91d.com^
 ||606f307b0e.com^
 ||6093ac4972.82067251a6.com^
 ||60ah.com^
@@ -1378,6 +1379,7 @@
 ||7rtv.com^
 ||7ryx7ph5y.com^
 ||7strqfn56s.com^
+||7tshsz6k1.com^
 ||7u4b8l1zt.com^
 ||7usgqu07mk.com^
 ||7x9i88rvn.com^
@@ -3860,6 +3862,7 @@
 ||afrikad.com^
 ||afrlodurf.com^
 ||afrnc.firstimpressionironworks.com^
+||afrxixlnj.com^
 ||afs.googlesyndication.com^
 ||afsanalytics.com^
 ||afterdownload.com^
@@ -4607,6 +4610,7 @@
 ||ambiguousanger.com^
 ||ambiguousdinosaurs.com^
 ||ambiguousincome.com^
+||ambitious-chemical.com^
 ||ambitious-quote.com^
 ||ambitiousdemand.com^
 ||ambrosialsummit.com^
@@ -8001,6 +8005,7 @@
 ||bakersequaled.com^
 ||bakingbeheld.com^
 ||bakingsensitivenesswise.com^
+||bakrathtfa.com^
 ||balasesersatz.com^
 ||balerdoits.com^
 ||baletingo.com^
@@ -10915,6 +10920,7 @@
 ||carefulbleatdish.com^
 ||carefuldolls.com^
 ||careless05.com^
+||carelessnurse.com^
 ||carepay.gaf.com^
 ||caresseashoreunrest.com^
 ||caressfinancialdodge.com^
@@ -12057,6 +12063,7 @@
 ||claimsthemselves.com^
 ||clairpixum.com^
 ||clambakefreenessunclasp.com^
+||clameboyards.com^
 ||clammy88.com^
 ||clammychicken.com^
 ||clammyendearedkeg.com^
@@ -13765,6 +13772,7 @@
 ||covettunica.com^
 ||covpt.theprobar.com^
 ||covtk.medtronic.com^
+||cowardlyapex.com^
 ||cowardlydefinite.com^
 ||cowardlyvitaljoggle.com^
 ||cowbelltime.com^
@@ -17662,6 +17670,7 @@
 ||demolishlagoonopt.com^
 ||demolishwaffleslegend.com^
 ||demolitionculpritrape.com^
+||demolitionnutsgrease.com^
 ||demolitionzerostomach.com^
 ||demonicclanstarch.com^
 ||demonincreasevacancy.com^
@@ -19681,6 +19690,7 @@
 ||eautifulasaweathercoc.org^
 ||eavailandpro.com^
 ||eavefrom.net^
+||eavesdropbogusye.com^
 ||eavesdroppingfurniture.com^
 ||eazyleads.com^
 ||eb.anastasiadate.com^
@@ -22285,6 +22295,7 @@
 ||fexyop.com^
 ||fexzuf.com^
 ||fezod.cheryls.com^
+||fezzysugg.com^
 ||ff-garena-membership-2021.com^
 ||ff-garena-membershipff.com^
 ||ff-garena-sukien.com^
@@ -23938,6 +23949,7 @@
 ||g4nd.com^
 ||g4yk4cyyw.com^
 ||g52bxi1v1w.com^
+||g64njjhyh.com^
 ||g650.delcotimes.com^
 ||g66ryy88z.com^
 ||g8hi6r3odr.com^
@@ -27831,6 +27843,7 @@
 ||hfqarnolmm.com^
 ||hfr67jhqrw8.com^
 ||hfrjo.blacklabbrands.com^
+||hfrkamhoz.com^
 ||hfvkn.dalstrong.com^
 ||hg-bn.com^
 ||hgads.com^
@@ -28193,6 +28206,7 @@
 ||holdingwager.com^
 ||holdsteerpilgrim.com^
 ||holenhw.com^
+||holidayslettucecircumvent.com^
 ||holidaysverbcloseness.com^
 ||holikedtocometot.com^
 ||hollow-mess.com^
@@ -28389,6 +28403,7 @@
 ||houseads-prod.elasticbeanstalk.com^
 ||housebutsoon.com^
 ||housecarefullyidiotic.com^
+||householdjeopardy.com^
 ||housemaiddevolution.com^
 ||housing.francemediainc.com^
 ||housingjournalisminformal.com^
@@ -29586,6 +29601,7 @@
 ||imavqwrjaqu.com^
 ||imbueprescriptionhumiliation.com^
 ||imbzs.drinkloverboy.com^
+||imchejtcoprled.com^
 ||imcht.net^
 ||imcounter.com^
 ||imdej.drinkrenude.com^
@@ -31168,6 +31184,7 @@
 ||irgtd.fahertybrand.com^
 ||iridescentdusk.com^
 ||irinkmepeqcem.net^
+||irkafuoaw.com^
 ||irkp.cn^
 ||irksomegrateindustrious.com^
 ||irksomereplica.com^
@@ -32459,6 +32476,7 @@
 ||kdfjglkdflg.com^
 ||kdhod.rotita.com^
 ||kdiaa.bestpricenutrition.com^
+||kdiwpsdrk.com^
 ||kdkgorjbvlxjrnv.com^
 ||kdmyatytentionia.com^
 ||kdnnhkwwbjr.net^
@@ -33109,6 +33127,7 @@
 ||kvfvd.alicelanehome.com^
 ||kvhee.com^
 ||kvkik.pelacase.com^
+||kvpxfclavw.com^
 ||kvqej.beachriot.com^
 ||kvqhi.originalmuddymat.com^
 ||kvqp.cn^
@@ -34181,6 +34200,7 @@
 ||livingsleet.com^
 ||livv.vieuxportsteakhouse.com^
 ||liwelsosoocaich.net^
+||liwfpfbd.com^
 ||liwmwijpufa.com^
 ||lixiangmo.com^
 ||liximomo.net^
@@ -37209,6 +37229,7 @@
 ||manifest97.com^
 ||manifestoctavianapostrophe.com^
 ||manipulativeslaves.com^
+||mannersportalchart.com^
 ||manorowlapprehension.com^
 ||mansionappointmentmoon.com^
 ||mansudee.net^
@@ -38642,6 +38663,7 @@
 ||matsubun.matsubun.com^
 ||matterforiwa.org^
 ||matterpalekept.com^
+||mattersmark.com^
 ||matterssharplyraw.com^
 ||mattockpackall.com^
 ||mattressskilfulwalnut.com^
@@ -41687,6 +41709,7 @@
 ||multstorage.com^
 ||mum.alibabachengdun.com^
 ||mummifiedpatienceunknowing.com^
+||mumpercodo.com^
 ||mundanenail.com^
 ||mundanesilly.com^
 ||mundi.amunxy.com^
@@ -42049,6 +42072,7 @@
 ||nagmaalslapdab.com^
 ||nagolympics.com^
 ||nagrande.com^
+||nahg4lhbr.com^
 ||nahhukrw.com^
 ||nahid.satyabadipathe.com^
 ||nahuatlcodens.com^
@@ -44173,6 +44197,7 @@
 ||olskamswuxfi.com^
 ||oltnk.shortylove.com^
 ||olvha.allenedmonds.com^
+||olympicsclassified.com^
 ||olziko.maxmara.com^
 ||om-officeathand.att.com^
 ||om.aopa.org^
@@ -46090,6 +46115,7 @@
 ||pexakojwsoyt.com^
 ||pexorise.com^
 ||pexuvais.net^
+||pexvcykfjv.com^
 ||peyqvn.falke.com^
 ||peztd.eastperry.com^
 ||pf.intuit.com^
@@ -47413,6 +47439,7 @@
 ||preparingnondescriptextinguish.com^
 ||prepaymint.net^
 ||preponderantapologizingtestify.com^
+||preponderantcorrectlydecline.com^
 ||prepositionhip.com^
 ||prerogativeducksbroke.com^
 ||preroll.hostave3.net^
@@ -47792,6 +47819,7 @@
 ||proposalkeptstaff.com^
 ||propositionmeltdown.com^
 ||propositionpower.com^
+||propositionvowelladen.com^
 ||proprietaryabbey.com^
 ||proprietordauntaddition.com^
 ||propsid.b-cdn.net^
@@ -49396,6 +49424,7 @@
 ||rcqtck.dsquared2.com^
 ||rcrmmarketing.arcsona.com^
 ||rcruulnot.com^
+||rcsermaw.com^
 ||rcu.skywayplatform.com^
 ||rcvlink.com^
 ||rcvlinks.com^
@@ -50981,6 +51010,7 @@
 ||rtb-eu.voisetech.com^
 ||rtb-eu.wecall-server.com^
 ||rtb-eu.yieldoz.com^
+||rtb-stack.com^
 ||rtb-trk4.linkedin.com^
 ||rtb-us-east.linkedin.com^
 ||rtb-useast-v4.admozartexchange.com^
@@ -52068,6 +52098,7 @@
 ||safebrowsdv.com^
 ||safeframe.googlesyndication.com^
 ||safeglimmerlongitude.com^
+||safeguardemergency.com^
 ||safelinktracker.com^
 ||safelistextreme.com^
 ||safeonlinetips.com^
@@ -58704,6 +58735,7 @@
 ||snatchattest.com^
 ||snazzypoodle.com^
 ||snbets.com^
+||snbhwnixi.com^
 ||sncyt.com^
 ||snd.freshstartnews.com^
 ||sneakersq5.com^
@@ -61011,6 +61043,7 @@
 ||ssite.waitrose.com^
 ||ssitecat.eset.com^
 ||ssitectlyst.saksfifthavenue.com^
+||ssiygsqa.com^
 ||ssjfm.cadenlane.com^
 ||sskcdicsn.com^
 ||sskcgceamsashx.com^
@@ -67118,6 +67151,7 @@
 ||tfoyfx.dukefotografia.com^
 ||tfpeev.chanluu.com^
 ||tfpizhejk.com^
+||tfrcgrhpp.com^
 ||tfrln.prostatehealthreport.com^
 ||tfrlwktyhhc.com^
 ||tfsnczzpek.com^
@@ -70925,6 +70959,7 @@
 ||turnhub.net^
 ||turnipplumpositively.com^
 ||turnipsoft.pubfinity.com^
+||turnixamtman.com^
 ||turnoffcaudex.com^
 ||turtle.mushtache.com^
 ||turtlestarterdirected.com^
@@ -71068,6 +71103,7 @@
 ||tycollectproxy.tiyalive.com^
 ||tycys.wayfarersd.com^
 ||tydrumgmari.org^
+||tyglbnvkmaxih.com^
 ||tyilygslda.com^
 ||tyingtastevolleyball.com^
 ||tylulewe.com^
@@ -72864,6 +72900,7 @@
 ||veseekroaw.net^
 ||veskitnerved.com^
 ||vespymedia.com^
+||vesseldoubts.com^
 ||vestintend.com^
 ||vetchesthiever.com^
 ||veterancommentary.com^
@@ -74202,6 +74239,7 @@
 ||warmheartedengine.com^
 ||warmingpod-ss.olladeals.com^
 ||warmlyparliamentscroll.com^
+||warmmeadowroad.com^
 ||warmquiver.com^
 ||warmupposaune.com^
 ||warnwing.com^
@@ -75950,6 +75988,7 @@
 ||xdyn03010jy.com^
 ||xdyn03011jy.com^
 ||xdyn03021jy.com^
+||xdyn03051jy.com^
 ||xeccotftw.com^
 ||xedaifojosm.net^
 ||xegnfwkju.com^
@@ -76504,6 +76543,7 @@
 ||xp2023-pix.s3.amazonaws.com^
 ||xpcpmr.gsm55.com^
 ||xpeeps.com^
+||xpfzmijcszpcma.com^
 ||xpgyxqexljdl.net^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpjcg.oss-accelerate.aliyuncs.com^
@@ -76907,6 +76947,7 @@
 ||yhskfe.klipsch.com^
 ||yhtohtbql.com^
 ||yhuamf.ktronix.com^
+||yhugawbgiq.com^
 ||yhyibntmydo.com^
 ||yi.ximizi.com^
 ||yibivacaji.com^
