@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 09:27:39 UTC
-! Total Rules: 83924
+! Last Updated: 2026-03-06 18:30:02 UTC
+! Total Rules: 83926
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -75548,6 +75548,8 @@ zmail.mtrl.me$image
 ||holistic.news/3unw/
 ||hombex.com/assets/js/component/analytics.js
 ||home.ebs.co.kr/ebsnews/logproce/logajax
+||home.ripley.cl/front/ripley/ripley.js
+||home.ripley.cl/front/ripley/ripley_ga*.js
 ||homedepot-static.com/data-collection/
 ||homedepot.ca/mr/thd-ca-prod.js
 ||homedepot.ca/webmetrics/collect

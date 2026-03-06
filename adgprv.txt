@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy Lite
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 09:27:39 UTC
-! Total Rules: 11475
+! Last Updated: 2026-03-06 18:30:02 UTC
+! Total Rules: 11477
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -6809,6 +6809,8 @@ t.yesware.com
 ||holistic.news/3unw/
 ||hombex.com/assets/js/component/analytics.js
 ||home.ebs.co.kr/ebsnews/logproce/logajax
+||home.ripley.cl/front/ripley/ripley.js
+||home.ripley.cl/front/ripley/ripley_ga*.js
 ||homedepot-static.com/data-collection/
 ||homedepot.ca/mr/thd-ca-prod.js
 ||homedepot.ca/webmetrics/collect

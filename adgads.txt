@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 09:27:39 UTC
-! Total Rules: 6377
+! Last Updated: 2026-03-06 18:30:02 UTC
+! Total Rules: 6378
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -5615,6 +5615,7 @@ yydstxt*.com/js/html
 ||taozi888.com/a*.js
 ||taozi888.com/sys
 ||taporn.com/d/
+||tarnow.net.pl/uploads/advert/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbib.org/gaming/
