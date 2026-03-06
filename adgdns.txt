@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-05 19:06:38 UTC
-! Total Rules: 78092
+! Last Updated: 2026-03-06 01:10:52 UTC
+! Total Rules: 78117
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -120,6 +120,7 @@
 ||0fa6d5f434.com^
 ||0fe5096a4c.com^
 ||0fmm.com^
+||0fs6pe6w0j.com^
 ||0h9yewgei.com^
 ||0hagal2csg.com^
 ||0hagz9mdc.com^
@@ -1468,6 +1469,7 @@
 ||88p2p.com^
 ||88r6s1hecp.com^
 ||8961.jianbihua.com^
+||89ga0evbha.com^
 ||89sa.com^
 ||8a41766c30.com^
 ||8a53b29c07.com^
@@ -5638,6 +5640,7 @@
 ||aniview.com^
 ||anjanstarved.com^
 ||anjgdlkh.com^
+||anjooicnr.com^
 ||ankdoier.com^
 ||ankolisiloam.com^
 ||ankpt.theproteinworks.com^
@@ -7894,6 +7897,7 @@
 ||b70a8e5392.com^
 ||b730.fortmorgantimes.com^
 ||b7360c81c8.com^
+||b7510.com^
 ||b78b08af88.dd795a9d50.com^
 ||b79e4u3hz7.com^
 ||b7dff0913b.com^
@@ -9472,9 +9476,11 @@
 ||boobausauhipsa.net^
 ||boobbounds.com^
 ||boobzi.com^
+||boodper.com^
 ||book.shop.coloringbookofshadows.com^
 ||bookadil.com^
 ||bookbannershop.com^
+||bookbeef.com^
 ||booking.brianwaldron.net^
 ||bookinglamentinstance.com^
 ||bookmsg.com^
@@ -9688,6 +9694,7 @@
 ||bravotrk.com^
 ||brazenwholly.com^
 ||brazzerssurvey.com^
+||brb3mb25zg.com^
 ||brbez.stevemadden.com^
 ||brbnm.bmimd.com^
 ||brbtybjwochjb.com^
@@ -11951,6 +11958,7 @@
 ||ciksoophuxabsie.net^
 ||cikvwv.dsdamat.com^
 ||cil.isotope.com^
+||ciliumspinate.com^
 ||cilvph.smartbuyglasses.com^
 ||cimage.adobe.com^
 ||cimoghuk.net^
@@ -19848,6 +19856,7 @@
 ||ecstasycluttergnat.com^
 ||ecsv2.roblox.com^
 ||ectedithconsuk.com^
+||ectgvbdr.com^
 ||ectjr.knotfest.com^
 ||ectsofcukorpor.com^
 ||ectuklyeconen.com^
@@ -20109,6 +20118,7 @@
 ||egamingonline.com^
 ||egars.safecastle.com^
 ||egbqvs.vila.com^
+||egbwmrqpox.com^
 ||egdeb.slaterockautomation.com^
 ||eggplantgapmatter.com^
 ||eggsdart.com^
@@ -21132,6 +21142,7 @@
 ||eunow4u.com^
 ||eunzi.beistravel.com^
 ||euomc.pcaskin.com^
+||euomddygra.com^
 ||euooo.theadventurechallenge.com^
 ||euphoric-nature.com^
 ||euphoricblow.com^
@@ -22259,6 +22270,7 @@
 ||feqbqn.rent.com^
 ||ferdarius.com^
 ||ferninsecurecrawling.com^
+||ferntravelleddeduct.com^
 ||ferret.firstprogressivechurch.org^
 ||ferret.helpspace.com^
 ||ferret.linksoftwarellc.com^
@@ -27173,6 +27185,7 @@
 ||gwlacssffpj.net^
 ||gwm.admc-me.com^
 ||gwmtracking.com^
+||gwpbaleac.com^
 ||gwqlcawrad.com^
 ||gwropn.soelu.com^
 ||gwrtdp-tn690bfadt.tclclouds.com^
@@ -32008,6 +32021,7 @@
 ||jppol.coronadoleather.com^
 ||jpppq.troscriptions.com^
 ||jprpf.biotrust.com^
+||jpubgyibmgarq.com^
 ||jpush.cn^
 ||jpyts.japademy.com^
 ||jqdhi.brianforpocono.com^
@@ -33456,6 +33470,7 @@
 ||law.bppeloqua.com^
 ||lawfullygreater.com^
 ||lawfullylimetreecharges.com^
+||lawmakecluther.com^
 ||lawyeritalyaching.com^
 ||laxativestuckunclog.com^
 ||laxeekroth.net^
@@ -36295,6 +36310,7 @@
 ||longerhighjack.com^
 ||longestgeoffaversion.com^
 ||longingtrees.com^
+||longlycraping.com^
 ||loobaiptegip.net^
 ||loobilysubdebs.com^
 ||loocudekauph.net^
@@ -39078,6 +39094,7 @@
 ||medimteedaibo.net^
 ||mediocrebrilliant.com^
 ||mediocrecliffschangeless.com^
+||mediocremoreoverbalcony.com^
 ||mediuln.com^
 ||mediumassignment.com^
 ||mediumdisarmament.com^
@@ -45850,6 +45867,7 @@
 ||pcnphysio-com.ca-eulerian.net^
 ||pcpvl.tribest.com^
 ||pcspeedup.com^
+||pctilzqnta.com^
 ||pctlwm.com^
 ||pctsrv.com^
 ||pcufmncye.com^
@@ -56074,6 +56092,7 @@
 ||silkworm.preventingsuicideinsussex.org^
 ||silkworm.waspexpert.com^
 ||silkworm.westwoodmbc.org^
+||sillinessclearly.com^
 ||sillinessrobnotoriety.com^
 ||sillinessshoplifting.com^
 ||sillinesswoollen.com^
@@ -71872,6 +71891,7 @@
 ||unwritmirific.com^
 ||unwritten-cash.com^
 ||unwrittenfront.com^
+||unyyskmwdebkam.com^
 ||uoakp.leminimacaron.com^
 ||uoceijctt.net^
 ||uocnxtyrgofc.com^
@@ -72972,6 +72992,7 @@
 ||vheth.ascendadditions.com^
 ||vhfim.nuorganic.com^
 ||vhfkq.ecowaterspa.com^
+||vhfteuvvkpeqc.com^
 ||vhgrd.mykitsch.com^
 ||vhgu5ivtew.com^
 ||vhid.cn^
@@ -73857,6 +73878,7 @@
 ||vsesumki.com^
 ||vsevs.budclubshop.com^
 ||vsfgd.searchatlas.com^
+||vsiawfdrnqmasvt.com^
 ||vsjvq.headstrongltd.com^
 ||vslbm.berries.com^
 ||vslcqsrpmhhne.net^
@@ -75989,6 +76011,7 @@
 ||xdyn03011jy.com^
 ||xdyn03021jy.com^
 ||xdyn03051jy.com^
+||xdyn03060jy.com^
 ||xeccotftw.com^
 ||xedaifojosm.net^
 ||xegnfwkju.com^
@@ -76945,6 +76968,7 @@
 ||yhnledkewy.net^
 ||yhrh.cn^
 ||yhskfe.klipsch.com^
+||yhsmyipta.com^
 ||yhtohtbql.com^
 ||yhuamf.ktronix.com^
 ||yhugawbgiq.com^
@@ -77167,6 +77191,7 @@
 ||yquurgwsnckc.com^
 ||yqxg4.compandsave.com^
 ||yr2spd4ucy.com^
+||yraocbieho.com^
 ||yrgsqi0zc.com^
 ||yrhnw7h63.com^
 ||yrhxicouoe.com^
