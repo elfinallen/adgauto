@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy Lite
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 01:10:52 UTC
-! Total Rules: 11472
+! Last Updated: 2026-03-06 09:27:39 UTC
+! Total Rules: 11475
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -8743,6 +8743,7 @@ t.yesware.com
 ||politico.com/resource/assets/js.min/video-tracking.
 ||poll-maker.com^*/scpolls.js
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
+||pons.com/pons-site-website-assets/lib/analytics.min.js
 ||poool.fr/api/v3/access/event
 ||popai.pro/dfxaf3-sg.js
 ||popin.cc/conversion2.js
@@ -10693,6 +10694,7 @@ t.yesware.com
 ||united.web.de/event?
 ||unity3d.com/v1/events
 ||unitymedia.de/beacon/
+||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
 ||unpkg.com/@topsort/analytics.js
 ||unpkg.com/web-vitals
@@ -10823,6 +10825,7 @@ t.yesware.com
 ||videos.giga.de/*/tracking
 ||videostats.kakao.com/log^
 ||videoszoofiliahd.com/wp-content/themes/vz/js/ga.js
+||videotools.ocdn.eu/plugins/fp/
 ||vidible.tv/trk/
 ||vidmoly.me/dl.php
 ||vidmoly.me/log.php

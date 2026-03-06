@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 01:10:52 UTC
-! Total Rules: 78117
+! Last Updated: 2026-03-06 09:27:39 UTC
+! Total Rules: 78151
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -461,6 +461,7 @@
 ||222764f169.com^
 ||222aa333bb.com^
 ||224oztn8dq.com^
+||2250c8daae.com^
 ||22588888.com^
 ||22a008da69.com^
 ||22b664d9ce.com^
@@ -4651,6 +4652,7 @@
 ||amikay.com^
 ||amillionads.com^
 ||aminopay.net^
+||amktoitsjmeqgx.com^
 ||aml.valuecommerce.com^
 ||amlumineona.com^
 ||ammja.victoriabeckham.com^
@@ -11527,6 +11529,7 @@
 ||cephalopod.ospreys.net^
 ||cephei-b.com^
 ||cephoupharauts.net^
+||cepvrksx.com^
 ||ceqgiawfjpxkwg.net^
 ||ceqkp.meblefurniture.com^
 ||ceramicturtleremnant.com^
@@ -12708,6 +12711,7 @@
 ||codelienquan2022.com^
 ||codeonclick.com^
 ||codesour.com^
+||codwormtallied.com^
 ||coedmediagroup.com^
 ||coeinilcucb.net^
 ||coeliabumpee.com^
@@ -13148,6 +13152,7 @@
 ||congdientu247.com^
 ||congdongvietnam247.com^
 ||congerstunish.com^
+||congestprowessburger.com^
 ||congnap-playtogether.com^
 ||congnapfreefire.com^
 ||congnaplienquan.com^
@@ -20218,6 +20223,7 @@
 ||eknnm.jessakae.com^
 ||eknz.cn^
 ||ekoel.intotheam.com^
+||ekpafzj.com^
 ||ekpgu.alicemushrooms.com^
 ||ekpovbhxqpx.com^
 ||ekrki.jessicasimpson.com^
@@ -20445,6 +20451,7 @@
 ||emailmarketing.vidanthealth.com^
 ||emailretargeting.com^
 ||emails.idera.com^
+||emakqnaa.com^
 ||emamz.sunstrucktm.com^
 ||emancytal.com^
 ||emarbox.com^
@@ -20837,6 +20844,7 @@
 ||eqav77.com^
 ||eqcpn.semcostura.com^
 ||eqieg6yn5.com^
+||eqiwtpjhrrdbfa.com^
 ||eqkwat.histoiredor.com^
 ||eqqp.cn^
 ||eqrbtacqchu.net^
@@ -21891,6 +21899,7 @@
 ||falcon.rowanmanning.com^
 ||falcon.useinsider.com^
 ||falcopartners.com^
+||falcopeacing.com^
 ||falcoware.com^
 ||falixa.com^
 ||falkag.net^
@@ -24509,6 +24518,7 @@
 ||gezinti.com^
 ||gfdlnadm.georgjensen-damask.com^
 ||gfdru.diarrablu.com^
+||gfh9j4wyub.com^
 ||gfhbd.rockstaroriginal.com^
 ||gfkpbebwqwhlginna.org^
 ||gflaj.dsw.com^
@@ -27663,6 +27673,7 @@
 ||health.brgeneral.org^
 ||health.care.mclaren.org^
 ||health.fishersci.com^
+||health.flowplayer.com^
 ||health.hillcrest.com^
 ||healthcare.fishersci.com^
 ||healthfirstst.mywellnessoffer.com^
@@ -28526,6 +28537,7 @@
 ||htdvt.com^
 ||htflq.lumindrops.com^
 ||htgtc.altardstate.com^
+||hthelulyq.com^
 ||htiagq.sheplers.com^
 ||htizb.woodencork.com^
 ||htkcm.com^
@@ -32048,6 +32060,7 @@
 ||jrjel.whitemountainpuzzles.com^
 ||jrjexx.com^
 ||jrpkizae.com^
+||jrpsohjquh.com^
 ||jrpvx.cecilandlou.com^
 ||jrq39d1r8.com^
 ||jrqet.catholiccompany.com^
@@ -32213,6 +32226,7 @@
 ||juio.net^
 ||juisiqhqqap.com^
 ||jujokaibse.net^
+||jujpitie.com^
 ||jujtcq.amnibus.com^
 ||jullyambery.net^
 ||julrdr.com^
@@ -32602,6 +32616,7 @@
 ||kgjks.rails.com^
 ||kgnpkgqelpr.net^
 ||kgoj4nrhe.com^
+||kgqftrscgedi.com^
 ||kgqxzw.blue-tomato.com^
 ||kgqzgj.rougegorge.com^
 ||kgska.aswemove.com^
@@ -34021,6 +34036,7 @@
 ||likeads.com^
 ||likebaiduthikhoanhkhacgiadinh.weebly.com^
 ||likedgreetedrape.com^
+||likelihood55.com^
 ||likelihoodhangingbell.com^
 ||likelyguy.com^
 ||likethedog.com^
@@ -36841,6 +36857,7 @@
 ||lwonclbench.com^
 ||lwozzk.legacy.com^
 ||lwqfskvjuuk.com^
+||lwvz4vwkc8.com^
 ||lwxjg.com^
 ||lwxuo.com^
 ||lx2rv.com^
@@ -42970,6 +42987,7 @@
 ||nikkiexxxads.com^
 ||nil.naver.com^
 ||nilroobsoachoa.net^
+||nimble-bench.com^
 ||nimble-wine.com^
 ||nimblecontest.com^
 ||nimbleplot.com^
@@ -46931,6 +46949,7 @@
 ||pmi.flowplayer.com^
 ||pmi1yarhxx.com^
 ||pmjlbe.dailydoseme.com^
+||pmleazgb.com^
 ||pmnbh.dedcool.com^
 ||pmngv.veronicabeard.com^
 ||pmnzfu.goodeestore.com^
@@ -47346,6 +47365,7 @@
 ||praluent-e.regeneron.com^
 ||pramrowanslang.com^
 ||prankhistorian.com^
+||prankubg.com^
 ||prayercertificatecompletion.com^
 ||prayratesantibiotic.com^
 ||praystakeinstinct.com^
@@ -48636,6 +48656,7 @@
 ||qgmikp.fleurdumal.com^
 ||qgmwby.com^
 ||qgpsz.armedforcesgear.com^
+||qgrclhbmxc.com^
 ||qgreedreau.com^
 ||qgumjp.idol-chart.com^
 ||qgumjp.joins.com^
@@ -48767,6 +48788,7 @@
 ||qnzma.beforeyouspeakcoffee.com^
 ||qoaaa.com^
 ||qoairs.scholl-shoes.com^
+||qobpxugcqtsk.com^
 ||qobuz.surveysparrow.com^
 ||qoclick.com^
 ||qoijertneio.com^
@@ -49530,6 +49552,7 @@
 ||realizerequiredsocially.com^
 ||realizesensitivenessflashlight.com^
 ||reallkeys.com^
+||reallyduskseventeen.com^
 ||realm.hearst3pcc.com^
 ||realmatch.com^
 ||realmatchllove.com^
@@ -52666,6 +52689,7 @@
 ||screiltol.com^
 ||scribblestring.com^
 ||scribe.wongnai.com^
+||scringeeloge.com^
 ||scripasok.com^
 ||scrippscookingchannel.cookingchanneltv.com^
 ||scrippsfoodnetnew.foodnetwork.com^
@@ -53036,6 +53060,7 @@
 ||seekremote.com^
 ||seeksgironny.com^
 ||seekticketunfit.com^
+||seektrousers.com^
 ||seemethepointa.org^
 ||seemingliveliness.com^
 ||seemingservantreap.com^
@@ -67411,6 +67436,7 @@
 ||thoojoneersooy.net^
 ||thoossiksivie.net^
 ||thorhortizinity.com^
+||thorny-craft.com^
 ||thoroughloweromission.com^
 ||thoroughlyblisterpelt.com^
 ||thoroughlyripepedigree.com^
@@ -71406,6 +71432,7 @@
 ||ufouxbwn.com^
 ||ufpcdn.com^
 ||ufsmt.colders.com^
+||ufszurxtsc.com^
 ||uftis.vitaminshoppe.com^
 ||uftoxnxd.net^
 ||ufuspv.nucific.com^
@@ -72377,6 +72404,7 @@
 ||uxernab.com^
 ||uxfa.cn^
 ||uxfe.cn^
+||uxjw.cn^
 ||uxkrauhjb.net^
 ||uxkurx.sportsmansguide.com^
 ||uxlog-api.danawa.com^
@@ -75384,6 +75412,7 @@
 ||wootmedia.net^
 ||woovoree.net^
 ||woozephucaisoo.net^
+||wopdnxrrfqtel.com^
 ||wopsedoaltuwn.com^
 ||word.emldn.com^
 ||wordamazinglylamb.com^
@@ -75577,6 +75606,7 @@
 ||wtg-ads.com^
 ||wthizudgdg.com^
 ||wthrarner.com^
+||wtjrwlpyb.com^
 ||wtoredir.com^
 ||wtp101.com^
 ||wtqptl.taksimpazar.com^
@@ -76012,6 +76042,7 @@
 ||xdyn03021jy.com^
 ||xdyn03051jy.com^
 ||xdyn03060jy.com^
+||xdyn03061jy.com^
 ||xeccotftw.com^
 ||xedaifojosm.net^
 ||xegnfwkju.com^
@@ -76565,6 +76596,7 @@
 ||xoxnetwork.com^
 ||xp2023-pix.s3.amazonaws.com^
 ||xpcpmr.gsm55.com^
+||xpeaywvlpom.com^
 ||xpeeps.com^
 ||xpfzmijcszpcma.com^
 ||xpgyxqexljdl.net^
@@ -77369,6 +77401,7 @@
 ||yxmnpprgeeirq.com^
 ||yxonk5bcue.com^
 ||yxsdgi.bedworld.net^
+||yxtmums.com^
 ||yxwg21lyyn.com^
 ||yxynbs.phone.com^
 ||yxzfdl.550909.com^
@@ -77609,6 +77642,7 @@
 ||zenoviagroup.com^
 ||zentrixads.com^
 ||zeocr.realbotanicals.com^
+||zeoevwffyi.com^
 ||zeotap.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 01:10:52 UTC
-! Total Rules: 83920
+! Last Updated: 2026-03-06 09:27:39 UTC
+! Total Rules: 83924
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -78998,6 +78998,8 @@ zmail.mtrl.me$image
 ||pollster.pl^$third-party
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
 ||polymorphicads.jp^$third-party
+||pons.com/pons-site-website-assets/lib/analytics.min.js
+||pons.com/pons-site-website-int/_astro/website-analytics.$script
 ||poool.fr/api/v3/access/event
 ||pop.devil.services^$third-party
 ||pop.unitedgate.co.jp^$third-party
@@ -82586,6 +82588,7 @@ zmail.mtrl.me$image
 ||unitelogreport.reader.qq.com^$redirect=noopjs
 ||unity3d.com/v1/events
 ||unitymedia.de/beacon/
+||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
 ||unpkg.com/@topsort/analytics.js
 ||unpkg.com/web-vitals
@@ -82829,6 +82832,7 @@ zmail.mtrl.me$image
 ||videostat.com^$third-party
 ||videostats.kakao.com/log^
 ||videoszoofiliahd.com/wp-content/themes/vz/js/ga.js
+||videotools.ocdn.eu/plugins/fp/
 ||vidible.tv/trk/
 ||vidigital.ru^$third-party
 ||vidmoly.me/dl.php

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 01:10:52 UTC
-! Total Rules: 6386
+! Last Updated: 2026-03-06 09:27:39 UTC
+! Total Rules: 6377
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2135,7 +2135,6 @@ yydstxt*.com/js/html
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||audiobookbay.*/images/bin.jpg
 ||audiobookbay.*/images/bz.jpg
-||audiobookbay.*/images/d-t.gif
 ||audiobookbay.*/images/fr.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
@@ -3173,7 +3172,6 @@ yydstxt*.com/js/html
 ||eporner.com/dot/
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
-||epoznan.pl/getadsyscode?
 ||eprice.com.tw/img/tw_m/ad/
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/*.php|
@@ -3449,7 +3447,6 @@ yydstxt*.com/js/html
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
-||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
@@ -3529,7 +3526,6 @@ yydstxt*.com/js/html
 ||hackhome.com/js/zt.js
 ||hackhw.com/ckjs/
 ||hackp.com/im/
-||haes.tech/js/script_
 ||haishuxs.com/js/
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/b970x90.gif
@@ -3893,7 +3889,6 @@ yydstxt*.com/js/html
 ||immoweb.be/*/dpg/
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
-||indianexpress.com/wp-content/themes/indianexpress/js/min/ie-gdpr-ad-code.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4718,7 +4713,6 @@ yydstxt*.com/js/html
 ||nanostatistics.net/static/npw2.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
-||nasdaqfutures.org/wp-content/uploads/edcbdb/eeaafb.js
 ||natgeomedia.com/js/ads-parallax.
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
@@ -5551,7 +5545,6 @@ yydstxt*.com/js/html
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
-||subserieshd.com/show/ads.js
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
@@ -5738,12 +5731,12 @@ yydstxt*.com/js/html
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
 ||tra.scds.pmdstatic.net/advertising-core/
+||tracktollywood.com/wp-content/cache/min/1/wp-content/plugins/tt-splash-screen/
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
-||trend.az/templates/adv/
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trip.com/partners/ad/
 ||trstx.org/overroll/
@@ -5901,7 +5894,6 @@ yydstxt*.com/js/html
 ||voc.com.cn/adsclick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
-||vod.provider.plex.tv/ad?metadataid=
 ||voodc.com/avurc
 ||vps234.com/resources/images/hosting-promotion/
 ||vptpcs.com/templates/base_master/js/jquery.shows2.min.js
@@ -6200,7 +6192,6 @@ yydstxt*.com/js/html
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yeniemlak.az/img/banner/
-||yenisabah.az/uploads/banners/
 ||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
