@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 01:02:25 UTC
-! Total Rules: 83927
+! Last Updated: 2026-03-07 09:18:39 UTC
+! Total Rules: 83926
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -937,7 +937,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_ajax/tebilisim.php?
 /_api/tag-manager/api/*/tags/sites/*$xmlhttprequest,domain=boraware.kr
 /_assets/oply/public/*
-/_astro/useprotontelemetry.$script
 /_blazor/*$ping
 /_cpix/art
 /_events/api/setevent$xmlhttprequest

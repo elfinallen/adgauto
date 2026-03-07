@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 01:02:25 UTC
-! Total Rules: 78205
+! Last Updated: 2026-03-07 09:18:39 UTC
+! Total Rules: 78243
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -525,6 +525,7 @@
 ||25662zubo23739.com^
 ||25ed3d6f24.com^
 ||25serve.yourporngod.com^
+||2601e2d1ea.com^
 ||260abb66a4.841eda195c.com^
 ||262bdc3a5d.com^
 ||26a840907b.com^
@@ -2766,6 +2767,7 @@
 ||admin3.danarimedia.com^
 ||administersurlyunbelievable.com^
 ||administrator.pnclassaction.com^
+||admirableinstance.com^
 ||admiralproxied.com^
 ||admireddepressedsarcastic.com^
 ||admiredeterioratesinner.com^
@@ -14302,6 +14304,7 @@
 ||cteahqozkatk.com^
 ||ctelqtracking.wolterskluwer.com^
 ||cterofhisan.org^
+||cteytkyhihnx.com^
 ||ctiegx.kagu-wakuwaku.com^
 ||ctivo.com^
 ||ctjfdn.sandals.com^
@@ -14572,6 +14575,7 @@
 ||cx6.lastxxxmovies.com^
 ||cxafybp.com^
 ||cxalid.turtlebeach.com^
+||cxcmidfyr.com^
 ||cxdcn9c.fjshxjs.cn^
 ||cxeugu.nationaltoolwarehouse.com^
 ||cxgfq.pinlue.com^
@@ -17541,6 +17545,7 @@
 ||deemainunh.com^
 ||deemanetwork.com^
 ||deemphotousage.com^
+||deemuncrook.com^
 ||deen.deenfashionbd.com^
 ||deenoacepok.com^
 ||deepdive.zum.com^
@@ -20223,6 +20228,7 @@
 ||ekdtywtkc.com^
 ||ekggc.detectorwarehouse.com^
 ||ekggp.rmsbeauty.com^
+||ekgliuilmwdi.com^
 ||ekjuwbrab.com^
 ||eklexu.kibuba.com^
 ||ekmas.com^
@@ -21468,6 +21474,7 @@
 ||ewrrpuquc1.com^
 ||ewruuqe5p8ca.com^
 ||ewstv.kypost.com^
+||ewu1nguhw.com^
 ||ewvywlqn.net^
 ||ewvz.cn^
 ||ewzwminymgw.com^
@@ -24866,6 +24873,7 @@
 ||glancedsecretion.com^
 ||glandalongtruce.com^
 ||glandlabel.com^
+||glaqvchmtign.com^
 ||glareoutgoingthey.com^
 ||glaringregister.com^
 ||glartaidroo.net^
@@ -27303,6 +27311,7 @@
 ||h5vem1jjft.com^
 ||h6295.com^
 ||h689.nydailynews.com^
+||h6fh0e4hg.com^
 ||h74v6kerf.com^
 ||h8cjr6nhm.com^
 ||h9hy9.pyrenex.com^
@@ -27354,6 +27363,7 @@
 ||halcyonsculpture.com^
 ||halfbakedhaul.com^
 ||halfdemocratic.com^
+||halfmanpouting.com^
 ||halfpriceozarks.com^
 ||halfresolution.com^
 ||halfwaybab.com^
@@ -27633,6 +27643,7 @@
 ||hcrjapaq.com^
 ||hcudl.sokolovelaw.com^
 ||hcuvb.ordolife.com^
+||hcvyivimlp.com^
 ||hczvwi.soldejaneiro.com^
 ||hd100546c.com^
 ||hdacode.com^
@@ -28809,6 +28820,7 @@
 ||hystericalfinger.com^
 ||hythroqu.com^
 ||hytxg2.com^
+||hyyfarqre.com^
 ||hz.shouyoutv.com^
 ||hzaiz.blissworld.com^
 ||hzbvu.fewmoda.com^
@@ -31310,6 +31322,7 @@
 ||isnet.habrokathletics.com^
 ||isoamidtrusion.com^
 ||isoanuilgxqapd.net^
+||isobkdvgydidw.com^
 ||isoetesflirted.com^
 ||isofoseveralyearsf.com^
 ||isolatedcompliments.com^
@@ -31675,6 +31688,7 @@
 ||jdgtgb.unsere-helden.com^
 ||jdhnf.jonrichard.com^
 ||jdhop.skknbykim.com^
+||jdhsx357.com^
 ||jdmodr.com^
 ||jdoqocy.com^
 ||jdore.tropicalfruitbox.com^
@@ -31875,6 +31889,7 @@
 ||jknarp.kakaku.com^
 ||jknfb.memoi.com^
 ||jkoha.cycologyclothing.com^
+||jkpzthxjt.com^
 ||jktdq.thedoux.com^
 ||jkwybt9hc.com^
 ||jkzoac.headphones.com^
@@ -31949,6 +31964,7 @@
 ||jogoforte.com^
 ||johannes.voith.com^
 ||john.johnmarzulloteam.com^
+||johtrptx.com^
 ||joi09041pt.com^
 ||joi09050pt.com^
 ||joi09051pt.com^
@@ -32928,6 +32944,7 @@
 ||knifetreasury.com^
 ||knitstamp.com^
 ||knittedcourthouse.com^
+||knivedviqueen.com^
 ||knjybs.luminis-films.com^
 ||knkkpmtdesg.com^
 ||knlqeu.jewlr.com^
@@ -42055,6 +42072,7 @@
 ||mzulv.ironman.com^
 ||mzvgh.onestopplus.com^
 ||mzwkss.chiccousa.com^
+||mzzodaejzjhrtl.com^
 ||n.baminw.com.cn^
 ||n.boydgaming.com^
 ||n.clips4sale.com^
@@ -43068,6 +43086,7 @@
 ||nipholder.com^
 ||nippledecorated.com^
 ||nippyprice.com^
+||nipterlibbard.com^
 ||niscprts.com^
 ||niterforeact.com^
 ||nithyshipsi.com^
@@ -43666,6 +43685,7 @@
 ||nxamsj.mecatechnic.com^
 ||nxcount.com^
 ||nxet1.360doc.cn^
+||nxeuwlbxbpj.com^
 ||nxjxfdwptxwvfr.com^
 ||nxkyiwh.com^
 ||nxnszu.ettoday.net^
@@ -43785,6 +43805,7 @@
 ||oafishobservation.com^
 ||oagirlodug.com^
 ||oagreess.net^
+||oahiyxkyuxd.com^
 ||oaiab.mykitsch.com^
 ||oaiad.josephjoseph.com^
 ||oainternetservices.com^
@@ -45516,6 +45537,7 @@
 ||paginacube.com^
 ||pagkitahn.com^
 ||pagoda56.com^
+||pahjkkpazal.com^
 ||paidcomparatively.com^
 ||paidforfree.com^
 ||paidonresults.net^
@@ -45548,6 +45570,7 @@
 ||pajamasaccommodationaltogether.com^
 ||pajamasguests.com^
 ||pajamasslowingregistered.com^
+||pajekenmdnsg.com^
 ||pajjqi.welovecouture.com^
 ||pajqkipubzwe.com^
 ||pajsb.coopsleepgoods.com^
@@ -45887,6 +45910,7 @@
 ||pbstck.com^
 ||pbszh.sundayriver.com^
 ||pbterra.com^
+||pbtmetdyy.com^
 ||pbulltkdrf.com^
 ||pbvmuafmk.com^
 ||pbvnwd.moongori.com^
@@ -46431,7 +46455,6 @@
 ||pic.baihuawen.cn^
 ||pic.fengniao.com^
 ||pic1.dianshu119.com^
-||pic50.pingguolv.com^
 ||pickedsarcasm.com^
 ||pickignoranceattacks.com^
 ||pickle.qinshealth.com^
@@ -48611,6 +48634,7 @@
 ||qbfve.beau-coup.com^
 ||qbgii.curiouselixirs.com^
 ||qbjit.circalasvegas.com^
+||qbnyvhxl.com^
 ||qbomp.healthiapp.com^
 ||qbop.com^
 ||qbrth.ezcontacts.com^
@@ -50429,6 +50453,7 @@
 ||rgtm.mydieselpro.com^
 ||rgtm.plt4m.com^
 ||rguki.headbangersports.com^
+||rgvjwqxmpalb.com^
 ||rgzjen.tenshokudou.com^
 ||rgzrys.hangikredi.com^
 ||rhaam.phoozy.com^
@@ -51987,6 +52012,7 @@
 ||s2448.sc.origins.en25.com^
 ||s2517.com^
 ||s2d6.com^
+||s2dln6sdu.com^
 ||s2rjtiki.com^
 ||s2s.adjust.com^
 ||s2s.maxisport.com^
@@ -52750,6 +52776,7 @@
 ||scripts21.com^
 ||scriptscalumnychirp.com^
 ||scriptshead.com^
+||scritargiope.com^
 ||scrivanfinlet.com^
 ||scroeqzfeix.com^
 ||scrollservice.com^
@@ -59368,6 +59395,7 @@
 ||southwest.pgaofamericagolf.com^
 ||souvamoo.net^
 ||souvenirsespecially.com^
+||souvenirsmascaraearphones.com^
 ||souvenirsrecognize.com^
 ||souvenirsstrew.com^
 ||souvlatraffic.com^
@@ -67964,6 +67992,7 @@
 ||tlads.midtc.com^
 ||tlbrj.denmanbrush.com^
 ||tldid.akarskin.com^
+||tlfdnmipkqp.com^
 ||tlmtr.org^
 ||tlofl.printfresh.com^
 ||tlootas.org^
@@ -74126,6 +74155,7 @@
 ||vyqn.cn^
 ||vysqlt.essoco.com^
 ||vytn.cn^
+||vyuhylzzq.com^
 ||vyxw.cn^
 ||vyykdr.renogy.com^
 ||vyz3nn85ed0e.controlconceptsusa.com^
@@ -75330,6 +75360,7 @@
 ||wlafx4trk.com^
 ||wlbann.com^
 ||wlberlaiw.com^
+||wlemdl1yx.com^
 ||wlg.shinhancard.com^
 ||wlkkta.lifewarehouse.net^
 ||wlmarketing.com^
@@ -75480,6 +75511,7 @@
 ||woriusly.com^
 ||work.selecdoo.com^
 ||workback.net^
+||workedvote.com^
 ||workforcetrends.advancedtech.com^
 ||workhorsefunds.com^
 ||workhovdiminatedi.com^
@@ -76095,6 +76127,8 @@
 ||xdyn03051jy.com^
 ||xdyn03060jy.com^
 ||xdyn03061jy.com^
+||xdyn03070jy.com^
+||xdyn03071jy.com^
 ||xeccotftw.com^
 ||xedaifojosm.net^
 ||xegnfwkju.com^
@@ -76623,6 +76657,7 @@
 ||xmohlh.melia.com^
 ||xmorex.com^
 ||xmpfni.pagoda21.com^
+||xmptuirxnncf.com^
 ||xmqrvx.jewelry-queen-shop.com^
 ||xms.theoundemma.com^
 ||xmtkdmcx.net^
@@ -77562,6 +77597,7 @@
 ||zanox.com^
 ||zantainet.com^
 ||zanypotential.com^
+||zaocjeefw.com^
 ||zap.cdn.zynga.com^
 ||zapasizzard.com^
 ||zapfieshop-ss.checkoutera.com^
@@ -78015,6 +78051,7 @@
 ||zpyzigacn.com^
 ||zpzatutb.com^
 ||zq.lansedir.com^
+||zq3ke8yxu.com^
 ||zqcpf.wovenbyrd.com^
 ||zqeajs.basicgagu.com^
 ||zqeowneocxcaey.com^
@@ -78151,6 +78188,7 @@
 ||zvou.cn^
 ||zvouv.thehistorylist.com^
 ||zvqsd.mypatriotsupply.com^
+||zvrl.cn^
 ||zvstl.drinkmateina.com^
 ||zvubq.sawshub.com^
 ||zvwhrc.com^

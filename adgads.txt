@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 01:02:25 UTC
-! Total Rules: 6378
+! Last Updated: 2026-03-07 09:18:39 UTC
+! Total Rules: 6371
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2707,7 +2707,6 @@ yydstxt*.com/js/html
 ||cidianwang.com/js/right
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
-||cined.com/content/plugins/abss-adblock-notice/assets/js/adblocker.min.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -3290,7 +3289,6 @@ yydstxt*.com/js/html
 ||freecontent.date
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
-||freedownloadmanager.org/web/bannerinf.js
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
@@ -3338,7 +3336,6 @@ yydstxt*.com/js/html
 ||galaxymedia.xyz/app/images/banner.gif
 ||galleries-pornstar.com/thumb_top/
 ||gamcore.com/ajax/abc?
-||gamcore.com/js/ipp.js
 ||gamcore.com/z0mb24.js
 ||game-tournaments.com/media/a/banner*.gif
 ||game.eroge.xyz/*.gif
@@ -3886,7 +3883,6 @@ yydstxt*.com/js/html
 ||imgur.com/znq0lxp.gif
 ||imhentai.xxx/js/expp.js
 ||imhentai.xxx/js/slider_
-||immoweb.be/*/dpg/
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||indiatimes.com/lgads_
@@ -4587,6 +4583,7 @@ yydstxt*.com/js/html
 ||mipcdn.com^*/mip-*ad.
 ||mipengine.baidu.com/common?
 ||missav*/herebyad
+||missav.to/page/300.html
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
 ||mitbbs.ca/ad_
@@ -5567,7 +5564,6 @@ yydstxt*.com/js/html
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
-||support.brighteon.com/javascripts/brighteonwba.js
 ||svet24.si/build/assets/adbeacon.js
 ||sw76r85eda3k.com/need/h5.
 ||swoole.com/_images/kundian
@@ -5596,7 +5592,6 @@ yydstxt*.com/js/html
 ||t.atmng.io/adweb/*.prod.js
 ||t.c-c.one/b/
 ||t.c-c.one/z/
-||t1.daumcdn.net/adfit/static/ad.min.js
 ||t2.picb.cc/2022/08/07/6rppj1.jpg
 ||t2.picb.cc/2022/08/07/6rprkd.jpg
 ||taboola.com/vpaid/
@@ -5932,7 +5927,6 @@ yydstxt*.com/js/html
 ||wantgoo.com/wantgoofiles/banner/
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
-||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -6066,7 +6060,6 @@ yydstxt*.com/js/html
 ||xhamster3.com*/vast?
 ||xhand.com/player/html.php?aid=
 ||xhcdn.com/site/*/ntvb.gif
-||xhvid.com/*/vast?
 ||xhymsq.com/data/attachment/portal/
 ||xiacaidd.com/xiacai/ad/
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&

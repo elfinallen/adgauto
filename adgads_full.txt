@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 01:02:25 UTC
-! Total Rules: 10061
+! Last Updated: 2026-03-07 09:18:39 UTC
+! Total Rules: 10044
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1094,7 +1094,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /bookhaitang\.com\/assets\/.+\.js(?<!\.min\.js|pagetran\.js)/$domain=bookhaitang.com
 /botad.html
 /bottomad.png$image
-/bottomads.js$script
 /brandxuandong.js
 /bt*.com/imgs.js?t=
 /btag.min.js$third-party
@@ -1877,7 +1876,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /script/native_render.js$third-party
 /script/native_server.js$third-party
 /script/wait.php?*=$xmlhttprequest
-/scripts/js3caf.js$script
 /scrollgg_index.js
 /sda/*$domain=chineseinla.com
 /sdk/push_web/?zid=$third-party
@@ -2320,7 +2318,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 =fitacg.com/static/othe
 =loginextad.
 =sogou_wap_setjsonadslot&
-?*=*=*=$subdocument,domain=00cha.com|06ps.com|10000xing.cn|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|32r.com|32xp.com|360doc.cn|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|66law.cn|7y7.com|86huoche.com|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|ruiwen.com|sc115.com|shadafang.com|shenchuang.com|ssqzj.com|szdushi.com.cn|szhk.com|uzuzuz.com|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
+?*=*=*=$subdocument,domain=00cha.com|06ps.com|10000xing.cn|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|263y.com|2hanju.com|2liang.net|32r.com|32xp.com|360doc.cn|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|5djiaren.com|5h.com|5nd.com|5seestar.com|66law.cn|7y7.com|86huoche.com|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|baicaolu.net|baotang5.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dgzj.com|diangon.com|diyifanwen.com|diyju.com|dugoogle.com|dxsbb.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|gaosan.com|gaotie.cn|gucheng.com|gugu5.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|ixiunv.com|jeasyui.net|jf258.com|jianbihua.com|jinbaodm.com|jingdianlaoge.com|jintang114.org|jj20.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|mmyuer.com|oh100.com|pansoso.com|phb123.com|pig66.com|pikacn.com|pingshu8.com|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|ruiwen.com|sc115.com|shadafang.com|shenchuang.com|ssqzj.com|szdushi.com.cn|szhk.com|uzuzuz.com|webshu.net|wenkuxiazai.com|wenshenxiu.com|wenzhangba.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yjbys.com|yuwenmi.com|yxlady.com|yyrtv.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net
 ?ab=*&rl=1|$all
 ?ab=1&zoneid=
 ?adspot_$domain=~sponichi.co.jp
@@ -3136,7 +3134,6 @@ yydstxt*.com/js/html
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
 ||8h93.com^*.gif
-||8jfbt5va3r.com^$document
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
@@ -3327,7 +3324,6 @@ yydstxt*.com/js/html
 ||ad2bitcoin.com^$third-party
 ||ad4989.co.kr^$third-party
 ||ad4game.com^$third-party
-||adacado.com^$third-party
 ||adadvisor.net^$third-party
 ||adalliance.io^$third-party
 ||adamatic.co^$third-party
@@ -3441,7 +3437,6 @@ yydstxt*.com/js/html
 ||adtarget.com.tr^$third-party
 ||adtarget.market^$third-party
 ||adtdp.com^$third-party
-||adtech.de^$third-party
 ||adtechus.com^$third-party
 ||adthrive.com^$third-party
 ||adtimaserver.vn^$third-party
@@ -4154,6 +4149,7 @@ yydstxt*.com/js/html
 ||bing.com/api/$app=skype.exe
 ||bing.com/api/*/mediation/clientauction
 ||bing.com^$cookie=abdef
+||bingohall.ag^$popup
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
@@ -4609,7 +4605,6 @@ yydstxt*.com/js/html
 ||cilimao.*/amaod/
 ||cimg.cnyes.cool/prod/adcontent/$image
 ||cinarra.com^$third-party
-||cined.com/content/plugins/abss-adblock-notice/assets/js/adblocker.min.js
 ||citrusad.com^$third-party
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
@@ -4797,7 +4792,6 @@ yydstxt*.com/js/html
 ||creative.myasian.live/widgets/
 ||creative.ytboob.live^$third-party
 ||creativeservice-production.scdn.co/mp3-ad/*.mp3$media,~xmlhttprequest,redirect=noopmp4-1s,app=spotify.exe
-||creativeservice-production.scdn.co/mp3-ad/*.mp3$media,~xmlhttprequest,redirect=noopmp4-1s,domain=spotify.com
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
 ||crn77.com^$all
@@ -4822,7 +4816,6 @@ yydstxt*.com/js/html
 ||ctfile.com/popjump.php?$popup
 ||ctrip.com/amd/*960x90.
 ||ctrip.com/domestic/tool/ajaxgetcptlist.ashx?advpositioncode=
-||ctxtfl.com^$third-party
 ||cube.nlpcaptcha.in/index.php/cubes/getcubebox/$domain=irctc.co.in
 ||cum.org^$subdocument,third-party
 ||cupfox.app^$third-party
@@ -5465,7 +5458,6 @@ yydstxt*.com/js/html
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freedomadnetwork.com^$third-party
-||freedownloadmanager.org/web/bannerinf.js
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freeones.com/build/freeones/adwidget.$script
@@ -5537,7 +5529,6 @@ yydstxt*.com/js/html
 ||galaxymedia.xyz/app/images/banner.gif
 ||galleries-pornstar.com/thumb_top/
 ||gamcore.com/ajax/abc?
-||gamcore.com/js/ipp.js
 ||gamcore.com/z0mb24.js
 ||game-tournaments.com/media/a/banner*.gif
 ||game.eroge.xyz/*.gif
@@ -5694,7 +5685,6 @@ yydstxt*.com/js/html
 ||googlesyndication.com/safeframe/
 ||googlesyndication.com^$domain=blogto.com|youtube.com
 ||googletagmanager.com/gtag/js$script,redirect=googletagservices-gpt,important,domain=schoolcheats.net
-||googletagmanager.com/gtag/js$script,redirect=noopjs,important,domain=earnhub.net
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,important,domain=rotana.net
 ||googletagmanager.com/gtm.js$script,redirect=google-analytics,domain=lastampa.it
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=~pilot.wp.pl|wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|autocentrum.pl
@@ -5793,7 +5783,6 @@ yydstxt*.com/js/html
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gyazo.com^$domain=turbobit.net
-||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn|btdig.com
 ||gywb.cn/cs_mulu/
 ||gywb.cn/gggl/
 ||gzzkjdam.cn^$third-party
@@ -5989,7 +5978,6 @@ yydstxt*.com/js/html
 ||horoskopy.cz/*/html/adform_sync.html
 ||host69k.cfd^$all
 ||hostmonster.com/src/js/$third-party
-||hot-mob.com^$third-party
 ||hotadultvids.com^$third-party
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
@@ -6225,6 +6213,7 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=noopjs,domain=gaystream.pw|vidplayer.live
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima3,domain=observatornews.ro
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=13tv.co.il,important
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=1player.store
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=20min.ch|lessentiel.lu
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=3bmeteo.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=abcya.com
@@ -6250,13 +6239,11 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=pandora.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=paroles2chansons.lemonde.fr,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=player.pl|vod.pl|tvn24.pl,important
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=playerp2p.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=plex.tv,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl|urzadzamy.pl|mediateka.pl|muratordom.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=radiozet.pl,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=smoothpre.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=swiatgwiazd.pl
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=theguardian.com|timesofindia.indiatimes.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=tokfm.pl,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=trojmiasto.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=typingtest.com
@@ -6354,7 +6341,7 @@ yydstxt*.com/js/html
 ||imhentai.xxx/js/slider_
 ||imjtv.cc^$third-party
 ||imkirh.com^$document
-||immoweb.be/*/dpg/
+||imlive.com^$script,third-party,domain=~imnude.com
 ||imnks.com/ad2023/$image
 ||imooc.com/open/courselistrandjs
 ||impact-ad.jp^$third-party
@@ -7280,6 +7267,7 @@ yydstxt*.com/js/html
 ||mipengine.baidu.com/common?
 ||mipujia.com^$third-party
 ||missav*/herebyad
+||missav.to/page/300.html
 ||missav78.top/sample/placeholder.jpg$image,redirect=1x1-transparent.gif
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
@@ -7666,7 +7654,6 @@ yydstxt*.com/js/html
 ||optvz.com^$popup
 ||orangeclickmedia.com^$third-party
 ||oremanga.net/wp-content/uploads/*.gif
-||organicowner.com^$popup
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
 ||orzx.im/js/*pop
@@ -8457,7 +8444,6 @@ yydstxt*.com/js/html
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=metacritic.com,redirect=googletagservices-gpt
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=bloomberg.com,important
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=line.me
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=nationthailand.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=navbharattimes.indiatimes.com,important
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=sammobile.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noopjs,domain=redketchup.io,important
@@ -8717,6 +8703,7 @@ yydstxt*.com/js/html
 ||sooopu.com/js/contentad330.js
 ||soorbka.cn^$third-party
 ||soranews24.com/_static/$replace=/(!1|!0!)=?==sco\.imglazyload/1===1/,script
+||sosalkebab.com^$all
 ||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
@@ -8887,7 +8874,6 @@ yydstxt*.com/js/html
 ||supfree.net/xxx/
 ||supfree.net^$xmlhttprequest
 ||supplyframe.com^$third-party
-||support.brighteon.com/javascripts/brighteonwba.js
 ||suptraf.com^$document
 ||surfe.pro^$third-party
 ||sv1291.space^$all
@@ -8932,7 +8918,6 @@ yydstxt*.com/js/html
 ||t.cn^$domain=28kys.com|92kvip.com
 ||t.visx.net^$third-party
 ||t.yzwr588.com^$third-party
-||t1.daumcdn.net/adfit/static/ad.min.js
 ||t2.picb.cc/2022/08/07/6rppj1.jpg
 ||t2.picb.cc/2022/08/07/6rprkd.jpg
 ||t2.picb.cc^$image,domain=dmxq1.com
@@ -9489,7 +9474,6 @@ yydstxt*.com/js/html
 ||wanwan.sina.com.cn/third_party/
 ||warnermediacdn.com/csm/*&caid=$xmlhttprequest,removeparam=caid,domain=cnn.com|adultswim.com
 ||wasabii.com.tw/float/*.js
-||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -9680,7 +9664,6 @@ yydstxt*.com/js/html
 ||xhamster3.com*/vast?
 ||xhand.com/player/html.php?aid=
 ||xhcdn.com/site/*/ntvb.gif
-||xhvid.com/*/vast?
 ||xhymsq.com/data/attachment/portal/
 ||xiacaidd.com/xiacai/ad/
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
