@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert Lite
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 09:18:39 UTC
-! Total Rules: 6371
+! Last Updated: 2026-03-07 18:18:34 UTC
+! Total Rules: 6374
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -4583,6 +4583,7 @@ yydstxt*.com/js/html
 ||mipcdn.com^*/mip-*ad.
 ||mipengine.baidu.com/common?
 ||missav*/herebyad
+||missav.to/bn/
 ||missav.to/page/300.html
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
@@ -5531,6 +5532,7 @@ yydstxt*.com/js/html
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pravda-ad-script/
+||storage.googleapis.com/vs-scripts/primis/primisslide.js
 ||store.7box.vip/ad/
 ||storm.mg/ad?
 ||storyren.top/imgg/
@@ -5866,6 +5868,7 @@ yydstxt*.com/js/html
 ||vidlink.pro/api/venus
 ||vidmoly.*/static/vastad.js
 ||vidnest.*/player/jw8/vast.js
+||vidsrc.cc/saas/js/script.min.js?v=
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/

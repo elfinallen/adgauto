@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-07 09:18:39 UTC
-! Total Rules: 10044
+! Last Updated: 2026-03-07 18:18:34 UTC
+! Total Rules: 10051
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -713,6 +713,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /^https:\/\/[0-9a-z-]{4,7}\.(?:com|click|icu|net|shop)\/js\/responsive\.js$/$script,third-party,match-case
 /^https:\/\/[0-9a-z.]+\/wp-content\/litespeed\/js\/[0-9a-f]{32}\.js\?ver=/$script,~third-party,match-case,replace=/function _0x[a-z0-9]{3}adb\(\)\{[\s\s]*?\}/function _0x2d3adb(){};/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxystatus = "y";/const proxystatus = "n";/
+/^https:\/\/[0-9a-z]{6,12}\.in(?:\/[a-z]{2,10}){1,3}$/$script,third-party,match-case
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,6}\/[a-z0-9]{1,20}\?[a-za-z0-9]{15,26}=(?=.*[a-z])[a-za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
 /^https:\/\/[a-z-]{6,15}\.(?:com|net|tv|xyz)\/(?:40[01]|50?0?)\/\d{6,7}\??\s*$/$script,xmlhttprequest,third-party
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([a-za-z0-9.]+)(?:\/([a-za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
@@ -7015,6 +7016,7 @@ yydstxt*.com/js/html
 ||longzhu.com/i/api/playpage/recommendpop?
 ||longzhu.com/recommendad/
 ||loopaautomate.com^$third-party
+||loosebelt.com^$popup
 ||lotour.net/bcef/388.js
 ||louimg.com/i/2021/08/17/*.gif
 ||louimg.com/u/20191214/17512133.jpg
@@ -7167,6 +7169,7 @@ yydstxt*.com/js/html
 ||mdfsbn.com^$third-party
 ||me680.com/js/*.js
 ||medex.com.bd/img/_affiliates/
+||media-amazon.com/images/s/sash/$domain=imdb.com
 ||media.babylonbee.com/ads/
 ||media.max.com/*/dash.mpd^$domain=cnn.com
 ||media.max.com/*/main.mpd^$domain=cnn.com
@@ -7267,6 +7270,7 @@ yydstxt*.com/js/html
 ||mipengine.baidu.com/common?
 ||mipujia.com^$third-party
 ||missav*/herebyad
+||missav.to/bn/
 ||missav.to/page/300.html
 ||missav78.top/sample/placeholder.jpg$image,redirect=1x1-transparent.gif
 ||missevan.com^$domain=jijidown.com
@@ -8741,6 +8745,7 @@ yydstxt*.com/js/html
 ||spqi.xyz/static/tmp/
 ||springserve.com^$~media,third-party
 ||spycock.com/coco/$script
+||srowox.com^$document
 ||ss9874.com/img/91_
 ||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/hls/$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,domain=9now.com.au
 ||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/hls/$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,domain=couriermail.com.au
@@ -8829,6 +8834,7 @@ yydstxt*.com/js/html
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pmd-dev-northamerica-northeast1-asset-ads-pub/$domain=remembering.ca
 ||storage.googleapis.com/pravda-ad-script/
+||storage.googleapis.com/vs-scripts/primis/primisslide.js
 ||store.7box.vip/ad/
 ||storm.mg/ad?
 ||storyren.top/imgg/
@@ -9382,6 +9388,7 @@ yydstxt*.com/js/html
 ||vidnest.*/player/jw8/vast.js
 ||vidoomy.com^$third-party
 ||vidora.com^$third-party
+||vidsrc.cc/saas/js/script.min.js?v=
 ||vidverto.io^$third-party
 ||vilytaku.com^$document
 ||vip.luanren.com/data/*.gif
