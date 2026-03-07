@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain Lite
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/adgauto
-! Last Updated: 2026-03-06 18:30:02 UTC
-! Total Rules: 78188
+! Last Updated: 2026-03-07 01:02:25 UTC
+! Total Rules: 78205
 ! Expires: 5 days
 ||0.myikas.com^
 ||0.net.easyjet.com^
@@ -9735,6 +9735,7 @@
 ||brevandolius.com^
 ||brevitychestprocess.com^
 ||brewing.drinknewbrew.com^
+||brewthing.com^
 ||brgrwd.dansko.com^
 ||brhlndflc.net^
 ||brhxtc.dxl.com^
@@ -18540,6 +18541,7 @@
 ||dltqxz76sim1s.cloudfront.net^
 ||dltvkwr7nbdlj.cloudfront.net^
 ||dlvds9i67c60j.cloudfront.net^
+||dlwcykvqaebqb.com^
 ||dlxk2dj1h3e83.cloudfront.net^
 ||dlzbax.street-academy.com^
 ||dm-target.thermofisher.com^
@@ -19086,6 +19088,7 @@
 ||dseel9.com^
 ||dsetx3.com^
 ||dseudvepnmooe.net^
+||dsfruijsebf.com^
 ||dsghhbqey6ytg.cloudfront.net^
 ||dsh1ct2zrfakt.cloudfront.net^
 ||dsh7ky7308k4b.cloudfront.net^
@@ -19466,6 +19469,7 @@
 ||dzupi9b81okew.cloudfront.net^
 ||dzv1ekshu2vbs.cloudfront.net^
 ||dzv56b1o0y.com^
+||dzvxpgguwuhf.com^
 ||dzxr711a4yw31.cloudfront.net^
 ||dzzzwkgr.torn.com^
 ||e-contenta.com^
@@ -20152,6 +20156,7 @@
 ||ehmqlr.com^
 ||ehnhh.statefortyeight.com^
 ||ehoeb.ekster.com^
+||ehottpiwno.com^
 ||ehox67pahs.com^
 ||ehqaobjhna.com^
 ||ehqot.southtree.com^
@@ -25780,6 +25785,7 @@
 ||greerogloo.net^
 ||greeshoatsaun.net^
 ||greetedenumeratehundreds.com^
+||greetingnoise.com^
 ||greetingsdaydreamlitre.com^
 ||greewepi.net^
 ||grefutiwhe.com^
@@ -31597,6 +31603,7 @@
 ||japans-offers.com^
 ||japfg-trending-content.uc.r.appspot.com^
 ||jargonthugconfessed.com^
+||jarmkncp.com^
 ||jarsneakymoisture.com^
 ||jartoagaip.net^
 ||jarvispopsu.com^
@@ -31771,6 +31778,7 @@
 ||jhf4eib1zb.com^
 ||jhfuhi.b-exit.com^
 ||jhkfd.com^
+||jhkhlbdeos.com^
 ||jhlqeima.net^
 ||jhmjhgef.net^
 ||jhnmpm.kiwoko.com^
@@ -32265,6 +32273,7 @@
 ||junior-satisfaction.com^
 ||junior48.com^
 ||juniorfirm.com^
+||junkiebeepconfusion.com^
 ||junkraggedtoothache.com^
 ||junkyadexchange.com^
 ||junmediadclikrmdi.com^
@@ -32986,6 +32995,7 @@
 ||koiaripolymny.com^
 ||koifrz.tvc-mall.com^
 ||koindut.com^
+||kojutlgi.com^
 ||kokotrokot.com^
 ||kolaiwoaphoust.net^
 ||kolapoompup.net^
@@ -37160,6 +37170,7 @@
 ||maidauthamezil.net^
 ||maidcontrarypenknife.com^
 ||maideatp.com^
+||maideneyeshadow.com^
 ||maideninfected.com^
 ||maidinboubous.com^
 ||maidismsnackle.com^
@@ -42415,6 +42426,8 @@
 ||nchanado.com^
 ||nciksxtaqaidkk.net^
 ||ncipledeclinerybel.org^
+||nckslzqhdp.com^
+||ncovrokc.com^
 ||ncpbz.macrostax.com^
 ||ncpxxeqcnifnur.com^
 ||ncs.eadaily.com^
@@ -43852,6 +43865,7 @@
 ||obs.esnlocco.com^
 ||obs.system1onesource.com^
 ||obscenesidewalk.com^
+||obscureanyway.com^
 ||obscurespace.com^
 ||observationtable.com^
 ||observativus.com^
@@ -45874,6 +45888,7 @@
 ||pbszh.sundayriver.com^
 ||pbterra.com^
 ||pbulltkdrf.com^
+||pbvmuafmk.com^
 ||pbvnwd.moongori.com^
 ||pbwlwdzje.com^
 ||pbxai.com^
@@ -76648,6 +76663,7 @@
 ||xpxi.cn^
 ||xpya.cn^
 ||xpyabrwzoh.com^
+||xpyieyevfyu.com^
 ||xpzswr.shasa.com^
 ||xqhfb9hzrs.com^
 ||xqkyaeyjigb.com^
@@ -76925,6 +76941,7 @@
 ||ycikokryl.com^
 ||ycjeeokkadizr.com^
 ||ycjhuh.stripe-club.com^
+||ycugaikxafv.com^
 ||ycwiqqswtfhdv.com^
 ||ycwsjsfadkt.com^
 ||ycwzd.lacoste.com^
